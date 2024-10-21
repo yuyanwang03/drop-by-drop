@@ -20,12 +20,15 @@ We assume that the data folder looks like:
 
 ```
 > data 
-    > new
-        daily_dataset_economic_activity.csv
-	    daily_dataset.csv
-	    hours_lecture.parquet
-	dades_datachallenge.csv
-	daily_dataset_economic_activity.csv
-    daily_dataset.csv
 	gencat_turism.xlsx
+	temperature_precipitation.csv
+    > local_data
+        > old
+            dades_datachallenge.csv
+            daily_dataset_economic_activity.csv
+            daily_dataset.csv
+        daily_dataset_economic_activity.csv
+        daily_dataset.csv
+        hours_lecture.parquet
+    
 ```
