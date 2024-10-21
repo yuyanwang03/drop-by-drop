@@ -21,6 +21,7 @@ We assume that the data folder looks like:
 ```
 > data 
 	census_geo.geojson
+	districts_geo.geojson
 	gencat_turism.xlsx
 	temperature_precipitation.csv
 	tourism_flux.csv
