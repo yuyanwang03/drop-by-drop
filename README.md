@@ -22,6 +22,7 @@ We assume that the data folder looks like:
 > data 
 	gencat_turism.xlsx
 	temperature_precipitation.csv
+	tourism_flux.csv
     > local_data
         > old
             dades_datachallenge.csv
