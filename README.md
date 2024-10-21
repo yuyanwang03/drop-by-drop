@@ -32,3 +32,8 @@ We assume that the data folder looks like:
         hours_lecture.parquet
     
 ```
+## Data origin
+ - gencat_turism: Generalitat de Catalunya.
+   https://empresa.gencat.cat/ca/treb_ambits_actuacio/turisme/coneixement_planificacio/estadistiques-turistiques/index.html
+ - temperature_precipitation: API de AEMET.
+   https://www.aemet.es/ca/portada
