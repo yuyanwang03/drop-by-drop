@@ -35,6 +35,7 @@ We assume that the data folder looks like:
 ## Data origin
  - gencat_turism: Generalitat de Catalunya.
    https://empresa.gencat.cat/ca/treb_ambits_actuacio/turisme/coneixement_planificacio/estadistiques-turistiques/index.html
+   https://empresa.gencat.cat/web/.content/001-departament/04-serveis/04_estudis_estadistica/Turisme/Demanda-turistica/Turisme-estranger-Frontur/evolucio_frontur.xlsx
  - temperature_precipitation: API de AEMET.
    https://www.aemet.es/ca/portada
  - tourism_flux: Eurocontrol
