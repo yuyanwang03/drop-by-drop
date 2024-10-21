@@ -20,6 +20,7 @@ We assume that the data folder looks like:
 
 ```
 > data 
+	census_geo.geojson
 	gencat_turism.xlsx
 	temperature_precipitation.csv
 	tourism_flux.csv
@@ -41,3 +42,4 @@ We assume that the data folder looks like:
    https://www.aemet.es/ca/portada
  - tourism_flux: Eurocontrol
    https://www.eurocontrol.int/Economics
+ - https://github.com/martgnz/bcn-geodata/blob/master/seccio-censal/seccio-censal.geojson
