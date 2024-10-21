@@ -37,3 +37,5 @@ We assume that the data folder looks like:
    https://empresa.gencat.cat/ca/treb_ambits_actuacio/turisme/coneixement_planificacio/estadistiques-turistiques/index.html
  - temperature_precipitation: API de AEMET.
    https://www.aemet.es/ca/portada
+ - tourism_flux: Eurocontrol
+   https://www.eurocontrol.int/Economics
