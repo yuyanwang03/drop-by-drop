@@ -13,3 +13,19 @@
 ## Project Proposal
 
 Aigües Barcelona Data Challenge 
+
+## Structure of the data folder
+
+We assume that the data folder looks like:
+
+```
+> data 
+    > new
+        daily_dataset_economic_activity.csv
+	    daily_dataset.csv
+	    hours_lecture.parquet
+	dades_datachallenge.csv
+	daily_dataset_economic_activity.csv
+    daily_dataset.csv
+	gencat_turism.xlsx
+```
