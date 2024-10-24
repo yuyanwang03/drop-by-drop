@@ -89,11 +89,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-12-17,Albergs,6313,Barcelona Fabra,2023-12-17,12.3,6.7,0.0
 2023-12-17,Habitatges d'Ús Turístic,30673,Barcelona El Prat,2023-12-17,13.7,3.6,0.0
 2023-12-17,Habitatges d'Ús Turístic,30673,Barcelona Fabra,2023-12-17,12.3,6.7,0.0
-2023-12-16,Albergs,6158,Barcelona El Prat,2023-12-16,,,0.0
+2023-12-16,Albergs,6158,Barcelona El Prat,2023-12-16,15.0,6.0,0.0
 2023-12-16,Albergs,6158,Barcelona Fabra,2023-12-16,15.6,6.9,0.0
-2023-12-16,Habitatges d'Ús Turístic,29923,Barcelona El Prat,2023-12-16,,,0.0
+2023-12-16,Habitatges d'Ús Turístic,29923,Barcelona El Prat,2023-12-16,15.0,6.0,0.0
 2023-12-16,Habitatges d'Ús Turístic,29923,Barcelona Fabra,2023-12-16,15.6,6.9,0.0
-2023-12-16,Establiments Hotelers,55127,Barcelona El Prat,2023-12-16,,,0.0
+2023-12-16,Establiments Hotelers,55127,Barcelona El Prat,2023-12-16,15.0,6.0,0.0
 2023-12-16,Establiments Hotelers,55127,Barcelona Fabra,2023-12-16,15.6,6.9,0.0
 2023-12-15,Habitatges d'Ús Turístic,31214,Barcelona El Prat,2023-12-15,17.0,8.0,0.0
 2023-12-15,Habitatges d'Ús Turístic,31214,Barcelona Fabra,2023-12-15,17.8,9.5,0.0
@@ -101,23 +101,23 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-12-15,Establiments Hotelers,57506,Barcelona Fabra,2023-12-15,17.8,9.5,0.0
 2023-12-15,Albergs,6424,Barcelona El Prat,2023-12-15,17.0,8.0,0.0
 2023-12-15,Albergs,6424,Barcelona Fabra,2023-12-15,17.8,9.5,0.0
-2023-12-14,Habitatges d'Ús Turístic,27803,Barcelona El Prat,2023-12-14,,,0.0
+2023-12-14,Habitatges d'Ús Turístic,27803,Barcelona El Prat,2023-12-14,18.0,8.0,0.0
 2023-12-14,Habitatges d'Ús Turístic,27803,Barcelona Fabra,2023-12-14,17.4,6.8,0.0
-2023-12-14,Establiments Hotelers,51221,Barcelona El Prat,2023-12-14,,,0.0
+2023-12-14,Establiments Hotelers,51221,Barcelona El Prat,2023-12-14,18.0,8.0,0.0
 2023-12-14,Establiments Hotelers,51221,Barcelona Fabra,2023-12-14,17.4,6.8,0.0
-2023-12-14,Albergs,5722,Barcelona El Prat,2023-12-14,,,0.0
+2023-12-14,Albergs,5722,Barcelona El Prat,2023-12-14,18.0,8.0,0.0
 2023-12-14,Albergs,5722,Barcelona Fabra,2023-12-14,17.4,6.8,0.0
-2023-12-13,Albergs,5265,Barcelona El Prat,2023-12-13,,,0.0
+2023-12-13,Albergs,5265,Barcelona El Prat,2023-12-13,18.0,8.0,0.0
 2023-12-13,Albergs,5265,Barcelona Fabra,2023-12-13,14.7,8.2,0.0
-2023-12-13,Establiments Hotelers,47129,Barcelona El Prat,2023-12-13,,,0.0
+2023-12-13,Establiments Hotelers,47129,Barcelona El Prat,2023-12-13,18.0,8.0,0.0
 2023-12-13,Establiments Hotelers,47129,Barcelona Fabra,2023-12-13,14.7,8.2,0.0
-2023-12-13,Habitatges d'Ús Turístic,25582,Barcelona El Prat,2023-12-13,,,0.0
+2023-12-13,Habitatges d'Ús Turístic,25582,Barcelona El Prat,2023-12-13,18.0,8.0,0.0
 2023-12-13,Habitatges d'Ús Turístic,25582,Barcelona Fabra,2023-12-13,14.7,8.2,0.0
-2023-12-12,Albergs,5179,Barcelona El Prat,2023-12-12,,,0.0
+2023-12-12,Albergs,5179,Barcelona El Prat,2023-12-12,18.0,9.0,0.0
 2023-12-12,Albergs,5179,Barcelona Fabra,2023-12-12,16.4,13.0,0.0
-2023-12-12,Establiments Hotelers,46358,Barcelona El Prat,2023-12-12,,,0.0
+2023-12-12,Establiments Hotelers,46358,Barcelona El Prat,2023-12-12,18.0,9.0,0.0
 2023-12-12,Establiments Hotelers,46358,Barcelona Fabra,2023-12-12,16.4,13.0,0.0
-2023-12-12,Habitatges d'Ús Turístic,25163,Barcelona El Prat,2023-12-12,,,0.0
+2023-12-12,Habitatges d'Ús Turístic,25163,Barcelona El Prat,2023-12-12,18.0,9.0,0.0
 2023-12-12,Habitatges d'Ús Turístic,25163,Barcelona Fabra,2023-12-12,16.4,13.0,0.0
 2023-12-11,Habitatges d'Ús Turístic,28719,Barcelona El Prat,2023-12-11,20.0,10.8,0.0
 2023-12-11,Habitatges d'Ús Turístic,28719,Barcelona Fabra,2023-12-11,18.0,11.7,0.0
@@ -168,11 +168,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-12-04,Establiments Hotelers,51739,Barcelona El Prat,2023-12-04,14.9,7.3,0.0
 2023-12-04,Establiments Hotelers,51739,Barcelona Fabra,2023-12-04,15.8,8.1,0.4
 2023-12-03,Habitatges d'Ús Turístic,30017,Barcelona El Prat,2023-12-03,13.5,6.3,0.0
-2023-12-03,Habitatges d'Ús Turístic,30017,Barcelona Fabra,2023-12-03,14.4,4.4,
+2023-12-03,Habitatges d'Ús Turístic,30017,Barcelona Fabra,2023-12-03,14.4,4.4,1.0
 2023-12-03,Albergs,6178,Barcelona El Prat,2023-12-03,13.5,6.3,0.0
-2023-12-03,Albergs,6178,Barcelona Fabra,2023-12-03,14.4,4.4,
+2023-12-03,Albergs,6178,Barcelona Fabra,2023-12-03,14.4,4.4,1.0
 2023-12-03,Establiments Hotelers,55300,Barcelona El Prat,2023-12-03,13.5,6.3,0.0
-2023-12-03,Establiments Hotelers,55300,Barcelona Fabra,2023-12-03,14.4,4.4,
+2023-12-03,Establiments Hotelers,55300,Barcelona Fabra,2023-12-03,14.4,4.4,1.0
 2023-12-02,Habitatges d'Ús Turístic,28719,Barcelona El Prat,2023-12-02,15.2,8.5,0.0
 2023-12-02,Habitatges d'Ús Turístic,28719,Barcelona Fabra,2023-12-02,15.9,6.0,1.1
 2023-12-02,Albergs,5910,Barcelona El Prat,2023-12-02,15.2,8.5,0.0
@@ -180,17 +180,17 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-12-02,Establiments Hotelers,52908,Barcelona El Prat,2023-12-02,15.2,8.5,0.0
 2023-12-02,Establiments Hotelers,52908,Barcelona Fabra,2023-12-02,15.9,6.0,1.1
 2023-12-01,Habitatges d'Ús Turístic,30904,Barcelona El Prat,2023-12-01,18.9,10.3,0.0
-2023-12-01,Habitatges d'Ús Turístic,30904,Barcelona Fabra,2023-12-01,17.6,7.4,
+2023-12-01,Habitatges d'Ús Turístic,30904,Barcelona Fabra,2023-12-01,17.6,7.4,1.0
 2023-12-01,Albergs,6360,Barcelona El Prat,2023-12-01,18.9,10.3,0.0
-2023-12-01,Albergs,6360,Barcelona Fabra,2023-12-01,17.6,7.4,
+2023-12-01,Albergs,6360,Barcelona Fabra,2023-12-01,17.6,7.4,1.0
 2023-12-01,Establiments Hotelers,56934,Barcelona El Prat,2023-12-01,18.9,10.3,0.0
-2023-12-01,Establiments Hotelers,56934,Barcelona Fabra,2023-12-01,17.6,7.4,
+2023-12-01,Establiments Hotelers,56934,Barcelona Fabra,2023-12-01,17.6,7.4,1.0
 2023-11-30,Establiments Hotelers,62307,Barcelona El Prat,2023-11-30,21.0,9.9,0.0
-2023-11-30,Establiments Hotelers,62307,Barcelona Fabra,2023-11-30,22.7,13.3,
+2023-11-30,Establiments Hotelers,62307,Barcelona Fabra,2023-11-30,22.7,13.3,1.0
 2023-11-30,Habitatges d'Ús Turístic,33432,Barcelona El Prat,2023-11-30,21.0,9.9,0.0
-2023-11-30,Habitatges d'Ús Turístic,33432,Barcelona Fabra,2023-11-30,22.7,13.3,
+2023-11-30,Habitatges d'Ús Turístic,33432,Barcelona Fabra,2023-11-30,22.7,13.3,1.0
 2023-11-30,Albergs,6714,Barcelona El Prat,2023-11-30,21.0,9.9,0.0
-2023-11-30,Albergs,6714,Barcelona Fabra,2023-11-30,22.7,13.3,
+2023-11-30,Albergs,6714,Barcelona Fabra,2023-11-30,22.7,13.3,1.0
 2023-11-29,Establiments Hotelers,57252,Barcelona El Prat,2023-11-29,15.4,10.5,0.0
 2023-11-29,Establiments Hotelers,57252,Barcelona Fabra,2023-11-29,14.3,10.2,0.5
 2023-11-29,Habitatges d'Ús Turístic,30720,Barcelona El Prat,2023-11-29,15.4,10.5,0.0
@@ -276,11 +276,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-11-16,Establiments Hotelers,64345,Barcelona El Prat,2023-11-16,19.4,14.2,0.0
 2023-11-16,Establiments Hotelers,64345,Barcelona Fabra,2023-11-16,20.3,13.3,0.0
 2023-11-15,Albergs,6335,Barcelona El Prat,2023-11-15,19.0,14.5,0.0
-2023-11-15,Albergs,6335,Barcelona Fabra,2023-11-15,17.4,13.7,
+2023-11-15,Albergs,6335,Barcelona Fabra,2023-11-15,17.4,13.7,0.0
 2023-11-15,Habitatges d'Ús Turístic,31543,Barcelona El Prat,2023-11-15,19.0,14.5,0.0
-2023-11-15,Habitatges d'Ús Turístic,31543,Barcelona Fabra,2023-11-15,17.4,13.7,
+2023-11-15,Habitatges d'Ús Turístic,31543,Barcelona Fabra,2023-11-15,17.4,13.7,0.0
 2023-11-15,Establiments Hotelers,58785,Barcelona El Prat,2023-11-15,19.0,14.5,0.0
-2023-11-15,Establiments Hotelers,58785,Barcelona Fabra,2023-11-15,17.4,13.7,
+2023-11-15,Establiments Hotelers,58785,Barcelona Fabra,2023-11-15,17.4,13.7,0.0
 2023-11-14,Habitatges d'Ús Turístic,31201,Barcelona El Prat,2023-11-14,23.3,13.8,0.0
 2023-11-14,Habitatges d'Ús Turístic,31201,Barcelona Fabra,2023-11-14,26.4,15.9,0.0
 2023-11-14,Albergs,6266,Barcelona El Prat,2023-11-14,23.3,13.8,0.0
@@ -300,11 +300,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-11-12,Habitatges d'Ús Turístic,38052,Barcelona El Prat,2023-11-12,21.7,14.5,0.0
 2023-11-12,Habitatges d'Ús Turístic,38052,Barcelona Fabra,2023-11-12,22.6,14.0,0.0
 2023-11-11,Albergs,7168,Barcelona El Prat,2023-11-11,18.1,12.2,0.1
-2023-11-11,Albergs,7168,Barcelona Fabra,2023-11-11,16.6,11.3,
+2023-11-11,Albergs,7168,Barcelona Fabra,2023-11-11,16.6,11.3,0.0
 2023-11-11,Establiments Hotelers,66514,Barcelona El Prat,2023-11-11,18.1,12.2,0.1
-2023-11-11,Establiments Hotelers,66514,Barcelona Fabra,2023-11-11,16.6,11.3,
+2023-11-11,Establiments Hotelers,66514,Barcelona Fabra,2023-11-11,16.6,11.3,0.0
 2023-11-11,Habitatges d'Ús Turístic,35690,Barcelona El Prat,2023-11-11,18.1,12.2,0.1
-2023-11-11,Habitatges d'Ús Turístic,35690,Barcelona Fabra,2023-11-11,16.6,11.3,
+2023-11-11,Habitatges d'Ús Turístic,35690,Barcelona Fabra,2023-11-11,16.6,11.3,0.0
 2023-11-10,Albergs,7660,Barcelona El Prat,2023-11-10,20.7,12.2,0.0
 2023-11-10,Albergs,7660,Barcelona Fabra,2023-11-10,17.8,11.1,0.0
 2023-11-10,Habitatges d'Ús Turístic,38140,Barcelona El Prat,2023-11-10,20.7,12.2,0.0
@@ -348,11 +348,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-11-04,Albergs,7942,Barcelona El Prat,2023-11-04,20.1,12.2,0.1
 2023-11-04,Albergs,7942,Barcelona Fabra,2023-11-04,19.8,9.6,0.1
 2023-11-03,Albergs,8136,Barcelona El Prat,2023-11-03,20.0,11.8,0.0
-2023-11-03,Albergs,8136,Barcelona Fabra,2023-11-03,16.1,8.4,
+2023-11-03,Albergs,8136,Barcelona Fabra,2023-11-03,16.1,8.4,0.0
 2023-11-03,Habitatges d'Ús Turístic,40511,Barcelona El Prat,2023-11-03,20.0,11.8,0.0
-2023-11-03,Habitatges d'Ús Turístic,40511,Barcelona Fabra,2023-11-03,16.1,8.4,
+2023-11-03,Habitatges d'Ús Turístic,40511,Barcelona Fabra,2023-11-03,16.1,8.4,0.0
 2023-11-03,Establiments Hotelers,75499,Barcelona El Prat,2023-11-03,20.0,11.8,0.0
-2023-11-03,Establiments Hotelers,75499,Barcelona Fabra,2023-11-03,16.1,8.4,
+2023-11-03,Establiments Hotelers,75499,Barcelona Fabra,2023-11-03,16.1,8.4,0.0
 2023-11-02,Habitatges d'Ús Turístic,36792,Barcelona El Prat,2023-11-02,21.7,12.7,0.6
 2023-11-02,Habitatges d'Ús Turístic,36792,Barcelona Fabra,2023-11-02,18.4,10.2,0.8
 2023-11-02,Establiments Hotelers,68569,Barcelona El Prat,2023-11-02,21.7,12.7,0.6
@@ -420,11 +420,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-10-23,Habitatges d'Ús Turístic,31288,Barcelona El Prat,2023-10-23,24.4,17.6,18.1
 2023-10-23,Habitatges d'Ús Turístic,31288,Barcelona Fabra,2023-10-23,23.6,16.3,2.6
 2023-10-22,Albergs,7817,Barcelona El Prat,2023-10-22,21.2,11.0,0.0
-2023-10-22,Albergs,7817,Barcelona Fabra,2023-10-22,21.6,11.9,
+2023-10-22,Albergs,7817,Barcelona Fabra,2023-10-22,21.6,11.9,1.0
 2023-10-22,Habitatges d'Ús Turístic,33250,Barcelona El Prat,2023-10-22,21.2,11.0,0.0
-2023-10-22,Habitatges d'Ús Turístic,33250,Barcelona Fabra,2023-10-22,21.6,11.9,
+2023-10-22,Habitatges d'Ús Turístic,33250,Barcelona Fabra,2023-10-22,21.6,11.9,1.0
 2023-10-22,Establiments Hotelers,64955,Barcelona El Prat,2023-10-22,21.2,11.0,0.0
-2023-10-22,Establiments Hotelers,64955,Barcelona Fabra,2023-10-22,21.6,11.9,
+2023-10-22,Establiments Hotelers,64955,Barcelona Fabra,2023-10-22,21.6,11.9,1.0
 2023-10-21,Habitatges d'Ús Turístic,34071,Barcelona El Prat,2023-10-21,21.6,13.9,0.0
 2023-10-21,Habitatges d'Ús Turístic,34071,Barcelona Fabra,2023-10-21,19.0,12.7,0.0
 2023-10-21,Albergs,8010,Barcelona El Prat,2023-10-21,21.6,13.9,0.0
@@ -444,17 +444,17 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-10-19,Establiments Hotelers,62428,Barcelona El Prat,2023-10-19,25.0,17.1,3.6
 2023-10-19,Establiments Hotelers,62428,Barcelona Fabra,2023-10-19,23.4,13.7,8.3
 2023-10-18,Habitatges d'Ús Turístic,30733,Barcelona El Prat,2023-10-18,26.8,19.5,0.0
-2023-10-18,Habitatges d'Ús Turístic,30733,Barcelona Fabra,2023-10-18,26.7,19.0,
+2023-10-18,Habitatges d'Ús Turístic,30733,Barcelona Fabra,2023-10-18,26.7,19.0,6.0
 2023-10-18,Albergs,7225,Barcelona El Prat,2023-10-18,26.8,19.5,0.0
-2023-10-18,Albergs,7225,Barcelona Fabra,2023-10-18,26.7,19.0,
+2023-10-18,Albergs,7225,Barcelona Fabra,2023-10-18,26.7,19.0,6.0
 2023-10-18,Establiments Hotelers,60036,Barcelona El Prat,2023-10-18,26.8,19.5,0.0
-2023-10-18,Establiments Hotelers,60036,Barcelona Fabra,2023-10-18,26.7,19.0,
+2023-10-18,Establiments Hotelers,60036,Barcelona Fabra,2023-10-18,26.7,19.0,6.0
 2023-10-17,Albergs,7271,Barcelona El Prat,2023-10-17,24.7,16.6,0.0
-2023-10-17,Albergs,7271,Barcelona Fabra,2023-10-17,24.1,15.9,
+2023-10-17,Albergs,7271,Barcelona Fabra,2023-10-17,24.1,15.9,4.0
 2023-10-17,Habitatges d'Ús Turístic,30928,Barcelona El Prat,2023-10-17,24.7,16.6,0.0
-2023-10-17,Habitatges d'Ús Turístic,30928,Barcelona Fabra,2023-10-17,24.1,15.9,
+2023-10-17,Habitatges d'Ús Turístic,30928,Barcelona Fabra,2023-10-17,24.1,15.9,4.0
 2023-10-17,Establiments Hotelers,60418,Barcelona El Prat,2023-10-17,24.7,16.6,0.0
-2023-10-17,Establiments Hotelers,60418,Barcelona Fabra,2023-10-17,24.1,15.9,
+2023-10-17,Establiments Hotelers,60418,Barcelona Fabra,2023-10-17,24.1,15.9,4.0
 2023-10-16,Habitatges d'Ús Turístic,31951,Barcelona El Prat,2023-10-16,20.7,17.3,10.0
 2023-10-16,Habitatges d'Ús Turístic,31951,Barcelona Fabra,2023-10-16,19.1,15.5,0.6
 2023-10-16,Albergs,7511,Barcelona El Prat,2023-10-16,20.7,17.3,10.0
@@ -468,11 +468,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-10-15,Habitatges d'Ús Turístic,33572,Barcelona El Prat,2023-10-15,21.8,18.9,53.6
 2023-10-15,Habitatges d'Ús Turístic,33572,Barcelona Fabra,2023-10-15,19.4,17.1,16.9
 2023-10-14,Habitatges d'Ús Turístic,33768,Barcelona El Prat,2023-10-14,26.5,18.7,0.0
-2023-10-14,Habitatges d'Ús Turístic,33768,Barcelona Fabra,2023-10-14,25.4,18.0,
+2023-10-14,Habitatges d'Ús Turístic,33768,Barcelona Fabra,2023-10-14,25.4,18.0,8.0
 2023-10-14,Albergs,7939,Barcelona El Prat,2023-10-14,26.5,18.7,0.0
-2023-10-14,Albergs,7939,Barcelona Fabra,2023-10-14,25.4,18.0,
+2023-10-14,Albergs,7939,Barcelona Fabra,2023-10-14,25.4,18.0,8.0
 2023-10-14,Establiments Hotelers,65966,Barcelona El Prat,2023-10-14,26.5,18.7,0.0
-2023-10-14,Establiments Hotelers,65966,Barcelona Fabra,2023-10-14,25.4,18.0,
+2023-10-14,Establiments Hotelers,65966,Barcelona Fabra,2023-10-14,25.4,18.0,8.0
 2023-10-13,Establiments Hotelers,62933,Barcelona El Prat,2023-10-13,25.8,17.7,0.0
 2023-10-13,Establiments Hotelers,62933,Barcelona Fabra,2023-10-13,25.8,17.8,0.0
 2023-10-13,Habitatges d'Ús Turístic,32216,Barcelona El Prat,2023-10-13,25.8,17.7,0.0
@@ -630,11 +630,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-09-18,Albergs,7929,Barcelona El Prat,2023-09-18,28.5,22.9,0.0
 2023-09-18,Albergs,7929,Barcelona Fabra,2023-09-18,29.0,20.7,0.0
 2023-09-17,Habitatges d'Ús Turístic,40355,Barcelona El Prat,2023-09-17,28.8,21.4,1.2
-2023-09-17,Habitatges d'Ús Turístic,40355,Barcelona Fabra,2023-09-17,28.2,20.6,
+2023-09-17,Habitatges d'Ús Turístic,40355,Barcelona Fabra,2023-09-17,28.2,20.6,0.0
 2023-09-17,Establiments Hotelers,73530,Barcelona El Prat,2023-09-17,28.8,21.4,1.2
-2023-09-17,Establiments Hotelers,73530,Barcelona Fabra,2023-09-17,28.2,20.6,
+2023-09-17,Establiments Hotelers,73530,Barcelona Fabra,2023-09-17,28.2,20.6,0.0
 2023-09-17,Albergs,8223,Barcelona El Prat,2023-09-17,28.8,21.4,1.2
-2023-09-17,Albergs,8223,Barcelona Fabra,2023-09-17,28.2,20.6,
+2023-09-17,Albergs,8223,Barcelona Fabra,2023-09-17,28.2,20.6,0.0
 2023-09-16,Albergs,8208,Barcelona El Prat,2023-09-16,27.0,19.3,0.0
 2023-09-16,Albergs,8208,Barcelona Fabra,2023-09-16,27.8,18.2,0.0
 2023-09-16,Habitatges d'Ús Turístic,40280,Barcelona El Prat,2023-09-16,27.0,19.3,0.0
@@ -720,11 +720,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-09-03,Establiments Hotelers,74873,Barcelona El Prat,2023-09-03,29.2,23.4,0.0
 2023-09-03,Establiments Hotelers,74873,Barcelona Fabra,2023-09-03,27.7,19.3,0.0
 2023-09-02,Habitatges d'Ús Turístic,41375,Barcelona El Prat,2023-09-02,26.5,23.0,0.0
-2023-09-02,Habitatges d'Ús Turístic,41375,Barcelona Fabra,2023-09-02,23.9,20.1,
+2023-09-02,Habitatges d'Ús Turístic,41375,Barcelona Fabra,2023-09-02,23.9,20.1,0.0
 2023-09-02,Establiments Hotelers,75388,Barcelona El Prat,2023-09-02,26.5,23.0,0.0
-2023-09-02,Establiments Hotelers,75388,Barcelona Fabra,2023-09-02,23.9,20.1,
+2023-09-02,Establiments Hotelers,75388,Barcelona Fabra,2023-09-02,23.9,20.1,0.0
 2023-09-02,Albergs,8431,Barcelona El Prat,2023-09-02,26.5,23.0,0.0
-2023-09-02,Albergs,8431,Barcelona Fabra,2023-09-02,23.9,20.1,
+2023-09-02,Albergs,8431,Barcelona Fabra,2023-09-02,23.9,20.1,0.0
 2023-09-01,Habitatges d'Ús Turístic,41501,Barcelona El Prat,2023-09-01,28.1,20.5,0.0
 2023-09-01,Habitatges d'Ús Turístic,41501,Barcelona Fabra,2023-09-01,28.4,19.6,0.0
 2023-09-01,Establiments Hotelers,75619,Barcelona El Prat,2023-09-01,28.1,20.5,0.0
@@ -744,11 +744,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-08-30,Habitatges d'Ús Turístic,34461,Barcelona El Prat,2023-08-30,25.4,18.3,3.9
 2023-08-30,Habitatges d'Ús Turístic,34461,Barcelona Fabra,2023-08-30,24.2,17.1,0.0
 2023-08-29,Albergs,8379,Barcelona El Prat,2023-08-29,26.8,18.5,7.0
-2023-08-29,Albergs,8379,Barcelona Fabra,2023-08-29,27.0,16.0,
+2023-08-29,Albergs,8379,Barcelona Fabra,2023-08-29,27.0,16.0,0.0
 2023-08-29,Establiments Hotelers,69005,Barcelona El Prat,2023-08-29,26.8,18.5,7.0
-2023-08-29,Establiments Hotelers,69005,Barcelona Fabra,2023-08-29,27.0,16.0,
+2023-08-29,Establiments Hotelers,69005,Barcelona Fabra,2023-08-29,27.0,16.0,0.0
 2023-08-29,Habitatges d'Ús Turístic,34626,Barcelona El Prat,2023-08-29,26.8,18.5,7.0
-2023-08-29,Habitatges d'Ús Turístic,34626,Barcelona Fabra,2023-08-29,27.0,16.0,
+2023-08-29,Habitatges d'Ús Turístic,34626,Barcelona Fabra,2023-08-29,27.0,16.0,0.0
 2023-08-28,Habitatges d'Ús Turístic,32926,Barcelona El Prat,2023-08-28,30.9,17.2,0.0
 2023-08-28,Habitatges d'Ús Turístic,32926,Barcelona Fabra,2023-08-28,28.7,14.7,0.0
 2023-08-28,Establiments Hotelers,65617,Barcelona El Prat,2023-08-28,30.9,17.2,0.0
@@ -822,22 +822,22 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-08-17,Establiments Hotelers,69018,Barcelona El Prat,2023-08-17,30.3,24.3,0.0
 2023-08-17,Establiments Hotelers,69018,Barcelona Fabra,2023-08-17,32.3,21.3,0.0
 2023-08-16,Habitatges d'Ús Turístic,33406,Barcelona El Prat,2023-08-16,29.8,23.6,0.0
-2023-08-16,Habitatges d'Ús Turístic,33406,Barcelona Fabra,2023-08-16,29.1,22.0,
+2023-08-16,Habitatges d'Ús Turístic,33406,Barcelona Fabra,2023-08-16,29.1,22.0,0.0
 2023-08-16,Albergs,8084,Barcelona El Prat,2023-08-16,29.8,23.6,0.0
-2023-08-16,Albergs,8084,Barcelona Fabra,2023-08-16,29.1,22.0,
+2023-08-16,Albergs,8084,Barcelona Fabra,2023-08-16,29.1,22.0,0.0
 2023-08-16,Establiments Hotelers,66574,Barcelona El Prat,2023-08-16,29.8,23.6,0.0
-2023-08-16,Establiments Hotelers,66574,Barcelona Fabra,2023-08-16,29.1,22.0,
+2023-08-16,Establiments Hotelers,66574,Barcelona Fabra,2023-08-16,29.1,22.0,0.0
 2023-08-15,Habitatges d'Ús Turístic,33829,Barcelona El Prat,2023-08-15,30.1,23.2,0.0
 2023-08-15,Habitatges d'Ús Turístic,33829,Barcelona Fabra,2023-08-15,32.5,22.3,0.0
 2023-08-15,Establiments Hotelers,67418,Barcelona El Prat,2023-08-15,30.1,23.2,0.0
 2023-08-15,Establiments Hotelers,67418,Barcelona Fabra,2023-08-15,32.5,22.3,0.0
 2023-08-15,Albergs,8186,Barcelona El Prat,2023-08-15,30.1,23.2,0.0
 2023-08-15,Albergs,8186,Barcelona Fabra,2023-08-15,32.5,22.3,0.0
-2023-08-14,Habitatges d'Ús Turístic,34164,Barcelona El Prat,2023-08-14,30.4,23.0,
+2023-08-14,Habitatges d'Ús Turístic,34164,Barcelona El Prat,2023-08-14,30.4,23.0,0.0
 2023-08-14,Habitatges d'Ús Turístic,34164,Barcelona Fabra,2023-08-14,33.2,21.8,0.5
-2023-08-14,Albergs,8267,Barcelona El Prat,2023-08-14,30.4,23.0,
+2023-08-14,Albergs,8267,Barcelona El Prat,2023-08-14,30.4,23.0,0.0
 2023-08-14,Albergs,8267,Barcelona Fabra,2023-08-14,33.2,21.8,0.5
-2023-08-14,Establiments Hotelers,68086,Barcelona El Prat,2023-08-14,30.4,23.0,
+2023-08-14,Establiments Hotelers,68086,Barcelona El Prat,2023-08-14,30.4,23.0,0.0
 2023-08-14,Establiments Hotelers,68086,Barcelona Fabra,2023-08-14,33.2,21.8,0.5
 2023-08-13,Albergs,8513,Barcelona El Prat,2023-08-13,29.2,23.7,0.0
 2023-08-13,Albergs,8513,Barcelona Fabra,2023-08-13,32.0,21.5,0.0
@@ -870,11 +870,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-08-09,Albergs,8160,Barcelona El Prat,2023-08-09,29.0,22.3,0.0
 2023-08-09,Albergs,8160,Barcelona Fabra,2023-08-09,30.1,20.6,0.0
 2023-08-08,Establiments Hotelers,68602,Barcelona El Prat,2023-08-08,28.7,21.9,0.0
-2023-08-08,Establiments Hotelers,68602,Barcelona Fabra,2023-08-08,27.9,20.0,
+2023-08-08,Establiments Hotelers,68602,Barcelona Fabra,2023-08-08,27.9,20.0,0.0
 2023-08-08,Habitatges d'Ús Turístic,34423,Barcelona El Prat,2023-08-08,28.7,21.9,0.0
-2023-08-08,Habitatges d'Ús Turístic,34423,Barcelona Fabra,2023-08-08,27.9,20.0,
+2023-08-08,Habitatges d'Ús Turístic,34423,Barcelona Fabra,2023-08-08,27.9,20.0,0.0
 2023-08-08,Albergs,8330,Barcelona El Prat,2023-08-08,28.7,21.9,0.0
-2023-08-08,Albergs,8330,Barcelona Fabra,2023-08-08,27.9,20.0,
+2023-08-08,Albergs,8330,Barcelona Fabra,2023-08-08,27.9,20.0,0.0
 2023-08-07,Albergs,8434,Barcelona El Prat,2023-08-07,26.8,23.2,0.2
 2023-08-07,Albergs,8434,Barcelona Fabra,2023-08-07,25.8,18.6,0.0
 2023-08-07,Establiments Hotelers,69458,Barcelona El Prat,2023-08-07,26.8,23.2,0.2
@@ -918,11 +918,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-08-01,Albergs,8483,Barcelona El Prat,2023-08-01,31.6,25.1,0.0
 2023-08-01,Albergs,8483,Barcelona Fabra,2023-08-01,33.8,22.3,0.0
 2023-07-31,Habitatges d'Ús Turístic,31516,Barcelona El Prat,2023-07-31,29.5,23.5,0.2
-2023-07-31,Habitatges d'Ús Turístic,31516,Barcelona Fabra,2023-07-31,27.2,21.8,
+2023-07-31,Habitatges d'Ús Turístic,31516,Barcelona Fabra,2023-07-31,27.2,21.8,0.0
 2023-07-31,Establiments Hotelers,61807,Barcelona El Prat,2023-07-31,29.5,23.5,0.2
-2023-07-31,Establiments Hotelers,61807,Barcelona Fabra,2023-07-31,27.2,21.8,
+2023-07-31,Establiments Hotelers,61807,Barcelona Fabra,2023-07-31,27.2,21.8,0.0
 2023-07-31,Albergs,6786,Barcelona El Prat,2023-07-31,29.5,23.5,0.2
-2023-07-31,Albergs,6786,Barcelona Fabra,2023-07-31,27.2,21.8,
+2023-07-31,Albergs,6786,Barcelona Fabra,2023-07-31,27.2,21.8,0.0
 2023-07-30,Albergs,7004,Barcelona El Prat,2023-07-30,30.1,25.1,0.0
 2023-07-30,Albergs,7004,Barcelona Fabra,2023-07-30,32.6,21.4,0.0
 2023-07-30,Habitatges d'Ús Turístic,32526,Barcelona El Prat,2023-07-30,30.1,25.1,0.0
@@ -966,11 +966,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-07-24,Establiments Hotelers,61117,Barcelona El Prat,2023-07-24,30.1,24.9,0.0
 2023-07-24,Establiments Hotelers,61117,Barcelona Fabra,2023-07-24,31.3,22.2,0.0
 2023-07-23,Habitatges d'Ús Turístic,32112,Barcelona El Prat,2023-07-23,29.8,23.8,0.1
-2023-07-23,Habitatges d'Ús Turístic,32112,Barcelona Fabra,2023-07-23,31.8,21.2,
+2023-07-23,Habitatges d'Ús Turístic,32112,Barcelona Fabra,2023-07-23,31.8,21.2,0.0
 2023-07-23,Establiments Hotelers,62976,Barcelona El Prat,2023-07-23,29.8,23.8,0.1
-2023-07-23,Establiments Hotelers,62976,Barcelona Fabra,2023-07-23,31.8,21.2,
+2023-07-23,Establiments Hotelers,62976,Barcelona Fabra,2023-07-23,31.8,21.2,0.0
 2023-07-23,Albergs,6915,Barcelona El Prat,2023-07-23,29.8,23.8,0.1
-2023-07-23,Albergs,6915,Barcelona Fabra,2023-07-23,31.8,21.2,
+2023-07-23,Albergs,6915,Barcelona Fabra,2023-07-23,31.8,21.2,0.0
 2023-07-22,Habitatges d'Ús Turístic,33020,Barcelona El Prat,2023-07-22,28.7,24.2,0.0
 2023-07-22,Habitatges d'Ús Turístic,33020,Barcelona Fabra,2023-07-22,30.3,21.5,0.0
 2023-07-22,Albergs,7110,Barcelona El Prat,2023-07-22,28.7,24.2,0.0
@@ -1038,11 +1038,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-07-12,Habitatges d'Ús Turístic,31159,Barcelona El Prat,2023-07-12,28.6,24.6,0.0
 2023-07-12,Habitatges d'Ús Turístic,31159,Barcelona Fabra,2023-07-12,30.2,22.2,0.0
 2023-07-11,Establiments Hotelers,61062,Barcelona El Prat,2023-07-11,30.5,24.5,0.0
-2023-07-11,Establiments Hotelers,61062,Barcelona Fabra,2023-07-11,33.3,22.0,
+2023-07-11,Establiments Hotelers,61062,Barcelona Fabra,2023-07-11,33.3,22.0,0.0
 2023-07-11,Habitatges d'Ús Turístic,31136,Barcelona El Prat,2023-07-11,30.5,24.5,0.0
-2023-07-11,Habitatges d'Ús Turístic,31136,Barcelona Fabra,2023-07-11,33.3,22.0,
+2023-07-11,Habitatges d'Ús Turístic,31136,Barcelona Fabra,2023-07-11,33.3,22.0,0.0
 2023-07-11,Albergs,6705,Barcelona El Prat,2023-07-11,30.5,24.5,0.0
-2023-07-11,Albergs,6705,Barcelona Fabra,2023-07-11,33.3,22.0,
+2023-07-11,Albergs,6705,Barcelona Fabra,2023-07-11,33.3,22.0,0.0
 2023-07-10,Establiments Hotelers,61785,Barcelona El Prat,2023-07-10,29.5,24.2,0.0
 2023-07-10,Establiments Hotelers,61785,Barcelona Fabra,2023-07-10,31.5,21.3,0.0
 2023-07-10,Albergs,6784,Barcelona El Prat,2023-07-10,29.5,24.2,0.0
@@ -1062,11 +1062,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-07-08,Establiments Hotelers,63710,Barcelona El Prat,2023-07-08,30.3,23.0,0.0
 2023-07-08,Establiments Hotelers,63710,Barcelona Fabra,2023-07-08,31.9,20.3,0.0
 2023-07-07,Habitatges d'Ús Turístic,32600,Barcelona El Prat,2023-07-07,28.8,22.2,0.0
-2023-07-07,Habitatges d'Ús Turístic,32600,Barcelona Fabra,2023-07-07,29.5,20.5,
+2023-07-07,Habitatges d'Ús Turístic,32600,Barcelona Fabra,2023-07-07,29.5,20.5,0.0
 2023-07-07,Albergs,7020,Barcelona El Prat,2023-07-07,28.8,22.2,0.0
-2023-07-07,Albergs,7020,Barcelona Fabra,2023-07-07,29.5,20.5,
+2023-07-07,Albergs,7020,Barcelona Fabra,2023-07-07,29.5,20.5,0.0
 2023-07-07,Establiments Hotelers,63933,Barcelona El Prat,2023-07-07,28.8,22.2,0.0
-2023-07-07,Establiments Hotelers,63933,Barcelona Fabra,2023-07-07,29.5,20.5,
+2023-07-07,Establiments Hotelers,63933,Barcelona Fabra,2023-07-07,29.5,20.5,0.0
 2023-07-06,Habitatges d'Ús Turístic,31726,Barcelona El Prat,2023-07-06,28.3,22.0,0.0
 2023-07-06,Habitatges d'Ús Turístic,31726,Barcelona Fabra,2023-07-06,30.4,19.2,0.1
 2023-07-06,Establiments Hotelers,62219,Barcelona El Prat,2023-07-06,28.3,22.0,0.0
@@ -1080,11 +1080,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-07-05,Habitatges d'Ús Turístic,30415,Barcelona El Prat,2023-07-05,26.3,22.7,0.7
 2023-07-05,Habitatges d'Ús Turístic,30415,Barcelona Fabra,2023-07-05,25.5,19.7,1.0
 2023-07-04,Establiments Hotelers,60783,Barcelona El Prat,2023-07-04,28.0,21.7,0.0
-2023-07-04,Establiments Hotelers,60783,Barcelona Fabra,2023-07-04,28.5,20.2,
+2023-07-04,Establiments Hotelers,60783,Barcelona Fabra,2023-07-04,28.5,20.2,1.0
 2023-07-04,Albergs,6674,Barcelona El Prat,2023-07-04,28.0,21.7,0.0
-2023-07-04,Albergs,6674,Barcelona Fabra,2023-07-04,28.5,20.2,
+2023-07-04,Albergs,6674,Barcelona Fabra,2023-07-04,28.5,20.2,1.0
 2023-07-04,Habitatges d'Ús Turístic,30994,Barcelona El Prat,2023-07-04,28.0,21.7,0.0
-2023-07-04,Habitatges d'Ús Turístic,30994,Barcelona Fabra,2023-07-04,28.5,20.2,
+2023-07-04,Habitatges d'Ús Turístic,30994,Barcelona Fabra,2023-07-04,28.5,20.2,1.0
 2023-07-03,Establiments Hotelers,60828,Barcelona El Prat,2023-07-03,27.9,22.1,0.0
 2023-07-03,Establiments Hotelers,60828,Barcelona Fabra,2023-07-03,27.7,20.4,0.2
 2023-07-03,Habitatges d'Ús Turístic,31017,Barcelona El Prat,2023-07-03,27.9,22.1,0.0
@@ -1116,11 +1116,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-06-29,Habitatges d'Ús Turístic,32774,Barcelona El Prat,2023-06-29,28.7,19.7,5.8
 2023-06-29,Habitatges d'Ús Turístic,32774,Barcelona Fabra,2023-06-29,30.5,16.9,2.0
 2023-06-28,Albergs,7304,Barcelona El Prat,2023-06-28,28.4,23.3,0.0
-2023-06-28,Albergs,7304,Barcelona Fabra,2023-06-28,30.3,21.1,
+2023-06-28,Albergs,7304,Barcelona Fabra,2023-06-28,30.3,21.1,1.0
 2023-06-28,Establiments Hotelers,65532,Barcelona El Prat,2023-06-28,28.4,23.3,0.0
-2023-06-28,Establiments Hotelers,65532,Barcelona Fabra,2023-06-28,30.3,21.1,
+2023-06-28,Establiments Hotelers,65532,Barcelona Fabra,2023-06-28,30.3,21.1,1.0
 2023-06-28,Habitatges d'Ús Turístic,31539,Barcelona El Prat,2023-06-28,28.4,23.3,0.0
-2023-06-28,Habitatges d'Ús Turístic,31539,Barcelona Fabra,2023-06-28,30.3,21.1,
+2023-06-28,Habitatges d'Ús Turístic,31539,Barcelona Fabra,2023-06-28,30.3,21.1,1.0
 2023-06-27,Establiments Hotelers,66784,Barcelona El Prat,2023-06-27,28.5,23.4,0.0
 2023-06-27,Establiments Hotelers,66784,Barcelona Fabra,2023-06-27,29.1,21.3,0.0
 2023-06-27,Albergs,7444,Barcelona El Prat,2023-06-27,28.5,23.4,0.0
@@ -1175,23 +1175,23 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-06-19,Habitatges d'Ús Turístic,31430,Barcelona Fabra,2023-06-19,28.6,19.0,0.6
 2023-06-19,Albergs,7279,Barcelona El Prat,2023-06-19,29.4,20.3,0.7
 2023-06-19,Albergs,7279,Barcelona Fabra,2023-06-19,28.6,19.0,0.6
-2023-06-18,Habitatges d'Ús Turístic,32044,Barcelona El Prat,2023-06-18,28.5,21.4,
-2023-06-18,Habitatges d'Ús Turístic,32044,Barcelona Fabra,2023-06-18,28.4,20.5,
-2023-06-18,Albergs,7421,Barcelona El Prat,2023-06-18,28.5,21.4,
-2023-06-18,Albergs,7421,Barcelona Fabra,2023-06-18,28.4,20.5,
-2023-06-18,Establiments Hotelers,66581,Barcelona El Prat,2023-06-18,28.5,21.4,
-2023-06-18,Establiments Hotelers,66581,Barcelona Fabra,2023-06-18,28.4,20.5,
+2023-06-18,Habitatges d'Ús Turístic,32044,Barcelona El Prat,2023-06-18,28.5,21.4,0.0
+2023-06-18,Habitatges d'Ús Turístic,32044,Barcelona Fabra,2023-06-18,28.4,20.5,0.0
+2023-06-18,Albergs,7421,Barcelona El Prat,2023-06-18,28.5,21.4,0.0
+2023-06-18,Albergs,7421,Barcelona Fabra,2023-06-18,28.4,20.5,0.0
+2023-06-18,Establiments Hotelers,66581,Barcelona El Prat,2023-06-18,28.5,21.4,0.0
+2023-06-18,Establiments Hotelers,66581,Barcelona Fabra,2023-06-18,28.4,20.5,0.0
 2023-06-17,Albergs,7652,Barcelona El Prat,2023-06-17,27.9,19.9,0.0
 2023-06-17,Albergs,7652,Barcelona Fabra,2023-06-17,29.7,19.4,0.0
 2023-06-17,Establiments Hotelers,68655,Barcelona El Prat,2023-06-17,27.9,19.9,0.0
 2023-06-17,Establiments Hotelers,68655,Barcelona Fabra,2023-06-17,29.7,19.4,0.0
 2023-06-17,Habitatges d'Ús Turístic,33042,Barcelona El Prat,2023-06-17,27.9,19.9,0.0
 2023-06-17,Habitatges d'Ús Turístic,33042,Barcelona Fabra,2023-06-17,29.7,19.4,0.0
-2023-06-16,Albergs,7681,Barcelona El Prat,2023-06-16,,,0.0
+2023-06-16,Albergs,7681,Barcelona El Prat,2023-06-16,28.0,20.0,0.0
 2023-06-16,Albergs,7681,Barcelona Fabra,2023-06-16,29.7,20.2,0.0
-2023-06-16,Establiments Hotelers,68908,Barcelona El Prat,2023-06-16,,,0.0
+2023-06-16,Establiments Hotelers,68908,Barcelona El Prat,2023-06-16,28.0,20.0,0.0
 2023-06-16,Establiments Hotelers,68908,Barcelona Fabra,2023-06-16,29.7,20.2,0.0
-2023-06-16,Habitatges d'Ús Turístic,33164,Barcelona El Prat,2023-06-16,,,0.0
+2023-06-16,Habitatges d'Ús Turístic,33164,Barcelona El Prat,2023-06-16,28.0,20.0,0.0
 2023-06-16,Habitatges d'Ús Turístic,33164,Barcelona Fabra,2023-06-16,29.7,20.2,0.0
 2023-06-15,Establiments Hotelers,66088,Barcelona El Prat,2023-06-15,27.2,20.1,0.0
 2023-06-15,Establiments Hotelers,66088,Barcelona Fabra,2023-06-15,29.8,19.1,0.0
@@ -1212,11 +1212,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-06-13,Establiments Hotelers,63699,Barcelona El Prat,2023-06-13,27.0,19.8,0.0
 2023-06-13,Establiments Hotelers,63699,Barcelona Fabra,2023-06-13,25.6,16.7,0.2
 2023-06-12,Albergs,6927,Barcelona El Prat,2023-06-12,27.7,19.8,0.0
-2023-06-12,Albergs,6927,Barcelona Fabra,2023-06-12,28.9,19.2,
+2023-06-12,Albergs,6927,Barcelona Fabra,2023-06-12,28.9,19.2,2.0
 2023-06-12,Establiments Hotelers,62143,Barcelona El Prat,2023-06-12,27.7,19.8,0.0
-2023-06-12,Establiments Hotelers,62143,Barcelona Fabra,2023-06-12,28.9,19.2,
+2023-06-12,Establiments Hotelers,62143,Barcelona Fabra,2023-06-12,28.9,19.2,2.0
 2023-06-12,Habitatges d'Ús Turístic,29908,Barcelona El Prat,2023-06-12,27.7,19.8,0.0
-2023-06-12,Habitatges d'Ús Turístic,29908,Barcelona Fabra,2023-06-12,28.9,19.2,
+2023-06-12,Habitatges d'Ús Turístic,29908,Barcelona Fabra,2023-06-12,28.9,19.2,2.0
 2023-06-11,Establiments Hotelers,65848,Barcelona El Prat,2023-06-11,28.9,20.9,1.3
 2023-06-11,Establiments Hotelers,65848,Barcelona Fabra,2023-06-11,30.9,19.8,3.2
 2023-06-11,Habitatges d'Ús Turístic,31691,Barcelona El Prat,2023-06-11,28.9,20.9,1.3
@@ -1230,11 +1230,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-06-10,Albergs,7411,Barcelona El Prat,2023-06-10,25.5,20.2,0.0
 2023-06-10,Albergs,7411,Barcelona Fabra,2023-06-10,27.6,18.6,0.0
 2023-06-09,Establiments Hotelers,65633,Barcelona El Prat,2023-06-09,25.9,21.1,0.0
-2023-06-09,Establiments Hotelers,65633,Barcelona Fabra,2023-06-09,26.3,17.8,
+2023-06-09,Establiments Hotelers,65633,Barcelona Fabra,2023-06-09,26.3,17.8,0.0
 2023-06-09,Albergs,7316,Barcelona El Prat,2023-06-09,25.9,21.1,0.0
-2023-06-09,Albergs,7316,Barcelona Fabra,2023-06-09,26.3,17.8,
+2023-06-09,Albergs,7316,Barcelona Fabra,2023-06-09,26.3,17.8,0.0
 2023-06-09,Habitatges d'Ús Turístic,31588,Barcelona El Prat,2023-06-09,25.9,21.1,0.0
-2023-06-09,Habitatges d'Ús Turístic,31588,Barcelona Fabra,2023-06-09,26.3,17.8,
+2023-06-09,Habitatges d'Ús Turístic,31588,Barcelona Fabra,2023-06-09,26.3,17.8,0.0
 2023-06-08,Albergs,7127,Barcelona El Prat,2023-06-08,25.0,19.1,0.0
 2023-06-08,Albergs,7127,Barcelona Fabra,2023-06-08,26.0,17.1,0.0
 2023-06-08,Establiments Hotelers,63939,Barcelona El Prat,2023-06-08,25.0,19.1,0.0
@@ -1344,17 +1344,17 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-05-22,Albergs,7618,Barcelona El Prat,2023-05-22,23.1,16.6,0.0
 2023-05-22,Albergs,7618,Barcelona Fabra,2023-05-22,23.6,14.0,0.6
 2023-05-21,Albergs,8105,Barcelona El Prat,2023-05-21,20.1,13.0,0.0
-2023-05-21,Albergs,8105,Barcelona Fabra,2023-05-21,21.0,12.6,
+2023-05-21,Albergs,8105,Barcelona Fabra,2023-05-21,21.0,12.6,1.0
 2023-05-21,Habitatges d'Ús Turístic,33553,Barcelona El Prat,2023-05-21,20.1,13.0,0.0
-2023-05-21,Habitatges d'Ús Turístic,33553,Barcelona Fabra,2023-05-21,21.0,12.6,
+2023-05-21,Habitatges d'Ús Turístic,33553,Barcelona Fabra,2023-05-21,21.0,12.6,1.0
 2023-05-21,Establiments Hotelers,65616,Barcelona El Prat,2023-05-21,20.1,13.0,0.0
-2023-05-21,Establiments Hotelers,65616,Barcelona Fabra,2023-05-21,21.0,12.6,
+2023-05-21,Establiments Hotelers,65616,Barcelona Fabra,2023-05-21,21.0,12.6,1.0
 2023-05-20,Habitatges d'Ús Turístic,33107,Barcelona El Prat,2023-05-20,22.3,13.7,0.0
-2023-05-20,Habitatges d'Ús Turístic,33107,Barcelona Fabra,2023-05-20,23.2,11.3,
+2023-05-20,Habitatges d'Ús Turístic,33107,Barcelona Fabra,2023-05-20,23.2,11.3,2.0
 2023-05-20,Establiments Hotelers,64744,Barcelona El Prat,2023-05-20,22.3,13.7,0.0
-2023-05-20,Establiments Hotelers,64744,Barcelona Fabra,2023-05-20,23.2,11.3,
+2023-05-20,Establiments Hotelers,64744,Barcelona Fabra,2023-05-20,23.2,11.3,2.0
 2023-05-20,Albergs,7998,Barcelona El Prat,2023-05-20,22.3,13.7,0.0
-2023-05-20,Albergs,7998,Barcelona Fabra,2023-05-20,23.2,11.3,
+2023-05-20,Albergs,7998,Barcelona Fabra,2023-05-20,23.2,11.3,2.0
 2023-05-19,Albergs,7874,Barcelona El Prat,2023-05-19,21.2,14.3,2.8
 2023-05-19,Albergs,7874,Barcelona Fabra,2023-05-19,19.9,11.5,3.1
 2023-05-19,Habitatges d'Ús Turístic,32596,Barcelona El Prat,2023-05-19,21.2,14.3,2.8
@@ -1362,11 +1362,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-05-19,Establiments Hotelers,63745,Barcelona El Prat,2023-05-19,21.2,14.3,2.8
 2023-05-19,Establiments Hotelers,63745,Barcelona Fabra,2023-05-19,19.9,11.5,3.1
 2023-05-18,Habitatges d'Ús Turístic,32720,Barcelona El Prat,2023-05-18,20.1,13.1,0.0
-2023-05-18,Habitatges d'Ús Turístic,32720,Barcelona Fabra,2023-05-18,19.5,12.2,
+2023-05-18,Habitatges d'Ús Turístic,32720,Barcelona Fabra,2023-05-18,19.5,12.2,2.0
 2023-05-18,Albergs,7904,Barcelona El Prat,2023-05-18,20.1,13.1,0.0
-2023-05-18,Albergs,7904,Barcelona Fabra,2023-05-18,19.5,12.2,
+2023-05-18,Albergs,7904,Barcelona Fabra,2023-05-18,19.5,12.2,2.0
 2023-05-18,Establiments Hotelers,63988,Barcelona El Prat,2023-05-18,20.1,13.1,0.0
-2023-05-18,Establiments Hotelers,63988,Barcelona Fabra,2023-05-18,19.5,12.2,
+2023-05-18,Establiments Hotelers,63988,Barcelona Fabra,2023-05-18,19.5,12.2,2.0
 2023-05-17,Habitatges d'Ús Turístic,31751,Barcelona El Prat,2023-05-17,20.6,12.0,0.0
 2023-05-17,Habitatges d'Ús Turístic,31751,Barcelona Fabra,2023-05-17,22.8,10.5,0.0
 2023-05-17,Establiments Hotelers,62092,Barcelona El Prat,2023-05-17,20.6,12.0,0.0
@@ -1380,11 +1380,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-05-16,Establiments Hotelers,61464,Barcelona El Prat,2023-05-16,21.9,13.8,0.0
 2023-05-16,Establiments Hotelers,61464,Barcelona Fabra,2023-05-16,22.1,12.6,0.0
 2023-05-15,Albergs,7581,Barcelona El Prat,2023-05-15,23.0,14.0,0.1
-2023-05-15,Albergs,7581,Barcelona Fabra,2023-05-15,24.4,12.7,
+2023-05-15,Albergs,7581,Barcelona Fabra,2023-05-15,24.4,12.7,4.0
 2023-05-15,Establiments Hotelers,61375,Barcelona El Prat,2023-05-15,23.0,14.0,0.1
-2023-05-15,Establiments Hotelers,61375,Barcelona Fabra,2023-05-15,24.4,12.7,
+2023-05-15,Establiments Hotelers,61375,Barcelona Fabra,2023-05-15,24.4,12.7,4.0
 2023-05-15,Habitatges d'Ús Turístic,31384,Barcelona El Prat,2023-05-15,23.0,14.0,0.1
-2023-05-15,Habitatges d'Ús Turístic,31384,Barcelona Fabra,2023-05-15,24.4,12.7,
+2023-05-15,Habitatges d'Ús Turístic,31384,Barcelona Fabra,2023-05-15,24.4,12.7,4.0
 2023-05-14,Establiments Hotelers,63514,Barcelona El Prat,2023-05-14,19.9,11.8,5.7
 2023-05-14,Establiments Hotelers,63514,Barcelona Fabra,2023-05-14,20.7,11.2,7.4
 2023-05-14,Albergs,7846,Barcelona El Prat,2023-05-14,19.9,11.8,5.7
@@ -1410,11 +1410,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-05-11,Albergs,7642,Barcelona El Prat,2023-05-11,19.4,14.4,0.0
 2023-05-11,Albergs,7642,Barcelona Fabra,2023-05-11,19.6,10.7,0.0
 2023-05-10,Habitatges d'Ús Turístic,30906,Barcelona El Prat,2023-05-10,21.3,16.5,0.0
-2023-05-10,Habitatges d'Ús Turístic,30906,Barcelona Fabra,2023-05-10,21.5,12.9,
+2023-05-10,Habitatges d'Ús Turístic,30906,Barcelona Fabra,2023-05-10,21.5,12.9,1.0
 2023-05-10,Albergs,7466,Barcelona El Prat,2023-05-10,21.3,16.5,0.0
-2023-05-10,Albergs,7466,Barcelona Fabra,2023-05-10,21.5,12.9,
+2023-05-10,Albergs,7466,Barcelona Fabra,2023-05-10,21.5,12.9,1.0
 2023-05-10,Establiments Hotelers,60439,Barcelona El Prat,2023-05-10,21.3,16.5,0.0
-2023-05-10,Establiments Hotelers,60439,Barcelona Fabra,2023-05-10,21.5,12.9,
+2023-05-10,Establiments Hotelers,60439,Barcelona Fabra,2023-05-10,21.5,12.9,1.0
 2023-05-09,Establiments Hotelers,62105,Barcelona El Prat,2023-05-09,22.5,15.8,0.1
 2023-05-09,Establiments Hotelers,62105,Barcelona Fabra,2023-05-09,24.1,14.7,1.9
 2023-05-09,Habitatges d'Ús Turístic,31757,Barcelona El Prat,2023-05-09,22.5,15.8,0.1
@@ -1542,9 +1542,9 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-04-13,Albergs,7131,Barcelona El Prat,2023-04-13,21.8,11.2,0.0
 2023-04-13,Albergs,7131,Barcelona Fabra,2023-04-13,19.9,7.2,0.0
 2023-04-12,Albergs,6791,Barcelona El Prat,2023-04-12,20.4,11.0,0.0
-2023-04-12,Albergs,6791,Barcelona Fabra,2023-04-12,27.5,10.5,
+2023-04-12,Albergs,6791,Barcelona Fabra,2023-04-12,27.5,10.5,0.0
 2023-04-12,Establiments Hotelers,54759,Barcelona El Prat,2023-04-12,20.4,11.0,0.0
-2023-04-12,Establiments Hotelers,54759,Barcelona Fabra,2023-04-12,27.5,10.5,
+2023-04-12,Establiments Hotelers,54759,Barcelona Fabra,2023-04-12,27.5,10.5,0.0
 2023-04-11,Establiments Hotelers,56552,Barcelona El Prat,2023-04-11,18.0,10.9,0.0
 2023-04-11,Establiments Hotelers,56552,Barcelona Fabra,2023-04-11,20.1,12.2,0.0
 2023-04-11,Albergs,7013,Barcelona El Prat,2023-04-11,18.0,10.9,0.0
@@ -1728,11 +1728,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-03-09,Albergs,4873,Barcelona El Prat,2023-03-09,21.7,13.2,1.4
 2023-03-09,Albergs,4873,Barcelona Fabra,2023-03-09,22.2,12.6,0.3
 2023-03-08,Habitatges d'Ús Turístic,23102,Barcelona El Prat,2023-03-08,21.7,8.8,0.0
-2023-03-08,Habitatges d'Ús Turístic,23102,Barcelona Fabra,2023-03-08,21.6,9.7,
+2023-03-08,Habitatges d'Ús Turístic,23102,Barcelona Fabra,2023-03-08,21.6,9.7,0.0
 2023-03-08,Albergs,4554,Barcelona El Prat,2023-03-08,21.7,8.8,0.0
-2023-03-08,Albergs,4554,Barcelona Fabra,2023-03-08,21.6,9.7,
+2023-03-08,Albergs,4554,Barcelona Fabra,2023-03-08,21.6,9.7,0.0
 2023-03-08,Habitatges d'Ús Turístic,26668,Barcelona El Prat,2023-03-08,21.7,8.8,0.0
-2023-03-08,Habitatges d'Ús Turístic,26668,Barcelona Fabra,2023-03-08,21.6,9.7,
+2023-03-08,Habitatges d'Ús Turístic,26668,Barcelona Fabra,2023-03-08,21.6,9.7,0.0
 2023-03-07,Habitatges d'Ús Turístic,22985,Barcelona El Prat,2023-03-07,17.0,5.8,0.0
 2023-03-07,Habitatges d'Ús Turístic,22985,Barcelona Fabra,2023-03-07,18.6,8.1,0.0
 2023-03-07,Albergs,4531,Barcelona El Prat,2023-03-07,17.0,5.8,0.0
@@ -1776,13 +1776,13 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-03-01,Albergs,4736,Barcelona El Prat,2023-03-01,10.5,1.7,0.0
 2023-03-01,Albergs,4736,Barcelona Fabra,2023-03-01,11.5,1.0,0.0
 2023-02-28,Establiments Hotelers,49971,Barcelona El Prat,2023-02-28,13.8,4.4,0.0
-2023-02-28,Establiments Hotelers,49971,Barcelona Fabra,2023-02-28,12.5,1.9,
+2023-02-28,Establiments Hotelers,49971,Barcelona Fabra,2023-02-28,12.5,1.9,0.0
 2023-02-27,Establiments Hotelers,55119,Barcelona El Prat,2023-02-27,8.9,1.4,0.4
 2023-02-27,Establiments Hotelers,55119,Barcelona Fabra,2023-02-27,5.6,-1.1,0.8
 2023-02-26,Establiments Hotelers,59738,Barcelona El Prat,2023-02-26,12.9,3.1,23.3
 2023-02-26,Establiments Hotelers,59738,Barcelona Fabra,2023-02-26,12.2,0.3,19.7
 2023-02-25,Establiments Hotelers,57355,Barcelona El Prat,2023-02-25,15.0,5.9,0.0
-2023-02-25,Establiments Hotelers,57355,Barcelona Fabra,2023-02-25,12.0,5.7,
+2023-02-25,Establiments Hotelers,57355,Barcelona Fabra,2023-02-25,12.0,5.7,10.0
 2023-02-24,Establiments Hotelers,59620,Barcelona El Prat,2023-02-24,13.4,7.1,0.0
 2023-02-24,Establiments Hotelers,59620,Barcelona Fabra,2023-02-24,12.1,4.6,0.0
 2023-02-23,Establiments Hotelers,53619,Barcelona El Prat,2023-02-23,13.7,8.7,7.4
@@ -1790,7 +1790,7 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-02-22,Establiments Hotelers,50324,Barcelona El Prat,2023-02-22,14.9,8.9,0.0
 2023-02-22,Establiments Hotelers,50324,Barcelona Fabra,2023-02-22,15.2,8.2,0.0
 2023-02-21,Establiments Hotelers,50044,Barcelona El Prat,2023-02-21,15.5,7.1,0.0
-2023-02-21,Establiments Hotelers,50044,Barcelona Fabra,2023-02-21,19.3,10.3,
+2023-02-21,Establiments Hotelers,50044,Barcelona Fabra,2023-02-21,19.3,10.3,0.0
 2023-02-20,Establiments Hotelers,56164,Barcelona El Prat,2023-02-20,16.5,7.7,0.0
 2023-02-20,Establiments Hotelers,56164,Barcelona Fabra,2023-02-20,18.4,8.8,0.0
 2023-02-19,Establiments Hotelers,59444,Barcelona El Prat,2023-02-19,15.8,6.6,0.0
@@ -1820,7 +1820,7 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-02-07,Establiments Hotelers,43763,Barcelona El Prat,2023-02-07,11.8,7.5,11.4
 2023-02-07,Establiments Hotelers,43763,Barcelona Fabra,2023-02-07,7.4,5.0,15.6
 2023-02-06,Establiments Hotelers,51309,Barcelona El Prat,2023-02-06,11.6,6.3,0.2
-2023-02-06,Establiments Hotelers,51309,Barcelona Fabra,2023-02-06,8.3,5.6,
+2023-02-06,Establiments Hotelers,51309,Barcelona Fabra,2023-02-06,8.3,5.6,8.0
 2023-02-05,Establiments Hotelers,54781,Barcelona El Prat,2023-02-05,15.6,6.5,0.8
 2023-02-05,Establiments Hotelers,54781,Barcelona Fabra,2023-02-05,18.4,5.4,0.1
 2023-02-04,Establiments Hotelers,53074,Barcelona El Prat,2023-02-04,20.9,5.5,0.0
@@ -1850,11 +1850,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2023-01-29,Albergs,5036,Barcelona El Prat,2023-01-29,10.8,3.7,0.0
 2023-01-29,Albergs,5036,Barcelona Fabra,2023-01-29,12.1,1.7,0.0
 2023-01-28,Establiments Hotelers,43585,Barcelona El Prat,2023-01-28,9.8,2.0,0.0
-2023-01-28,Establiments Hotelers,43585,Barcelona Fabra,2023-01-28,8.2,2.2,
+2023-01-28,Establiments Hotelers,43585,Barcelona Fabra,2023-01-28,8.2,2.2,0.0
 2023-01-28,Albergs,4832,Barcelona El Prat,2023-01-28,9.8,2.0,0.0
-2023-01-28,Albergs,4832,Barcelona Fabra,2023-01-28,8.2,2.2,
+2023-01-28,Albergs,4832,Barcelona Fabra,2023-01-28,8.2,2.2,0.0
 2023-01-28,Habitatges d'Ús Turístic,23939,Barcelona El Prat,2023-01-28,9.8,2.0,0.0
-2023-01-28,Habitatges d'Ús Turístic,23939,Barcelona Fabra,2023-01-28,8.2,2.2,
+2023-01-28,Habitatges d'Ús Turístic,23939,Barcelona Fabra,2023-01-28,8.2,2.2,0.0
 2023-01-27,Habitatges d'Ús Turístic,25217,Barcelona El Prat,2023-01-27,10.7,2.5,0.0
 2023-01-27,Habitatges d'Ús Turístic,25217,Barcelona Fabra,2023-01-27,10.8,2.0,0.0
 2023-01-27,Establiments Hotelers,45913,Barcelona El Prat,2023-01-27,10.7,2.5,0.0
@@ -2137,12 +2137,12 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-12-12,Albergs,4605,Barcelona Fabra,2022-12-12,10.9,3.7,9.0
 2022-12-12,Habitatges d'Ús Turístic,30078,Barcelona El Prat,2022-12-12,11.3,6.3,7.0
 2022-12-12,Habitatges d'Ús Turístic,30078,Barcelona Fabra,2022-12-12,10.9,3.7,9.0
-2022-12-11,Establiments Hotelers,45729,Barcelona El Prat,2022-12-11,9.8,5.2,
-2022-12-11,Establiments Hotelers,45729,Barcelona Fabra,2022-12-11,9.1,3.2,
-2022-12-11,Habitatges d'Ús Turístic,32750,Barcelona El Prat,2022-12-11,9.8,5.2,
-2022-12-11,Habitatges d'Ús Turístic,32750,Barcelona Fabra,2022-12-11,9.1,3.2,
-2022-12-11,Albergs,5014,Barcelona El Prat,2022-12-11,9.8,5.2,
-2022-12-11,Albergs,5014,Barcelona Fabra,2022-12-11,9.1,3.2,
+2022-12-11,Establiments Hotelers,45729,Barcelona El Prat,2022-12-11,9.8,5.2,4.0
+2022-12-11,Establiments Hotelers,45729,Barcelona Fabra,2022-12-11,9.1,3.2,4.0
+2022-12-11,Habitatges d'Ús Turístic,32750,Barcelona El Prat,2022-12-11,9.8,5.2,4.0
+2022-12-11,Habitatges d'Ús Turístic,32750,Barcelona Fabra,2022-12-11,9.1,3.2,4.0
+2022-12-11,Albergs,5014,Barcelona El Prat,2022-12-11,9.8,5.2,4.0
+2022-12-11,Albergs,5014,Barcelona Fabra,2022-12-11,9.1,3.2,4.0
 2022-12-10,Albergs,5090,Barcelona El Prat,2022-12-10,15.8,5.5,0.0
 2022-12-10,Albergs,5090,Barcelona Fabra,2022-12-10,13.2,3.2,0.0
 2022-12-10,Establiments Hotelers,46428,Barcelona El Prat,2022-12-10,15.8,5.5,0.0
@@ -2162,11 +2162,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-12-08,Albergs,4568,Barcelona El Prat,2022-12-08,14.9,9.9,13.8
 2022-12-08,Albergs,4568,Barcelona Fabra,2022-12-08,12.2,10.0,10.2
 2022-12-07,Habitatges d'Ús Turístic,28931,Barcelona El Prat,2022-12-07,15.1,8.2,0.0
-2022-12-07,Habitatges d'Ús Turístic,28931,Barcelona Fabra,2022-12-07,14.5,9.2,
+2022-12-07,Habitatges d'Ús Turístic,28931,Barcelona Fabra,2022-12-07,14.5,9.2,5.0
 2022-12-07,Albergs,4429,Barcelona El Prat,2022-12-07,15.1,8.2,0.0
-2022-12-07,Albergs,4429,Barcelona Fabra,2022-12-07,14.5,9.2,
+2022-12-07,Albergs,4429,Barcelona Fabra,2022-12-07,14.5,9.2,5.0
 2022-12-07,Establiments Hotelers,40397,Barcelona El Prat,2022-12-07,15.1,8.2,0.0
-2022-12-07,Establiments Hotelers,40397,Barcelona Fabra,2022-12-07,14.5,9.2,
+2022-12-07,Establiments Hotelers,40397,Barcelona Fabra,2022-12-07,14.5,9.2,5.0
 2022-12-06,Albergs,4318,Barcelona El Prat,2022-12-06,15.6,8.8,0.0
 2022-12-06,Albergs,4318,Barcelona Fabra,2022-12-06,15.1,8.8,0.0
 2022-12-06,Habitatges d'Ús Turístic,28207,Barcelona El Prat,2022-12-06,15.6,8.8,0.0
@@ -2234,17 +2234,17 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-11-26,Habitatges d'Ús Turístic,27642,Barcelona El Prat,2022-11-26,18.8,8.0,0.0
 2022-11-26,Habitatges d'Ús Turístic,27642,Barcelona Fabra,2022-11-26,17.3,7.8,0.0
 2022-11-25,Establiments Hotelers,54275,Barcelona El Prat,2022-11-25,19.9,10.7,3.3
-2022-11-25,Establiments Hotelers,54275,Barcelona Fabra,2022-11-25,19.7,9.9,
+2022-11-25,Establiments Hotelers,54275,Barcelona Fabra,2022-11-25,19.7,9.9,0.0
 2022-11-25,Habitatges d'Ús Turístic,29303,Barcelona El Prat,2022-11-25,19.9,10.7,3.3
-2022-11-25,Habitatges d'Ús Turístic,29303,Barcelona Fabra,2022-11-25,19.7,9.9,
+2022-11-25,Habitatges d'Ús Turístic,29303,Barcelona Fabra,2022-11-25,19.7,9.9,0.0
 2022-11-25,Albergs,6806,Barcelona El Prat,2022-11-25,19.9,10.7,3.3
-2022-11-25,Albergs,6806,Barcelona Fabra,2022-11-25,19.7,9.9,
-2022-11-24,Establiments Hotelers,48011,Barcelona El Prat,2022-11-24,19.7,11.2,
-2022-11-24,Establiments Hotelers,48011,Barcelona Fabra,2022-11-24,19.3,11.5,
-2022-11-24,Albergs,6021,Barcelona El Prat,2022-11-24,19.7,11.2,
-2022-11-24,Albergs,6021,Barcelona Fabra,2022-11-24,19.3,11.5,
-2022-11-24,Habitatges d'Ús Turístic,25921,Barcelona El Prat,2022-11-24,19.7,11.2,
-2022-11-24,Habitatges d'Ús Turístic,25921,Barcelona Fabra,2022-11-24,19.3,11.5,
+2022-11-25,Albergs,6806,Barcelona Fabra,2022-11-25,19.7,9.9,0.0
+2022-11-24,Establiments Hotelers,48011,Barcelona El Prat,2022-11-24,19.7,11.2,2.0
+2022-11-24,Establiments Hotelers,48011,Barcelona Fabra,2022-11-24,19.3,11.5,0.0
+2022-11-24,Albergs,6021,Barcelona El Prat,2022-11-24,19.7,11.2,2.0
+2022-11-24,Albergs,6021,Barcelona Fabra,2022-11-24,19.3,11.5,0.0
+2022-11-24,Habitatges d'Ús Turístic,25921,Barcelona El Prat,2022-11-24,19.7,11.2,2.0
+2022-11-24,Habitatges d'Ús Turístic,25921,Barcelona Fabra,2022-11-24,19.3,11.5,0.0
 2022-11-23,Establiments Hotelers,45058,Barcelona El Prat,2022-11-23,23.8,11.7,0.0
 2022-11-23,Establiments Hotelers,45058,Barcelona Fabra,2022-11-23,21.2,9.0,0.0
 2022-11-23,Albergs,5650,Barcelona El Prat,2022-11-23,23.8,11.7,0.0
@@ -2264,11 +2264,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-11-21,Habitatges d'Ús Turístic,27056,Barcelona El Prat,2022-11-21,16.6,11.0,0.2
 2022-11-21,Habitatges d'Ús Turístic,27056,Barcelona Fabra,2022-11-21,13.6,8.2,0.3
 2022-11-20,Habitatges d'Ús Turístic,28710,Barcelona El Prat,2022-11-20,16.4,6.2,0.0
-2022-11-20,Habitatges d'Ús Turístic,28710,Barcelona Fabra,2022-11-20,17.3,5.9,
+2022-11-20,Habitatges d'Ús Turístic,28710,Barcelona Fabra,2022-11-20,17.3,5.9,0.0
 2022-11-20,Albergs,6669,Barcelona El Prat,2022-11-20,16.4,6.2,0.0
-2022-11-20,Albergs,6669,Barcelona Fabra,2022-11-20,17.3,5.9,
+2022-11-20,Albergs,6669,Barcelona Fabra,2022-11-20,17.3,5.9,0.0
 2022-11-20,Establiments Hotelers,53176,Barcelona El Prat,2022-11-20,16.4,6.2,0.0
-2022-11-20,Establiments Hotelers,53176,Barcelona Fabra,2022-11-20,17.3,5.9,
+2022-11-20,Establiments Hotelers,53176,Barcelona Fabra,2022-11-20,17.3,5.9,0.0
 2022-11-19,Habitatges d'Ús Turístic,28243,Barcelona El Prat,2022-11-19,17.4,9.3,0.0
 2022-11-19,Habitatges d'Ús Turístic,28243,Barcelona Fabra,2022-11-19,14.6,7.0,0.0
 2022-11-19,Establiments Hotelers,52311,Barcelona El Prat,2022-11-19,17.4,9.3,0.0
@@ -2365,12 +2365,12 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-11-04,Habitatges d'Ús Turístic,31179,Barcelona Fabra,2022-11-04,19.2,9.5,0.0
 2022-11-04,Albergs,7242,Barcelona El Prat,2022-11-04,21.9,12.8,0.0
 2022-11-04,Albergs,7242,Barcelona Fabra,2022-11-04,19.2,9.5,0.0
-2022-11-03,Establiments Hotelers,52119,Barcelona El Prat,2022-11-03,24.0,15.8,
-2022-11-03,Establiments Hotelers,52119,Barcelona Fabra,2022-11-03,21.9,15.2,
-2022-11-03,Albergs,6536,Barcelona El Prat,2022-11-03,24.0,15.8,
-2022-11-03,Albergs,6536,Barcelona Fabra,2022-11-03,21.9,15.2,
-2022-11-03,Habitatges d'Ús Turístic,28139,Barcelona El Prat,2022-11-03,24.0,15.8,
-2022-11-03,Habitatges d'Ús Turístic,28139,Barcelona Fabra,2022-11-03,21.9,15.2,
+2022-11-03,Establiments Hotelers,52119,Barcelona El Prat,2022-11-03,24.0,15.8,0.0
+2022-11-03,Establiments Hotelers,52119,Barcelona Fabra,2022-11-03,21.9,15.2,0.0
+2022-11-03,Albergs,6536,Barcelona El Prat,2022-11-03,24.0,15.8,0.0
+2022-11-03,Albergs,6536,Barcelona Fabra,2022-11-03,21.9,15.2,0.0
+2022-11-03,Habitatges d'Ús Turístic,28139,Barcelona El Prat,2022-11-03,24.0,15.8,0.0
+2022-11-03,Habitatges d'Ús Turístic,28139,Barcelona Fabra,2022-11-03,21.9,15.2,0.0
 2022-11-02,Establiments Hotelers,49742,Barcelona El Prat,2022-11-02,22.6,16.1,0.0
 2022-11-02,Establiments Hotelers,49742,Barcelona Fabra,2022-11-02,21.3,14.7,0.0
 2022-11-02,Habitatges d'Ús Turístic,26856,Barcelona El Prat,2022-11-02,22.6,16.1,0.0
@@ -2450,11 +2450,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-10-21,Habitatges d'Ús Turístic,29454,Barcelona El Prat,2022-10-21,26.2,19.7,0.0
 2022-10-21,Habitatges d'Ús Turístic,29454,Barcelona Fabra,2022-10-21,26.1,18.5,0.0
 2022-10-20,Habitatges d'Ús Turístic,28547,Barcelona El Prat,2022-10-20,25.1,19.6,0.0
-2022-10-20,Habitatges d'Ús Turístic,28547,Barcelona Fabra,2022-10-20,22.7,18.3,
+2022-10-20,Habitatges d'Ús Turístic,28547,Barcelona Fabra,2022-10-20,22.7,18.3,0.0
 2022-10-20,Albergs,7103,Barcelona El Prat,2022-10-20,25.1,19.6,0.0
-2022-10-20,Albergs,7103,Barcelona Fabra,2022-10-20,22.7,18.3,
+2022-10-20,Albergs,7103,Barcelona Fabra,2022-10-20,22.7,18.3,0.0
 2022-10-20,Establiments Hotelers,61619,Barcelona El Prat,2022-10-20,25.1,19.6,0.0
-2022-10-20,Establiments Hotelers,61619,Barcelona Fabra,2022-10-20,22.7,18.3,
+2022-10-20,Establiments Hotelers,61619,Barcelona Fabra,2022-10-20,22.7,18.3,0.0
 2022-10-19,Albergs,6734,Barcelona El Prat,2022-10-19,26.0,19.5,0.0
 2022-10-19,Albergs,6734,Barcelona Fabra,2022-10-19,24.8,18.0,0.0
 2022-10-19,Establiments Hotelers,58414,Barcelona El Prat,2022-10-19,26.0,19.5,0.0
@@ -2468,11 +2468,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-10-18,Establiments Hotelers,60030,Barcelona El Prat,2022-10-18,25.7,19.1,0.0
 2022-10-18,Establiments Hotelers,60030,Barcelona Fabra,2022-10-18,25.3,17.7,0.0
 2022-10-17,Habitatges d'Ús Turístic,28821,Barcelona El Prat,2022-10-17,25.7,20.4,0.0
-2022-10-17,Habitatges d'Ús Turístic,28821,Barcelona Fabra,2022-10-17,23.5,18.1,
+2022-10-17,Habitatges d'Ús Turístic,28821,Barcelona Fabra,2022-10-17,23.5,18.1,0.0
 2022-10-17,Albergs,7172,Barcelona El Prat,2022-10-17,25.7,20.4,0.0
-2022-10-17,Albergs,7172,Barcelona Fabra,2022-10-17,23.5,18.1,
+2022-10-17,Albergs,7172,Barcelona Fabra,2022-10-17,23.5,18.1,0.0
 2022-10-17,Establiments Hotelers,62210,Barcelona El Prat,2022-10-17,25.7,20.4,0.0
-2022-10-17,Establiments Hotelers,62210,Barcelona Fabra,2022-10-17,23.5,18.1,
+2022-10-17,Establiments Hotelers,62210,Barcelona Fabra,2022-10-17,23.5,18.1,0.0
 2022-10-16,Establiments Hotelers,66256,Barcelona El Prat,2022-10-16,26.2,18.4,0.0
 2022-10-16,Establiments Hotelers,66256,Barcelona Fabra,2022-10-16,26.6,18.0,0.0
 2022-10-16,Habitatges d'Ús Turístic,30695,Barcelona El Prat,2022-10-16,26.2,18.4,0.0
@@ -2515,11 +2515,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-10-10,Establiments Hotelers,61947,Barcelona Fabra,2022-10-10,22.7,16.2,0.0
 2022-10-10,Albergs,7141,Barcelona El Prat,2022-10-10,23.5,18.3,0.0
 2022-10-10,Albergs,7141,Barcelona Fabra,2022-10-10,22.7,16.2,0.0
-2022-10-09,Habitatges d'Ús Turístic,29892,Barcelona El Prat,2022-10-09,23.3,17.1,
+2022-10-09,Habitatges d'Ús Turístic,29892,Barcelona El Prat,2022-10-09,23.3,17.1,0.0
 2022-10-09,Habitatges d'Ús Turístic,29892,Barcelona Fabra,2022-10-09,22.8,16.2,0.0
-2022-10-09,Albergs,7438,Barcelona El Prat,2022-10-09,23.3,17.1,
+2022-10-09,Albergs,7438,Barcelona El Prat,2022-10-09,23.3,17.1,0.0
 2022-10-09,Albergs,7438,Barcelona Fabra,2022-10-09,22.8,16.2,0.0
-2022-10-09,Establiments Hotelers,64522,Barcelona El Prat,2022-10-09,23.3,17.1,
+2022-10-09,Establiments Hotelers,64522,Barcelona El Prat,2022-10-09,23.3,17.1,0.0
 2022-10-09,Establiments Hotelers,64522,Barcelona Fabra,2022-10-09,22.8,16.2,0.0
 2022-10-08,Establiments Hotelers,66440,Barcelona El Prat,2022-10-08,23.0,18.0,0.0
 2022-10-08,Establiments Hotelers,66440,Barcelona Fabra,2022-10-08,21.2,15.9,0.0
@@ -2666,11 +2666,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-09-15,Albergs,7832,Barcelona El Prat,2022-09-15,29.9,20.8,0.0
 2022-09-15,Albergs,7832,Barcelona Fabra,2022-09-15,30.8,20.7,0.0
 2022-09-14,Establiments Hotelers,59739,Barcelona El Prat,2022-09-14,28.1,20.8,0.1
-2022-09-14,Establiments Hotelers,59739,Barcelona Fabra,2022-09-14,25.1,18.3,
+2022-09-14,Establiments Hotelers,59739,Barcelona Fabra,2022-09-14,25.1,18.3,0.0
 2022-09-14,Habitatges d'Ús Turístic,28580,Barcelona El Prat,2022-09-14,28.1,20.8,0.1
-2022-09-14,Habitatges d'Ús Turístic,28580,Barcelona Fabra,2022-09-14,25.1,18.3,
+2022-09-14,Habitatges d'Ús Turístic,28580,Barcelona Fabra,2022-09-14,25.1,18.3,0.0
 2022-09-14,Albergs,7462,Barcelona El Prat,2022-09-14,28.1,20.8,0.1
-2022-09-14,Albergs,7462,Barcelona Fabra,2022-09-14,25.1,18.3,
+2022-09-14,Albergs,7462,Barcelona Fabra,2022-09-14,25.1,18.3,0.0
 2022-09-13,Establiments Hotelers,59316,Barcelona El Prat,2022-09-13,32.8,25.0,0.7
 2022-09-13,Establiments Hotelers,59316,Barcelona Fabra,2022-09-13,28.3,22.1,1.0
 2022-09-13,Habitatges d'Ús Turístic,28378,Barcelona El Prat,2022-09-13,32.8,25.0,0.7
@@ -2702,11 +2702,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-09-09,Establiments Hotelers,64132,Barcelona El Prat,2022-09-09,29.7,22.2,0.0
 2022-09-09,Establiments Hotelers,64132,Barcelona Fabra,2022-09-09,28.3,19.1,1.3
 2022-09-08,Albergs,7768,Barcelona El Prat,2022-09-08,29.3,23.6,0.0
-2022-09-08,Albergs,7768,Barcelona Fabra,2022-09-08,28.2,20.8,
+2022-09-08,Albergs,7768,Barcelona Fabra,2022-09-08,28.2,20.8,1.0
 2022-09-08,Establiments Hotelers,62191,Barcelona El Prat,2022-09-08,29.3,23.6,0.0
-2022-09-08,Establiments Hotelers,62191,Barcelona Fabra,2022-09-08,28.2,20.8,
+2022-09-08,Establiments Hotelers,62191,Barcelona Fabra,2022-09-08,28.2,20.8,1.0
 2022-09-08,Habitatges d'Ús Turístic,29753,Barcelona El Prat,2022-09-08,29.3,23.6,0.0
-2022-09-08,Habitatges d'Ús Turístic,29753,Barcelona Fabra,2022-09-08,28.2,20.8,
+2022-09-08,Habitatges d'Ús Turístic,29753,Barcelona Fabra,2022-09-08,28.2,20.8,1.0
 2022-09-07,Establiments Hotelers,60660,Barcelona El Prat,2022-09-07,30.5,21.8,0.0
 2022-09-07,Establiments Hotelers,60660,Barcelona Fabra,2022-09-07,29.2,21.8,0.0
 2022-09-07,Albergs,7577,Barcelona El Prat,2022-09-07,30.5,21.8,0.0
@@ -2761,11 +2761,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-08-30,Albergs,7535,Barcelona Fabra,2022-08-30,33.7,22.5,2.1
 2022-08-30,Establiments Hotelers,65092,Barcelona El Prat,2022-08-30,31.2,23.4,1.8
 2022-08-30,Establiments Hotelers,65092,Barcelona Fabra,2022-08-30,33.7,22.5,2.1
-2022-08-29,Albergs,7699,Barcelona El Prat,2022-08-29,30.7,22.9,
+2022-08-29,Albergs,7699,Barcelona El Prat,2022-08-29,30.7,22.9,1.0
 2022-08-29,Albergs,7699,Barcelona Fabra,2022-08-29,31.5,20.9,0.3
-2022-08-29,Habitatges d'Ús Turístic,36109,Barcelona El Prat,2022-08-29,30.7,22.9,
+2022-08-29,Habitatges d'Ús Turístic,36109,Barcelona El Prat,2022-08-29,30.7,22.9,1.0
 2022-08-29,Habitatges d'Ús Turístic,36109,Barcelona Fabra,2022-08-29,31.5,20.9,0.3
-2022-08-29,Establiments Hotelers,66510,Barcelona El Prat,2022-08-29,30.7,22.9,
+2022-08-29,Establiments Hotelers,66510,Barcelona El Prat,2022-08-29,30.7,22.9,1.0
 2022-08-29,Establiments Hotelers,66510,Barcelona Fabra,2022-08-29,31.5,20.9,0.3
 2022-08-28,Albergs,7961,Barcelona El Prat,2022-08-28,31.1,22.6,0.0
 2022-08-28,Albergs,7961,Barcelona Fabra,2022-08-28,31.7,21.1,0.0
@@ -2840,11 +2840,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-08-17,Albergs,7271,Barcelona El Prat,2022-08-17,31.2,18.3,45.9
 2022-08-17,Albergs,7271,Barcelona Fabra,2022-08-17,31.5,16.9,13.9
 2022-08-16,Habitatges d'Ús Turístic,35551,Barcelona El Prat,2022-08-16,31.2,23.8,0.0
-2022-08-16,Habitatges d'Ús Turístic,35551,Barcelona Fabra,2022-08-16,31.0,21.7,
+2022-08-16,Habitatges d'Ús Turístic,35551,Barcelona Fabra,2022-08-16,31.0,21.7,7.0
 2022-08-16,Establiments Hotelers,65482,Barcelona El Prat,2022-08-16,31.2,23.8,0.0
-2022-08-16,Establiments Hotelers,65482,Barcelona Fabra,2022-08-16,31.0,21.7,
+2022-08-16,Establiments Hotelers,65482,Barcelona Fabra,2022-08-16,31.0,21.7,7.0
 2022-08-16,Albergs,7580,Barcelona El Prat,2022-08-16,31.2,23.8,0.0
-2022-08-16,Albergs,7580,Barcelona Fabra,2022-08-16,31.0,21.7,
+2022-08-16,Albergs,7580,Barcelona Fabra,2022-08-16,31.0,21.7,7.0
 2022-08-15,Habitatges d'Ús Turístic,36342,Barcelona El Prat,2022-08-15,30.4,24.2,0.0
 2022-08-15,Habitatges d'Ús Turístic,36342,Barcelona Fabra,2022-08-15,32.6,21.7,0.0
 2022-08-15,Albergs,7748,Barcelona El Prat,2022-08-15,30.4,24.2,0.0
@@ -2852,17 +2852,17 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-08-15,Establiments Hotelers,66939,Barcelona El Prat,2022-08-15,30.4,24.2,0.0
 2022-08-15,Establiments Hotelers,66939,Barcelona Fabra,2022-08-15,32.6,21.7,0.0
 2022-08-14,Establiments Hotelers,68617,Barcelona El Prat,2022-08-14,34.6,25.9,2.7
-2022-08-14,Establiments Hotelers,68617,Barcelona Fabra,2022-08-14,37.0,22.5,
+2022-08-14,Establiments Hotelers,68617,Barcelona Fabra,2022-08-14,37.0,22.5,0.0
 2022-08-14,Albergs,7943,Barcelona El Prat,2022-08-14,34.6,25.9,2.7
-2022-08-14,Albergs,7943,Barcelona Fabra,2022-08-14,37.0,22.5,
+2022-08-14,Albergs,7943,Barcelona Fabra,2022-08-14,37.0,22.5,0.0
 2022-08-14,Habitatges d'Ús Turístic,37253,Barcelona El Prat,2022-08-14,34.6,25.9,2.7
-2022-08-14,Habitatges d'Ús Turístic,37253,Barcelona Fabra,2022-08-14,37.0,22.5,
+2022-08-14,Habitatges d'Ús Turístic,37253,Barcelona Fabra,2022-08-14,37.0,22.5,0.0
 2022-08-13,Habitatges d'Ús Turístic,38645,Barcelona El Prat,2022-08-13,33.7,25.3,0.0
-2022-08-13,Habitatges d'Ús Turístic,38645,Barcelona Fabra,2022-08-13,34.3,25.0,
+2022-08-13,Habitatges d'Ús Turístic,38645,Barcelona Fabra,2022-08-13,34.3,25.0,0.0
 2022-08-13,Albergs,8239,Barcelona El Prat,2022-08-13,33.7,25.3,0.0
-2022-08-13,Albergs,8239,Barcelona Fabra,2022-08-13,34.3,25.0,
+2022-08-13,Albergs,8239,Barcelona Fabra,2022-08-13,34.3,25.0,0.0
 2022-08-13,Establiments Hotelers,71180,Barcelona El Prat,2022-08-13,33.7,25.3,0.0
-2022-08-13,Establiments Hotelers,71180,Barcelona Fabra,2022-08-13,34.3,25.0,
+2022-08-13,Establiments Hotelers,71180,Barcelona Fabra,2022-08-13,34.3,25.0,0.0
 2022-08-12,Albergs,8060,Barcelona El Prat,2022-08-12,32.6,24.5,0.0
 2022-08-12,Albergs,8060,Barcelona Fabra,2022-08-12,35.0,23.8,0.0
 2022-08-12,Establiments Hotelers,69632,Barcelona El Prat,2022-08-12,32.6,24.5,0.0
@@ -2894,11 +2894,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-08-08,Establiments Hotelers,67720,Barcelona El Prat,2022-08-08,31.8,22.5,0.0
 2022-08-08,Establiments Hotelers,67720,Barcelona Fabra,2022-08-08,33.8,23.6,0.0
 2022-08-07,Establiments Hotelers,68773,Barcelona El Prat,2022-08-07,31.7,24.4,0.0
-2022-08-07,Establiments Hotelers,68773,Barcelona Fabra,2022-08-07,35.0,22.8,
+2022-08-07,Establiments Hotelers,68773,Barcelona Fabra,2022-08-07,35.0,22.8,0.0
 2022-08-07,Albergs,7961,Barcelona El Prat,2022-08-07,31.7,24.4,0.0
-2022-08-07,Albergs,7961,Barcelona Fabra,2022-08-07,35.0,22.8,
+2022-08-07,Albergs,7961,Barcelona Fabra,2022-08-07,35.0,22.8,0.0
 2022-08-07,Habitatges d'Ús Turístic,37338,Barcelona El Prat,2022-08-07,31.7,24.4,0.0
-2022-08-07,Habitatges d'Ús Turístic,37338,Barcelona Fabra,2022-08-07,35.0,22.8,
+2022-08-07,Habitatges d'Ús Turístic,37338,Barcelona Fabra,2022-08-07,35.0,22.8,0.0
 2022-08-06,Habitatges d'Ús Turístic,38969,Barcelona El Prat,2022-08-06,33.6,22.7,0.0
 2022-08-06,Habitatges d'Ús Turístic,38969,Barcelona Fabra,2022-08-06,34.0,22.7,0.0
 2022-08-06,Establiments Hotelers,71778,Barcelona El Prat,2022-08-06,33.6,22.7,0.0
@@ -2966,11 +2966,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-07-27,Albergs,6667,Barcelona El Prat,2022-07-27,30.1,23.2,0.4
 2022-07-27,Albergs,6667,Barcelona Fabra,2022-07-27,27.6,21.1,0.2
 2022-07-26,Habitatges d'Ús Turístic,32814,Barcelona El Prat,2022-07-26,31.0,25.0,0.7
-2022-07-26,Habitatges d'Ús Turístic,32814,Barcelona Fabra,2022-07-26,29.9,21.0,
+2022-07-26,Habitatges d'Ús Turístic,32814,Barcelona Fabra,2022-07-26,29.9,21.0,0.0
 2022-07-26,Establiments Hotelers,65413,Barcelona El Prat,2022-07-26,31.0,25.0,0.7
-2022-07-26,Establiments Hotelers,65413,Barcelona Fabra,2022-07-26,29.9,21.0,
+2022-07-26,Establiments Hotelers,65413,Barcelona Fabra,2022-07-26,29.9,21.0,0.0
 2022-07-26,Albergs,6872,Barcelona El Prat,2022-07-26,31.0,25.0,0.7
-2022-07-26,Albergs,6872,Barcelona Fabra,2022-07-26,29.9,21.0,
+2022-07-26,Albergs,6872,Barcelona Fabra,2022-07-26,29.9,21.0,0.0
 2022-07-25,Establiments Hotelers,66552,Barcelona El Prat,2022-07-25,31.1,24.5,0.0
 2022-07-25,Establiments Hotelers,66552,Barcelona Fabra,2022-07-25,32.0,22.5,0.0
 2022-07-25,Albergs,6992,Barcelona El Prat,2022-07-25,31.1,24.5,0.0
@@ -3139,11 +3139,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-06-28,Habitatges d'Ús Turístic,29215,Barcelona Fabra,2022-06-28,29.2,17.2,0.0
 2022-06-28,Establiments Hotelers,66293,Barcelona El Prat,2022-06-28,27.7,21.4,0.0
 2022-06-28,Establiments Hotelers,66293,Barcelona Fabra,2022-06-28,29.2,17.2,0.0
-2022-06-27,Establiments Hotelers,65345,Barcelona El Prat,2022-06-27,28.3,22.9,
+2022-06-27,Establiments Hotelers,65345,Barcelona El Prat,2022-06-27,28.3,22.9,0.0
 2022-06-27,Establiments Hotelers,65345,Barcelona Fabra,2022-06-27,28.4,18.8,0.8
-2022-06-27,Albergs,7324,Barcelona El Prat,2022-06-27,28.3,22.9,
+2022-06-27,Albergs,7324,Barcelona El Prat,2022-06-27,28.3,22.9,0.0
 2022-06-27,Albergs,7324,Barcelona Fabra,2022-06-27,28.4,18.8,0.8
-2022-06-27,Habitatges d'Ús Turístic,28797,Barcelona El Prat,2022-06-27,28.3,22.9,
+2022-06-27,Habitatges d'Ús Turístic,28797,Barcelona El Prat,2022-06-27,28.3,22.9,0.0
 2022-06-27,Habitatges d'Ús Turístic,28797,Barcelona Fabra,2022-06-27,28.4,18.8,0.8
 2022-06-26,Albergs,7400,Barcelona El Prat,2022-06-26,27.0,22.4,0.0
 2022-06-26,Albergs,7400,Barcelona Fabra,2022-06-26,28.7,19.7,0.0
@@ -3218,11 +3218,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-06-15,Habitatges d'Ús Turístic,27452,Barcelona El Prat,2022-06-15,30.1,23.4,0.0
 2022-06-15,Habitatges d'Ús Turístic,27452,Barcelona Fabra,2022-06-15,32.4,22.2,0.0
 2022-06-14,Establiments Hotelers,62474,Barcelona El Prat,2022-06-14,29.0,21.6,0.5
-2022-06-14,Establiments Hotelers,62474,Barcelona Fabra,2022-06-14,30.6,22.6,
+2022-06-14,Establiments Hotelers,62474,Barcelona Fabra,2022-06-14,30.6,22.6,0.0
 2022-06-14,Albergs,7003,Barcelona El Prat,2022-06-14,29.0,21.6,0.5
-2022-06-14,Albergs,7003,Barcelona Fabra,2022-06-14,30.6,22.6,
+2022-06-14,Albergs,7003,Barcelona Fabra,2022-06-14,30.6,22.6,0.0
 2022-06-14,Habitatges d'Ús Turístic,27532,Barcelona El Prat,2022-06-14,29.0,21.6,0.5
-2022-06-14,Habitatges d'Ús Turístic,27532,Barcelona Fabra,2022-06-14,30.6,22.6,
+2022-06-14,Habitatges d'Ús Turístic,27532,Barcelona Fabra,2022-06-14,30.6,22.6,0.0
 2022-06-13,Albergs,7046,Barcelona El Prat,2022-06-13,31.0,21.1,0.0
 2022-06-13,Albergs,7046,Barcelona Fabra,2022-06-13,33.1,22.9,0.0
 2022-06-13,Habitatges d'Ús Turístic,27704,Barcelona El Prat,2022-06-13,31.0,21.1,0.0
@@ -3230,11 +3230,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-06-13,Establiments Hotelers,62864,Barcelona El Prat,2022-06-13,31.0,21.1,0.0
 2022-06-13,Establiments Hotelers,62864,Barcelona Fabra,2022-06-13,33.1,22.9,0.0
 2022-06-12,Albergs,7396,Barcelona El Prat,2022-06-12,28.9,21.9,0.0
-2022-06-12,Albergs,7396,Barcelona Fabra,2022-06-12,33.8,21.8,
+2022-06-12,Albergs,7396,Barcelona Fabra,2022-06-12,33.8,21.8,0.0
 2022-06-12,Establiments Hotelers,65981,Barcelona El Prat,2022-06-12,28.9,21.9,0.0
-2022-06-12,Establiments Hotelers,65981,Barcelona Fabra,2022-06-12,33.8,21.8,
+2022-06-12,Establiments Hotelers,65981,Barcelona Fabra,2022-06-12,33.8,21.8,0.0
 2022-06-12,Habitatges d'Ús Turístic,29078,Barcelona El Prat,2022-06-12,28.9,21.9,0.0
-2022-06-12,Habitatges d'Ús Turístic,29078,Barcelona Fabra,2022-06-12,33.8,21.8,
+2022-06-12,Habitatges d'Ús Turístic,29078,Barcelona Fabra,2022-06-12,33.8,21.8,0.0
 2022-06-11,Habitatges d'Ús Turístic,29364,Barcelona El Prat,2022-06-11,28.3,20.6,0.0
 2022-06-11,Habitatges d'Ús Turístic,29364,Barcelona Fabra,2022-06-11,31.2,21.7,0.0
 2022-06-11,Establiments Hotelers,66631,Barcelona El Prat,2022-06-11,28.3,20.6,0.0
@@ -3457,23 +3457,23 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-05-06,Establiments Hotelers,62884,Barcelona Fabra,2022-05-06,22.8,12.8,0.0
 2022-05-06,Albergs,7679,Barcelona El Prat,2022-05-06,21.9,12.4,0.0
 2022-05-06,Albergs,7679,Barcelona Fabra,2022-05-06,22.8,12.8,0.0
-2022-05-05,Habitatges d'Ús Turístic,25064,Barcelona El Prat,2022-05-05,,,1.8
+2022-05-05,Habitatges d'Ús Turístic,25064,Barcelona El Prat,2022-05-05,21.0,13.0,1.8
 2022-05-05,Habitatges d'Ús Turístic,25064,Barcelona Fabra,2022-05-05,22.4,13.4,3.7
-2022-05-05,Establiments Hotelers,60119,Barcelona El Prat,2022-05-05,,,1.8
+2022-05-05,Establiments Hotelers,60119,Barcelona El Prat,2022-05-05,21.0,13.0,1.8
 2022-05-05,Establiments Hotelers,60119,Barcelona Fabra,2022-05-05,22.4,13.4,3.7
-2022-05-05,Albergs,7341,Barcelona El Prat,2022-05-05,,,1.8
+2022-05-05,Albergs,7341,Barcelona El Prat,2022-05-05,21.0,13.0,1.8
 2022-05-05,Albergs,7341,Barcelona Fabra,2022-05-05,22.4,13.4,3.7
-2022-05-04,Establiments Hotelers,56450,Barcelona El Prat,2022-05-04,,,0.0
-2022-05-04,Establiments Hotelers,56450,Barcelona Fabra,2022-05-04,20.2,11.6,
-2022-05-04,Albergs,6893,Barcelona El Prat,2022-05-04,,,0.0
-2022-05-04,Albergs,6893,Barcelona Fabra,2022-05-04,20.2,11.6,
-2022-05-04,Habitatges d'Ús Turístic,23535,Barcelona El Prat,2022-05-04,,,0.0
-2022-05-04,Habitatges d'Ús Turístic,23535,Barcelona Fabra,2022-05-04,20.2,11.6,
-2022-05-03,Habitatges d'Ús Turístic,23524,Barcelona El Prat,2022-05-03,,,0.2
+2022-05-04,Establiments Hotelers,56450,Barcelona El Prat,2022-05-04,21.0,13.0,0.0
+2022-05-04,Establiments Hotelers,56450,Barcelona Fabra,2022-05-04,20.2,11.6,2.0
+2022-05-04,Albergs,6893,Barcelona El Prat,2022-05-04,21.0,13.0,0.0
+2022-05-04,Albergs,6893,Barcelona Fabra,2022-05-04,20.2,11.6,2.0
+2022-05-04,Habitatges d'Ús Turístic,23535,Barcelona El Prat,2022-05-04,21.0,13.0,0.0
+2022-05-04,Habitatges d'Ús Turístic,23535,Barcelona Fabra,2022-05-04,20.2,11.6,2.0
+2022-05-03,Habitatges d'Ús Turístic,23524,Barcelona El Prat,2022-05-03,21.0,14.0,0.2
 2022-05-03,Habitatges d'Ús Turístic,23524,Barcelona Fabra,2022-05-03,18.5,12.1,0.5
-2022-05-03,Establiments Hotelers,56424,Barcelona El Prat,2022-05-03,,,0.2
+2022-05-03,Establiments Hotelers,56424,Barcelona El Prat,2022-05-03,21.0,14.0,0.2
 2022-05-03,Establiments Hotelers,56424,Barcelona Fabra,2022-05-03,18.5,12.1,0.5
-2022-05-03,Albergs,6890,Barcelona El Prat,2022-05-03,,,0.2
+2022-05-03,Albergs,6890,Barcelona El Prat,2022-05-03,21.0,14.0,0.2
 2022-05-03,Albergs,6890,Barcelona Fabra,2022-05-03,18.5,12.1,0.5
 2022-05-02,Establiments Hotelers,58625,Barcelona El Prat,2022-05-02,20.7,15.8,0.0
 2022-05-02,Establiments Hotelers,58625,Barcelona Fabra,2022-05-02,21.0,12.9,0.4
@@ -3487,11 +3487,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-05-01,Habitatges d'Ús Turístic,25600,Barcelona Fabra,2022-05-01,22.2,13.7,0.0
 2022-05-01,Establiments Hotelers,61403,Barcelona El Prat,2022-05-01,21.7,14.6,0.0
 2022-05-01,Establiments Hotelers,61403,Barcelona Fabra,2022-05-01,22.2,13.7,0.0
-2022-04-30,Albergs,7711,Barcelona El Prat,2022-04-30,20.9,15.1,
+2022-04-30,Albergs,7711,Barcelona El Prat,2022-04-30,20.9,15.1,0.0
 2022-04-30,Albergs,7711,Barcelona Fabra,2022-04-30,22.8,14.3,0.6
-2022-04-30,Habitatges d'Ús Turístic,28203,Barcelona El Prat,2022-04-30,20.9,15.1,
+2022-04-30,Habitatges d'Ús Turístic,28203,Barcelona El Prat,2022-04-30,20.9,15.1,0.0
 2022-04-30,Habitatges d'Ús Turístic,28203,Barcelona Fabra,2022-04-30,22.8,14.3,0.6
-2022-04-30,Establiments Hotelers,62825,Barcelona El Prat,2022-04-30,20.9,15.1,
+2022-04-30,Establiments Hotelers,62825,Barcelona El Prat,2022-04-30,20.9,15.1,0.0
 2022-04-30,Establiments Hotelers,62825,Barcelona Fabra,2022-04-30,22.8,14.3,0.6
 2022-04-29,Establiments Hotelers,62650,Barcelona El Prat,2022-04-29,23.5,14.1,0.0
 2022-04-29,Establiments Hotelers,62650,Barcelona Fabra,2022-04-29,24.8,15.6,0.0
@@ -3499,17 +3499,17 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-04-29,Albergs,7689,Barcelona Fabra,2022-04-29,24.8,15.6,0.0
 2022-04-29,Habitatges d'Ús Turístic,28125,Barcelona El Prat,2022-04-29,23.5,14.1,0.0
 2022-04-29,Habitatges d'Ús Turístic,28125,Barcelona Fabra,2022-04-29,24.8,15.6,0.0
-2022-04-28,Habitatges d'Ús Turístic,26577,Barcelona El Prat,2022-04-28,,,0.0
+2022-04-28,Habitatges d'Ús Turístic,26577,Barcelona El Prat,2022-04-28,23.0,13.0,0.0
 2022-04-28,Habitatges d'Ús Turístic,26577,Barcelona Fabra,2022-04-28,21.7,13.5,0.0
-2022-04-28,Albergs,7266,Barcelona El Prat,2022-04-28,,,0.0
+2022-04-28,Albergs,7266,Barcelona El Prat,2022-04-28,23.0,13.0,0.0
 2022-04-28,Albergs,7266,Barcelona Fabra,2022-04-28,21.7,13.5,0.0
-2022-04-28,Establiments Hotelers,59203,Barcelona El Prat,2022-04-28,,,0.0
+2022-04-28,Establiments Hotelers,59203,Barcelona El Prat,2022-04-28,23.0,13.0,0.0
 2022-04-28,Establiments Hotelers,59203,Barcelona Fabra,2022-04-28,21.7,13.5,0.0
-2022-04-27,Habitatges d'Ús Turístic,25036,Barcelona El Prat,2022-04-27,,,0.0
+2022-04-27,Habitatges d'Ús Turístic,25036,Barcelona El Prat,2022-04-27,22.0,12.0,0.0
 2022-04-27,Habitatges d'Ús Turístic,25036,Barcelona Fabra,2022-04-27,20.9,14.0,0.0
-2022-04-27,Albergs,6845,Barcelona El Prat,2022-04-27,,,0.0
+2022-04-27,Albergs,6845,Barcelona El Prat,2022-04-27,22.0,12.0,0.0
 2022-04-27,Albergs,6845,Barcelona Fabra,2022-04-27,20.9,14.0,0.0
-2022-04-27,Establiments Hotelers,55770,Barcelona El Prat,2022-04-27,,,0.0
+2022-04-27,Establiments Hotelers,55770,Barcelona El Prat,2022-04-27,22.0,12.0,0.0
 2022-04-27,Establiments Hotelers,55770,Barcelona Fabra,2022-04-27,20.9,14.0,0.0
 2022-04-26,Albergs,6879,Barcelona El Prat,2022-04-26,20.4,10.3,0.0
 2022-04-26,Albergs,6879,Barcelona Fabra,2022-04-26,22.3,12.0,0.0
@@ -3541,17 +3541,17 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-04-22,Albergs,7592,Barcelona Fabra,2022-04-22,18.9,8.9,0.9
 2022-04-22,Establiments Hotelers,61856,Barcelona El Prat,2022-04-22,18.1,10.2,0.0
 2022-04-22,Establiments Hotelers,61856,Barcelona Fabra,2022-04-22,18.9,8.9,0.9
-2022-04-21,Habitatges d'Ús Turístic,26511,Barcelona El Prat,2022-04-21,,,12.7
+2022-04-21,Habitatges d'Ús Turístic,26511,Barcelona El Prat,2022-04-21,19.0,11.0,12.7
 2022-04-21,Habitatges d'Ús Turístic,26511,Barcelona Fabra,2022-04-21,13.1,8.2,11.9
-2022-04-21,Albergs,7248,Barcelona El Prat,2022-04-21,,,12.7
+2022-04-21,Albergs,7248,Barcelona El Prat,2022-04-21,19.0,11.0,12.7
 2022-04-21,Albergs,7248,Barcelona Fabra,2022-04-21,13.1,8.2,11.9
-2022-04-21,Establiments Hotelers,59055,Barcelona El Prat,2022-04-21,,,12.7
+2022-04-21,Establiments Hotelers,59055,Barcelona El Prat,2022-04-21,19.0,11.0,12.7
 2022-04-21,Establiments Hotelers,59055,Barcelona Fabra,2022-04-21,13.1,8.2,11.9
-2022-04-20,Habitatges d'Ús Turístic,25344,Barcelona El Prat,2022-04-20,,,6.8
+2022-04-20,Habitatges d'Ús Turístic,25344,Barcelona El Prat,2022-04-20,19.0,11.0,6.8
 2022-04-20,Habitatges d'Ús Turístic,25344,Barcelona Fabra,2022-04-20,12.9,10.5,6.3
-2022-04-20,Albergs,6929,Barcelona El Prat,2022-04-20,,,6.8
+2022-04-20,Albergs,6929,Barcelona El Prat,2022-04-20,19.0,11.0,6.8
 2022-04-20,Albergs,6929,Barcelona Fabra,2022-04-20,12.9,10.5,6.3
-2022-04-20,Establiments Hotelers,56457,Barcelona El Prat,2022-04-20,,,6.8
+2022-04-20,Establiments Hotelers,56457,Barcelona El Prat,2022-04-20,19.0,11.0,6.8
 2022-04-20,Establiments Hotelers,56457,Barcelona Fabra,2022-04-20,12.9,10.5,6.3
 2022-04-19,Establiments Hotelers,57911,Barcelona El Prat,2022-04-19,19.7,11.5,0.5
 2022-04-19,Establiments Hotelers,57911,Barcelona Fabra,2022-04-19,18.8,11.2,0.7
@@ -3619,23 +3619,23 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-04-09,Habitatges d'Ús Turístic,29503,Barcelona Fabra,2022-04-09,15.9,10.0,0.0
 2022-04-09,Establiments Hotelers,65720,Barcelona El Prat,2022-04-09,19.9,13.2,0.0
 2022-04-09,Establiments Hotelers,65720,Barcelona Fabra,2022-04-09,15.9,10.0,0.0
-2022-04-08,Establiments Hotelers,62920,Barcelona El Prat,2022-04-08,,,0.0
+2022-04-08,Establiments Hotelers,62920,Barcelona El Prat,2022-04-08,19.0,12.0,0.0
 2022-04-08,Establiments Hotelers,62920,Barcelona Fabra,2022-04-08,23.5,12.9,0.0
-2022-04-08,Habitatges d'Ús Turístic,28245,Barcelona El Prat,2022-04-08,,,0.0
+2022-04-08,Habitatges d'Ús Turístic,28245,Barcelona El Prat,2022-04-08,19.0,12.0,0.0
 2022-04-08,Habitatges d'Ús Turístic,28245,Barcelona Fabra,2022-04-08,23.5,12.9,0.0
-2022-04-08,Albergs,7722,Barcelona El Prat,2022-04-08,,,0.0
+2022-04-08,Albergs,7722,Barcelona El Prat,2022-04-08,19.0,12.0,0.0
 2022-04-08,Albergs,7722,Barcelona Fabra,2022-04-08,23.5,12.9,0.0
-2022-04-07,Habitatges d'Ús Turístic,26148,Barcelona El Prat,2022-04-07,,,0.0
+2022-04-07,Habitatges d'Ús Turístic,26148,Barcelona El Prat,2022-04-07,19.0,11.0,0.0
 2022-04-07,Habitatges d'Ús Turístic,26148,Barcelona Fabra,2022-04-07,24.1,9.9,0.0
-2022-04-07,Albergs,7149,Barcelona El Prat,2022-04-07,,,0.0
+2022-04-07,Albergs,7149,Barcelona El Prat,2022-04-07,19.0,11.0,0.0
 2022-04-07,Albergs,7149,Barcelona Fabra,2022-04-07,24.1,9.9,0.0
-2022-04-07,Establiments Hotelers,58247,Barcelona El Prat,2022-04-07,,,0.0
+2022-04-07,Establiments Hotelers,58247,Barcelona El Prat,2022-04-07,19.0,11.0,0.0
 2022-04-07,Establiments Hotelers,58247,Barcelona Fabra,2022-04-07,24.1,9.9,0.0
-2022-04-06,Albergs,6749,Barcelona El Prat,2022-04-06,,,0.0
+2022-04-06,Albergs,6749,Barcelona El Prat,2022-04-06,18.0,9.0,0.0
 2022-04-06,Albergs,6749,Barcelona Fabra,2022-04-06,18.4,8.6,0.0
-2022-04-06,Establiments Hotelers,54989,Barcelona El Prat,2022-04-06,,,0.0
+2022-04-06,Establiments Hotelers,54989,Barcelona El Prat,2022-04-06,18.0,9.0,0.0
 2022-04-06,Establiments Hotelers,54989,Barcelona Fabra,2022-04-06,18.4,8.6,0.0
-2022-04-06,Habitatges d'Ús Turístic,24685,Barcelona El Prat,2022-04-06,,,0.0
+2022-04-06,Habitatges d'Ús Turístic,24685,Barcelona El Prat,2022-04-06,18.0,9.0,0.0
 2022-04-06,Habitatges d'Ús Turístic,24685,Barcelona Fabra,2022-04-06,18.4,8.6,0.0
 2022-04-05,Habitatges d'Ús Turístic,24395,Barcelona El Prat,2022-04-05,15.1,5.1,0.0
 2022-04-05,Habitatges d'Ús Turístic,24395,Barcelona Fabra,2022-04-05,16.5,6.8,0.0
@@ -3704,11 +3704,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-03-26,Establiments Hotelers,48492,Barcelona El Prat,2022-03-26,14.1,11.4,2.3
 2022-03-26,Establiments Hotelers,48492,Barcelona Fabra,2022-03-26,11.0,9.0,1.5
 2022-03-25,Albergs,5639,Barcelona El Prat,2022-03-25,17.1,11.8,0.0
-2022-03-25,Albergs,5639,Barcelona Fabra,2022-03-25,13.9,8.5,
+2022-03-25,Albergs,5639,Barcelona Fabra,2022-03-25,13.9,8.5,1.0
 2022-03-25,Habitatges d'Ús Turístic,21444,Barcelona El Prat,2022-03-25,17.1,11.8,0.0
-2022-03-25,Habitatges d'Ús Turístic,21444,Barcelona Fabra,2022-03-25,13.9,8.5,
+2022-03-25,Habitatges d'Ús Turístic,21444,Barcelona Fabra,2022-03-25,13.9,8.5,1.0
 2022-03-25,Establiments Hotelers,49301,Barcelona El Prat,2022-03-25,17.1,11.8,0.0
-2022-03-25,Establiments Hotelers,49301,Barcelona Fabra,2022-03-25,13.9,8.5,
+2022-03-25,Establiments Hotelers,49301,Barcelona Fabra,2022-03-25,13.9,8.5,1.0
 2022-03-24,Albergs,5036,Barcelona El Prat,2022-03-24,14.3,9.7,0.0
 2022-03-24,Albergs,5036,Barcelona Fabra,2022-03-24,11.6,7.3,0.0
 2022-03-24,Establiments Hotelers,44031,Barcelona El Prat,2022-03-24,14.3,9.7,0.0
@@ -3721,11 +3721,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-03-23,Habitatges d'Ús Turístic,17743,Barcelona Fabra,2022-03-23,11.5,6.7,0.7
 2022-03-23,Albergs,4666,Barcelona El Prat,2022-03-23,14.8,8.4,3.7
 2022-03-23,Albergs,4666,Barcelona Fabra,2022-03-23,11.5,6.7,0.7
-2022-03-22,Establiments Hotelers,40668,Barcelona El Prat,2022-03-22,15.2,10.2,
+2022-03-22,Establiments Hotelers,40668,Barcelona El Prat,2022-03-22,15.2,10.2,0.0
 2022-03-22,Establiments Hotelers,40668,Barcelona Fabra,2022-03-22,12.2,7.1,5.2
-2022-03-22,Albergs,4651,Barcelona El Prat,2022-03-22,15.2,10.2,
+2022-03-22,Albergs,4651,Barcelona El Prat,2022-03-22,15.2,10.2,0.0
 2022-03-22,Albergs,4651,Barcelona Fabra,2022-03-22,12.2,7.1,5.2
-2022-03-22,Habitatges d'Ús Turístic,17689,Barcelona El Prat,2022-03-22,15.2,10.2,
+2022-03-22,Habitatges d'Ús Turístic,17689,Barcelona El Prat,2022-03-22,15.2,10.2,0.0
 2022-03-22,Habitatges d'Ús Turístic,17689,Barcelona Fabra,2022-03-22,12.2,7.1,5.2
 2022-03-21,Establiments Hotelers,44786,Barcelona El Prat,2022-03-21,16.5,12.0,1.6
 2022-03-21,Establiments Hotelers,44786,Barcelona Fabra,2022-03-21,12.4,8.2,2.1
@@ -3739,11 +3739,11 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-03-20,Establiments Hotelers,50303,Barcelona Fabra,2022-03-20,13.4,8.4,0.8
 2022-03-20,Albergs,5753,Barcelona El Prat,2022-03-20,15.8,9.7,0.2
 2022-03-20,Albergs,5753,Barcelona Fabra,2022-03-20,13.4,8.4,0.8
-2022-03-19,Albergs,5590,Barcelona El Prat,2022-03-19,14.0,10.0,
+2022-03-19,Albergs,5590,Barcelona El Prat,2022-03-19,14.0,10.0,0.0
 2022-03-19,Albergs,5590,Barcelona Fabra,2022-03-19,10.3,8.4,0.6
-2022-03-19,Establiments Hotelers,48876,Barcelona El Prat,2022-03-19,14.0,10.0,
+2022-03-19,Establiments Hotelers,48876,Barcelona El Prat,2022-03-19,14.0,10.0,0.0
 2022-03-19,Establiments Hotelers,48876,Barcelona Fabra,2022-03-19,10.3,8.4,0.6
-2022-03-19,Habitatges d'Ús Turístic,21259,Barcelona El Prat,2022-03-19,14.0,10.0,
+2022-03-19,Habitatges d'Ús Turístic,21259,Barcelona El Prat,2022-03-19,14.0,10.0,0.0
 2022-03-19,Habitatges d'Ús Turístic,21259,Barcelona Fabra,2022-03-19,10.3,8.4,0.6
 2022-03-18,Habitatges d'Ús Turístic,21247,Barcelona El Prat,2022-03-18,16.9,13.1,1.3
 2022-03-18,Habitatges d'Ús Turístic,21247,Barcelona Fabra,2022-03-18,13.4,10.1,1.3
@@ -3751,18 +3751,18 @@ Day,tipus allotjament,pernoctacions,estacion,fecha,temp_max,temp_min,precipitaci
 2022-03-18,Albergs,5587,Barcelona Fabra,2022-03-18,13.4,10.1,1.3
 2022-03-18,Establiments Hotelers,48849,Barcelona El Prat,2022-03-18,16.9,13.1,1.3
 2022-03-18,Establiments Hotelers,48849,Barcelona Fabra,2022-03-18,13.4,10.1,1.3
-2022-03-17,Albergs,4959,Barcelona El Prat,2022-03-17,17.0,13.6,
+2022-03-17,Albergs,4959,Barcelona El Prat,2022-03-17,17.0,13.6,0.0
 2022-03-17,Albergs,4959,Barcelona Fabra,2022-03-17,14.1,10.4,0.0
-2022-03-17,Establiments Hotelers,43358,Barcelona El Prat,2022-03-17,17.0,13.6,
+2022-03-17,Establiments Hotelers,43358,Barcelona El Prat,2022-03-17,17.0,13.6,0.0
 2022-03-17,Establiments Hotelers,43358,Barcelona Fabra,2022-03-17,14.1,10.4,0.0
-2022-03-17,Habitatges d'Ús Turístic,18859,Barcelona El Prat,2022-03-17,17.0,13.6,
+2022-03-17,Habitatges d'Ús Turístic,18859,Barcelona El Prat,2022-03-17,17.0,13.6,0.0
 2022-03-17,Habitatges d'Ús Turístic,18859,Barcelona Fabra,2022-03-17,14.1,10.4,0.0
 2022-03-16,Habitatges d'Ús Turístic,17408,Barcelona El Prat,2022-03-16,16.0,13.7,0.0
-2022-03-16,Habitatges d'Ús Turístic,17408,Barcelona Fabra,2022-03-16,12.2,10.7,
+2022-03-16,Habitatges d'Ús Turístic,17408,Barcelona Fabra,2022-03-16,12.2,10.7,0.0
 2022-03-16,Establiments Hotelers,40023,Barcelona El Prat,2022-03-16,16.0,13.7,0.0
-2022-03-16,Establiments Hotelers,40023,Barcelona Fabra,2022-03-16,12.2,10.7,
+2022-03-16,Establiments Hotelers,40023,Barcelona Fabra,2022-03-16,12.2,10.7,0.0
 2022-03-16,Albergs,4578,Barcelona El Prat,2022-03-16,16.0,13.7,0.0
-2022-03-16,Albergs,4578,Barcelona Fabra,2022-03-16,12.2,10.7,
+2022-03-16,Albergs,4578,Barcelona Fabra,2022-03-16,12.2,10.7,0.0
 2022-03-15,Habitatges d'Ús Turístic,17707,Barcelona El Prat,2022-03-15,15.6,13.7,0.0
 2022-03-15,Habitatges d'Ús Turístic,17707,Barcelona Fabra,2022-03-15,11.9,10.9,0.0
 2022-03-15,Establiments Hotelers,40709,Barcelona El Prat,2022-03-15,15.6,13.7,0.0
