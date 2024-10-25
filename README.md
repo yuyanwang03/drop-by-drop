@@ -24,8 +24,10 @@ We assume that the data folder looks like:
 	districts_geo.geojson
 	gencat_turism.xlsx
 	temperature_precipitation.csv
-	tourism_flux.csv
-    > local_data
+  pernoctacons_2019_2024.csv
+  tourism_flux.csv
+	tourism_temp_bcn.csv
+    > local_data (this folder will not be in the repo for sizing issues)
         > old
             dades_datachallenge.csv
             daily_dataset_economic_activity.csv
@@ -33,6 +35,8 @@ We assume that the data folder looks like:
         daily_dataset_economic_activity.csv
         daily_dataset.csv
         hours_lecture.parquet
+        merged_data.csv (generated after running the data_processing_merge.ipynb)
+      
     
 ```
 ## Data origin
