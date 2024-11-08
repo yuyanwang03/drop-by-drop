@@ -40,6 +40,8 @@ This collaboration with AGBAR aligns with our goal of applying data science and 
  - tourism_flux: Eurocontrol
    https://www.eurocontrol.int/Economics
  - https://github.com/martgnz/bcn-geodata/blob/master/seccio-censal/seccio-censal.geojson
+ - Oficina Municipal de Dades: Ajuntament de Barcelona.
+   https://dades.ajuntament.barcelona.cat/consum-privat/index.Rmd
 
 
 ## Structure of the data folder
@@ -55,16 +57,15 @@ We assume that the data folder looks like:
 	temperature_precipitation.csv
 	tourism_flux.csv
 	tourism_temp_bcn.csv
+	targetes_preprocessed.csv (generated after running targetes.ipynb or downloading from git)
+	dataset_targetes.csv
+	total_transacions.csv
     > local_data (this folder will not be in the repo for sizing issues)
+	daily_dataset.csv  
         > old
             dades_datachallenge.csv
             daily_dataset_economic_activity.csv
-            daily_dataset.csv  
-        daily_dataset_economic_activity.csv
-        daily_dataset.csv
-        hours_lecture.parquet
-        merged_cleaned_data.csv
-        merged_data.csv (generated after running the data_processing_merge.ipynb)
+        merged_cleaned_data.csv (generated after running data_processing.ipynb)
 ```
 
 ## How to Run the Notebooks
