@@ -49,23 +49,23 @@ This collaboration with AGBAR aligns with our goal of applying data science and 
 We assume that the data folder looks like:
 
 ```
-> data 
-	census_geo.geojson
-	districts_geo.geojson
-	gencat_turism.xlsx
-	pernoctacons_2019_2024.csv
-	temperature_precipitation.csv
-	tourism_flux.csv
-	tourism_temp_bcn.csv
-	targetes_preprocessed.csv (generated after running targetes.ipynb or downloading from git)
-	dataset_targetes.csv
-	total_transacions.csv
-    > local_data (this folder will not be in the repo for sizing issues)
-	daily_dataset.csv  
-        > old
-            dades_datachallenge.csv
-            daily_dataset_economic_activity.csv
-        merged_cleaned_data.csv (generated after running data_processing.ipynb)
+data/
+├── census_geo.geojson
+├── districts_geo.geojson
+├── gencat_turism.xlsx
+├── pernoctacons_2019_2024.csv
+├── temperature_precipitation.csv
+├── tourism_flux.csv
+├── tourism_temp_bcn.csv
+├── targetes_preprocessed.csv  # generated after running targetes.ipynb or downloading from git
+├── dataset_targetes.csv
+├── total_transacions.csv
+└── local_data/  # this folder will not be in the repo for sizing issues
+    ├── daily_dataset.csv
+    └── old/
+        ├── dades_datachallenge.csv
+        ├── daily_dataset_economic_activity.csv
+    └── merged_cleaned_data.csv  # generated after running data_processing.ipynb
 ```
 
 ## How to Run the Notebooks
