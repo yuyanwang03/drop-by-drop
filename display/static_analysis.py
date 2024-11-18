@@ -10,14 +10,14 @@ from static_graphs import plot_common
 def dynamic_grouping_plot(data):
     # Let the user select a year or 'Tots els anys' (All Years)
     year_selection = st.selectbox(
-        'Select Year',
+        'Seleccionar any',
         ['Tots els anys', '2021', '2022', '2023']
     )
 
     # If a specific year is selected, show the month selection
     if year_selection != 'Tots els anys':
         month_selection = st.selectbox(
-            'Select Month',
+            'Seleccionar mes',
             ['Tots els mesos', 'Gener', 'Febrer', 'Març', 'Abril', 'Maig', 'Juny', 'Juliol', 'Agost', 'Setembre', 'Octubre', 'Novembre', 'Desembre']
         )
     else:
@@ -29,12 +29,12 @@ def dynamic_grouping_plot(data):
         col1, col2 = st.columns(2)
         # Determine the appropriate plot grouping based on user selection
         if year_selection == 'Tots els anys':
-            plot_common(data, col1, col2, group_by='Month')  # Grouping by month across all years
+            plot_common(data, col1, col2, group_by='Mes')  # Grouping by month across all years
         elif month_selection == 'Tots els mesos':
-            plot_common(data, col1, col2, year=year_selection, group_by='Week')  # Grouping by week for selected year
+            plot_common(data, col1, col2, year=year_selection, group_by='Setmana')  # Grouping by week for selected year
         elif month_selection:
             month_number = {'Gener': 1, 'Febrer': 2, 'Març': 3, 'Abril': 4, 'Maig': 5, 'Juny': 6, 'Juliol': 7, 'Agost': 8, 'Setembre': 9, 'Octubre': 10, 'Novembre': 11, 'Desembre': 12}
-            plot_common(data, col1, col2, year=year_selection, month=month_number[month_selection], group_by='Day')  # Grouping by day for selected year and month
+            plot_common(data, col1, col2, year=year_selection, month=month_number[month_selection], group_by='Dia')  # Grouping by day for selected year and month
         else:
             st.warning("Please make valid selections to generate the plots.")
 

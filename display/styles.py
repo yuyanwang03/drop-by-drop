@@ -78,5 +78,9 @@ def inject_custom_css():
         font-weight: 600;
     }}
 
+    label {{
+            color: white !important;
+    }}
+
     </style>
     """, unsafe_allow_html=True)

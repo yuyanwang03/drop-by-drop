@@ -4,12 +4,11 @@ from styles import inject_custom_css
 def about_us():
     inject_custom_css()
 
-    st.title("About Us")
+    st.title("Sobre Nosaltres")
     
     intro = ("""
-    We are five students of Mathematical Engineering in Data Science with strong experience in various programming languages such as Python, Java, and C++. 
-    Our expertise in Data Mining and understanding of Recommendation Systems allows us to develop a probabilistic model to represent user opinions effectively.
-    """)
+        Som cinc estudiants d'Enginyeria Matemàtica en Ciència de Dades amb una sòlida experiència en diversos llenguatges de programació, com ara Python, Java i C++. 
+        La nostra experiència en Mineria de Dades i el nostre coneixement en Mahcine Learning ens permeten desenvolupar un model predictiu per simular el consum d'aigua. """)
 
     st.write(f'<div class="stTextContainer">{intro}</div>', unsafe_allow_html=True)
 
@@ -41,15 +40,6 @@ def about_us():
             "image": "https://media.licdn.com/dms/image/v2/D4E03AQHJMsWc_cbqUQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673880445852?e=1736380800&v=beta&t=LWpE_eugEjTgNLJFYmlhP2MgAyxd-xcxiTORK1sDCxw",
         }
     ]
-
-
-   
-    # Display each team member's image on the left, text on the right
-    #for member in team:
-     #   st.image(member["image"], width=150, use_column_width=False)  # Image on the left
-      #  st.write(f'<div class="stTextContainer">{member["name"]}</div>', unsafe_allow_html=True)
-       # st.write(f'<a href="{member["linkedin"]}"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30"></a>    {member["linkedin"]}', unsafe_allow_html=True)
-        #st.write("---")
 
 # Create columns
     cols = st.columns(2)
@@ -85,10 +75,10 @@ def about_us():
                     border-radius: 10px;
                     text-align: center;
                 ">
-            For further inquiries, feel free to reach us via email.\n\n
+            Per preguntes, siusplau adreçeu-vos al següent correu.\n\n
             Contact: 
             <a href="mailto:paula.mateos01@estudiant.upf.edu">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="30">
-            </a> paula.mate0s01@estudiant.upf.edu
+            </a> paula.mateos01@estudiant.upf.edu
              </div>
         """, unsafe_allow_html=True)
