@@ -15,8 +15,8 @@
 This document and all content within are proprietary to Project Core Team T101.A and are intended solely for the use of authorized individuals within the project. Unauthorized sharing, copying, or use of this document, in whole or in part, is prohibited without explicit consent from the Project Core Team T101.A.
 
 **Control Information**
-* Version: 1.0
-* Date of Issue: 5 November 2024
+* Version: 1.1
+* Date of Issue: 19 November 2024
 * Responsible Party: Yuyan Wang (Implementation Responsible)
 * Approval Status: Internal Use Only
 * Access Permissions: Restricted to Project Core Team T101.A and approved collaborators
