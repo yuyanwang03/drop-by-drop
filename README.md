@@ -93,3 +93,11 @@ This has been proven to be working on MacOS.
 
 2. Use the corresponding Python3 as the Jupyter Notebook Kernel.
 3. And you would be ready to go :)
+
+## How to run the report on jupyter directlly
+
+With the following command a jupyter tab will open on the default search engine.
+
+    ```
+    $ jupyter-lab&
+    ```
