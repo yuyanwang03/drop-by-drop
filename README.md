@@ -98,6 +98,6 @@ This has been proven to be working on MacOS.
 
 With the following command a jupyter tab will open on the default search engine.
 
-    ```
+```
     $ jupyter-lab&
-    ```
+```
