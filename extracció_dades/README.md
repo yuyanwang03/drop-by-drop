@@ -24,28 +24,13 @@ Aquestes dades són indispensables per entendre la variabilitat del consum en fu
 
 La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.  
 
+### Extracció Inicial
 
-### Dades meteorològiques i precipitacions:
-
-  #### Extracció Inicial
+#### Dades meteorològiques i precipitacions:
 
   Per millorar l'anàlisi, integrem dades meteorològiques, això ho fem per afegir valors que tinguin trascendencia en el consum de l'aigua, ja que el nombre de turistes no és l'únic que afecta al consum. És per això que hem decidit incloure les temperatures màximes i mínimes diàries i els nivells de precipitació. Les dades utilitzades s'obtenen de la API de la AEMET: https://www.aemet.es/ca/datos_abiertos/AEMET_OpenData
 
   Aquestes dades es grupen per data per calcular els valors mitjans, aquesta mitjana l'hem de fer ja que la base de dades utilitzada compta amb diferents observatoris des d'on es mesuren les dades, i per tant aquestes varien, però nosaltres preferim una mitjana per temes de simplicitat. A continuació, fusionem aquesta informació amb les dades netejades de consum d’aigua utilitzant la data com a clau. Aquest pas permet enllaçar els patrons meteorològics amb l’ús d’aigua, facilitant l’estudi de la seva influència en les tendències de consum.
-
-  El codi per a l'extracció inicial es pot trobar a: [Extracció inicial de dades AEMET](altres\extracció_AEMET_inicial.py)
-
-  #### Escalavilitat
-
-  L'API d'AEMET (Agencia Estatal de Meteorología) permet accedir a dades meteorològiques en temps real o històriques proporcionades per les seves estacions meteorològiques. Per accedir a aquestes dades, cal obtenir una **clau d'API** des del seu portal oficial. Aquesta clau s'inclou en les sol·licituds per autenticar-les.
-
-  ##### Funcionament bàsic
-  1. **Autenticació**: Cada sol·licitud a l'API ha d'incloure la clau generada.
-  2. **Endponts**: L'API ofereix diferents punts d'accés per a dades com ara:
-    - Prediccions meteorològiques.
-    - Observacions històriques.
-    - Dades puntuals per estació meteorològica.
-  3. **Resposta**: Les dades es tornen en format JSON, amb valors com ara temperatures, precipitacions, velocitat del vent, etc.
 
   ##### Mesures de temperatura i precipitació
   Les dades meteorològiques que utilitzem són:
@@ -60,18 +45,8 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   - **Estació 0201X - Barcelona Drassanes**
 
 
-  Per continuar tenint la informació del temps actualitzada podeu fer servir el següent codi: [Extracció mensual de dades AEMET](altres\extracció_AEMET.py)
-  - Recordeu d'afegir la vostra **API key** proporcionada per **AEMET**.
-  - El codi està fet per treure les dades meteorològiques de l'últim mes. Per canviar els dies seleccionats, modifiqueu la secció sota # Calcular les dates per l'últim mes
-  - El codi està pensat per treure en format csv les dades necessàries de l'últim mes. Si es volgués, també es podria afegir les noves línies al csv global.
 
-  Per a més informació visiteu: https://opendata.aemet.es/centrodedescargas/inicio
-
-
-
-### Dades del turisme:
-
-  #### Extracció inicial
+#### Dades del turisme:
 
   Aquesta base de dades inclou les pernocatacions mensuals a Barcelona i el tipus d'allotjament:Establiments Hotelers, Albergs o Habitatges d'Ús Turístic, però aquests ultims els unificarem tots en un ja que per ara no és una dada relevant.
 
@@ -95,4 +70,29 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
 
   El resultat és un conjunt de dades unificat que vincula el consum d’aigua amb variables meteorològiques i turístiques, permetent una anàlisi exhaustiva de com aquests factors afecten les tendències diàries de consum d’aigua.
 
-  #### Escalavilitat
+
+## Escalavilitat
+
+#### Dades meteorològiques i precipitacions:
+
+  L'API d'AEMET (Agencia Estatal de Meteorología) permet accedir a dades meteorològiques en temps real o històriques proporcionades per les seves estacions meteorològiques. Per accedir a aquestes dades, cal obtenir una **clau d'API** des del seu portal oficial. Aquesta clau s'inclou en les sol·licituds per autenticar-les.
+
+  ##### Funcionament bàsic
+  1. **Autenticació**: Cada sol·licitud a l'API ha d'incloure la clau generada.
+  2. **Endponts**: L'API ofereix diferents punts d'accés per a dades com ara:
+    - Prediccions meteorològiques.
+    - Observacions històriques.
+    - Dades puntuals per estació meteorològica.
+  3. **Resposta**: Les dades es tornen en format JSON, amb valors com ara temperatures, precipitacions, velocitat del vent, etc.
+
+
+  El codi per a l'extracció inicial es pot trobar a: [Extracció inicial de dades AEMET](altres\extracció_AEMET_inicial.py)
+
+  Per continuar tenint la informació del temps actualitzada podeu fer servir el següent codi: [Extracció mensual de dades AEMET](altres\extracció_AEMET.py)
+  - Recordeu d'afegir la vostra **API key** proporcionada per **AEMET**.
+  - El codi està fet per treure les dades meteorològiques de l'últim mes. Per canviar els dies seleccionats, modifiqueu la secció sota # Calcular les dates per l'últim mes
+  - El codi està pensat per treure en format csv les dades necessàries de l'últim mes. Si es volgués, també es podria afegir les noves línies al csv global.
+
+  Per a més informació visiteu: https://opendata.aemet.es/centrodedescargas/inicio
+
+#### Dades del turisme:
