@@ -67,30 +67,29 @@ The deliverables related with this project is defined in this following image:
 
 ## 2. Data Processing:
 
-The project is based on the **daily_dataset.csv** dataset provided by AGBAR, which includes detailed data on daily water consumption at the census section level. This dataset serves as the primary foundation for our model and contains the following fields:  
+El projecte parteix del dataset **daily_dataset.csv** proporcionat per AGBAR, que inclou dades detallades sobre el consum d’aigua a nivell diari i per secció censal. Aquest dataset constitueix la base principal del nostre model i conté els camps següents:  
+- **Secció censal, districte i municipi**: per identificar zones geogràfiques concretes de consum.  
+- **Data**: per analitzar la distribució temporal del consum d’aigua.  
+- **Ús**: que especifica si l’aigua és utilitzada per a fins domèstics, industrials, comercials, o altres.  
+- **Nombre de comptadors**: que indica quants dispositius registren el consum a cada secció.  
+- **Consum acumulat (L/dia)**: volum d’aigua consumit diàriament en litres.  
 
-- **Census section, district, and municipality**: to identify specific geographical areas of consumption.  
-- **Date**: to analyze the temporal distribution of water consumption.  
-- **Usage**: specifying whether the water is used for domestic, industrial, commercial, or other purposes.  
-- **Number of meters**: indicating how many devices record consumption in each section.  
-- **Accumulated consumption (L/day)**: the volume of water consumed daily in liters.  
+Aquestes dades són indispensables per entendre la variabilitat del consum en funció de la geografia i del tipus d’ús. Tanmateix, per desenvolupar un model que integri els efectes del turisme i d’altres factors externs, necessitem ampliar aquesta informació amb noves fonts de dades:  
 
-These data are essential to understanding consumption variability based on geography and type of usage. However, to develop a model that integrates the effects of tourism and other external factors, we need to enrich this information with additional data sources:  
+1. **Dades meteorològiques**:  
+   - **Temperatura màxima i mínima diària**: el clima influeix directament en el consum d’aigua. Per exemple, en dies de calor intensa, el consum augmenta, especialment a zones turístiques amb activitats a l’aire lliure.  
+   - **Precipitacions acumulades**: els dies de pluja redueixen el consum d’aigua en activitats a l’exterior, com el reg o les dutxes a platges i piscines.  
 
-1. **Weather data**:  
-   - **Daily maximum and minimum temperatures**: Climate directly influences water consumption. For example, on extremely hot days, consumption increases, especially in tourist areas with outdoor activities.  
-   - **Accumulated precipitation**: Rainy days reduce water usage in outdoor activities such as irrigation or showers at beaches and pools.  
+   Aquestes dades són crucials per ajustar el model als patrons estacionals i climàtics, que tenen un gran impacte en el consum d’aigua.  
 
-   These data are crucial for adjusting the model to seasonal and climatic patterns, which significantly impact water consumption.  
+2. **Dades de turisme**:  
+   - **Pernoctacions diàries**: necessitem saber quants turistes s’allotgen a la ciutat cada dia. Aquesta informació reflecteix l'impacte del turisme en zones concretes i ajuda a identificar com els fluxos de visitants contribueixen al consum d’aigua en serveis com hotels, restaurants i activitats recreatives.  
 
-2. **Tourism data**:  
-   - **Daily overnight stays**: We need to know how many tourists stay in the city each day. This information reflects the impact of tourism in specific areas and helps identify how visitor flows contribute to water usage in services such as hotels, restaurants, and recreational activities.  
+   El turisme és un dels factors principals que volem analitzar. Per això, aquestes dades són essencials per segmentar el consum d’aigua atribuïble als visitants, diferenciant-lo del consum residencial o d'altres usos.  
 
-   Tourism is one of the main factors we aim to analyze. Therefore, this data is essential for segmenting water consumption attributable to visitors, distinguishing it from residential or other uses.  
+La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.   
 
-Integrating these data sources will allow us to develop a predictive model that links water consumption to climatic and tourism variables, providing more precise and useful predictions for sustainable water resource management. This will enable us to answer key questions, such as the specific impact of tourism in certain areas or the effect of extreme weather conditions on overall consumption.  
-
-For more information go to: [extracció_dades](/extracció_dades)
+Per més informació: [extracció_dades](/extracció_dades)
 
 ## 3. Model
   # TO DO
