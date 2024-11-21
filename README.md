@@ -51,45 +51,38 @@ With the following command a jupyter tab will open on the default search engine.
 
 ### Project Proposal
 
-Aigües Barcelona Data Challenge 
+**Aigües Barcelona Data Challenge**
 
-The project “Anàlisi de la petjada hídrica dels turistes a Barcelona” aims to meticulously analyse the water footprint of tourists in Barcelona.
+El projecte aborda l’augment de la demanda d’aigua a causa del turisme massiu a Barcelona, amb un enfocament especial en el sector comercial. L’increment del nombre de turistes—8,27 milions el 2023, en contrast amb els 1,62 milions de residents de la ciutat—imposa una càrrega significativa sobre els recursos hídrics de la ciutat, i podria arribar a representar fins al 15,68% del consum diari d’aigua.
 
-The project addresses the increasing demand for water due to mass tourism in Barcelona, with a focus on the commercial sector. The growing number of tourists—8.27 million in 2023, in contrast to the city’s 1.62 million residents—places a significant burden on the city's water resources, potentially accounting for up to 15.68% of the daily water consumption.
+Davant d’aquesta pressió, especialment durant les temporades turístiques altes, quan la població de la ciutat gairebé es duplica, aquest projecte pretén analitzar la petjada hídrica vinculada al turisme. Mitjançant l’ús de dades històriques i variables externes, l’equip desenvoluparà un model predictiu capaç de preveure les fluctuacions de la demanda d’aigua. Els resultats proporcionaran recomanacions pràctiques per a AGBAR per optimitzar la gestió de l’aigua, assegurant que Barcelona pugui satisfer de manera sostenible les necessitats tant dels residents com dels turistes.
 
-Given this pressure, especially during peak tourist seasons when the city's population nearly doubles, this project seeks to analyse the water footprint linked to tourism. By leveraging historical data and external variables, the team will develop a predictive model capable of forecasting water demand fluctuations. The results will provide actionable insights and recommendations for AGBAR to optimise water management, ensuring that Barcelona can sustainably meet the needs of both residents and tourists.
+Aquesta col·laboració amb AGBAR s’alinea amb el nostre objectiu d’aplicar habilitats de ciència de dades i enginyeria a reptes del món real, especialment en la gestió de recursos urbans crítics com l’aigua. Els resultats d’aquest projecte contribuiran a la sostenibilitat i resiliència a llarg termini de la ciutat davant l’increment del turisme.
 
-This collaboration with AGBAR aligns with our goal of applying data science and engineering skills to real-world challenges, particularly in managing critical urban resources like water. The outcomes of this project will contribute to the city's long-term sustainability and resilience in the face of growing tourism.
-
-The deliverables related with this project is defined in this following image:
+Els lliurables relacionats amb aquest projecte es defineixen en la següent imatge:
 
 ![Work Breakdown Structure](./data/WBS.png)
 
 ## 2. Data Processing:
 
-El projecte parteix del dataset **daily_dataset.csv** proporcionat per AGBAR, que inclou dades detallades sobre el consum d’aigua a nivell diari i per secció censal. Aquest dataset constitueix la base principal del nostre model i conté els camps següents:  
-- **Secció censal, districte i municipi**: per identificar zones geogràfiques concretes de consum.  
-- **Data**: per analitzar la distribució temporal del consum d’aigua.  
-- **Ús**: que especifica si l’aigua és utilitzada per a fins domèstics, industrials, comercials, o altres.  
-- **Nombre de comptadors**: que indica quants dispositius registren el consum a cada secció.  
-- **Consum acumulat (L/dia)**: volum d’aigua consumit diàriament en litres.  
+El projecte parteix del dataset **daily_dataset.csv** proporcionat per AGBAR, que inclou dades detallades sobre el consum d’aigua a nivell diari i per secció censal. Aquest dataset constitueix la base principal del nostre model.
 
 Aquestes dades són indispensables per entendre la variabilitat del consum en funció de la geografia i del tipus d’ús. Tanmateix, per desenvolupar un model que integri els efectes del turisme i d’altres factors externs, necessitem ampliar aquesta informació amb noves fonts de dades:  
 
-1. **Dades meteorològiques**:  
-   - **Temperatura màxima i mínima diària**: el clima influeix directament en el consum d’aigua. Per exemple, en dies de calor intensa, el consum augmenta, especialment a zones turístiques amb activitats a l’aire lliure.  
-   - **Precipitacions acumulades**: els dies de pluja redueixen el consum d’aigua en activitats a l’exterior, com el reg o les dutxes a platges i piscines.  
+1. #### Dades meteorològiques:  
+   - Temperatura màxima i mínima diària
+   - Precipitacions acumulades (mm)
 
    Aquestes dades són crucials per ajustar el model als patrons estacionals i climàtics, que tenen un gran impacte en el consum d’aigua.  
 
 2. **Dades de turisme**:  
-   - **Pernoctacions diàries**: necessitem saber quants turistes s’allotgen a la ciutat cada dia. Aquesta informació reflecteix l'impacte del turisme en zones concretes i ajuda a identificar com els fluxos de visitants contribueixen al consum d’aigua en serveis com hotels, restaurants i activitats recreatives.  
+   - Pernoctacions diàries
 
    El turisme és un dels factors principals que volem analitzar. Per això, aquestes dades són essencials per segmentar el consum d’aigua atribuïble als visitants, diferenciant-lo del consum residencial o d'altres usos.  
 
 La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.   
 
-Per més informació: [extracció_dades](/extracció_dades)
+Per més informació sobre la extracció de dades: [extracció_dades](/extracció_dades)
 
 ## 3. Model
   # TO DO
@@ -101,6 +94,9 @@ Per més informació: [extracció_dades](/extracció_dades)
 
 
 ## 5. Altres
+
+### Escalabilitat del projecte
+ Poder continuar utilitzant el project un cop acabat el challenge és un dels grans aspectes a integrar. Per veure l'escalabiltat del projecte: [escalabilitat](/extracció_dades)
 
 
 **Control Information**
