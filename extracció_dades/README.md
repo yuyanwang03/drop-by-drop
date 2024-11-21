@@ -44,7 +44,7 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   - **Estació 0201D - Barcelona, Port Olímpic**
   - **Estació 0201X - Barcelona Drassanes**
 
-  El codi per a l'extracció inicial es pot trobar a: [Extracció inicial de dades AEMET](altres\extracció_AEMET_inicial.py)
+  El codi per a l'extracció inicial es pot trobar a: [Extracció inicial de dades AEMET](extracció_dades\extracció_AEMET_inicial.py)
 
 
 #### Dades del turisme:
@@ -86,7 +86,7 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
     - Dades puntuals per estació meteorològica.
   3. **Resposta**: Les dades es tornen en format JSON, amb valors com ara temperatures, precipitacions, velocitat del vent, etc.
 
-  Per continuar tenint la informació del temps actualitzada podeu fer servir el següent codi: [Extracció mensual de dades AEMET](altres\extracció_AEMET.py)
+  Per continuar tenint la informació del temps actualitzada podeu fer servir el següent codi: [Extracció mensual de dades AEMET](extracció_dades\extracció_AEMET.py)
   - Recordeu d'afegir la vostra **API key** proporcionada per **AEMET**.
   - El codi està fet per treure les dades meteorològiques de l'últim mes. Per canviar els dies seleccionats, modifiqueu la secció sota # Calcular les dates per l'últim mes
   - El codi està pensat per treure en format csv les dades necessàries de l'últim mes. Si es volgués, també es podria afegir les noves línies al csv global.
