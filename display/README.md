@@ -121,22 +121,18 @@ Aquí tens com funciona la selecció de períodes de temps per a tu com a usuari
 4. **Notes importants:**
    - Si no fas seleccions vàlides (per exemple, si no tries cap any o mes), veuràs una advertència que diu: **"Please make valid selections to generate the plots."** (Selecciona les opcions correctes per generar els gràfics.)
 
----
-
-## Gràfics mostrats
-
-1. **Consum d'Aigua per Tipus d'Ús:** Mostra el consum d'aigua per categories com residencial, comercial i industrial, ajudant a identificar les àrees de major consum per a estratègies de conservació específiques.
-    
-2. **Consum d'Aigua per Districte:** Compara el consum d'aigua entre diferents districtes, ressaltant les àrees amb major consum per orientar estratègies de reducció del consum.
-    
-3. **Consum d'Aigua per Districte i Tipus d'Ús:** Desglossa el consum per districtes i tipus d'
-
-ús per proporcionar una visió detallada de com es distribueix el consum a través de les diferents zones de la ciutat.
-    
-4. **Consum d'Aigua vs. Allotjaments Turístics:** Examina la relació entre els allotjaments turístics i el consum d'aigua, mostrant com els turistes influeixen en la demanda d’aigua.
-    
-5. **Consum d'Aigua vs. Precipitació:** Analitza com la precipitació afecta el consum d'aigua, destacant períodes de sequera i pluja intensa.
-
-6. **Consum d'Aigua vs. Temperatura:** Mostra com les temperatures extremes poden augmentar el consum d'aigua en les llars i les indústries.
+5. **Gràfics mostrats**
+   
+   1. *Consum d'Aigua per Tipus d'Ús:* Mostra el consum d'aigua per categories com residencial, comercial i industrial, ajudant a identificar les àrees de major consum per a estratègies de conservació específiques.
+       
+   2. *Consum d'Aigua per Districte:* Compara el consum d'aigua entre diferents districtes, ressaltant les àrees amb major consum per orientar estratègies de reducció del consum.
+       
+   3. *Consum d'Aigua per Districte i Tipus d'Ús:* Desglossa el consum per districtes i tipus d'ús per proporcionar una visió detallada de com es distribueix el consum a través de les diferents zones de la ciutat.
+       
+   4. *Consum d'Aigua vs. Allotjaments Turístics:* Examina la relació entre els allotjaments turístics i el consum d'aigua, mostrant com els turistes influeixen en la demanda d’aigua.
+       
+   5. *Consum d'Aigua vs. Precipitació:* Analitza com la precipitació afecta el consum d'aigua, destacant períodes de sequera i pluja intensa.
+   
+   6. *Consum d'Aigua vs. Temperatura:* Mostra com les temperatures extremes poden augmentar el consum d'aigua en les llars i les indústries.
 
 ---
