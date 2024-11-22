@@ -46,7 +46,7 @@ Una simulació dels resultats, combinada amb un estudi estàtic, és essencial p
 Utilitza la següent comanda per iniciar l’aplicació:
 
 ```bash
-streamlit run display/main.py
+streamlit run main.py
 ```
 
 ---
