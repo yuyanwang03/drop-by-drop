@@ -14,11 +14,7 @@
 
 This document and all content within are proprietary to Project Core Team T101.A and are intended solely for the use of authorized individuals within the project. Unauthorized sharing, copying, or use of this document, in whole or in part, is prohibited without explicit consent from the Project Core Team T101.A.
 
-### How to Run the Notebooks
-
-# AFEGIR LES DUES OPCIONS DE COM CORRER EL CODI (PER WINDOWS, LINUX I MACOS): 
- ## 1- DEMO NOTEBOOK AMB TOT.
- ## 2- .PY AMB EL CODI BEN ESTRUCTURAT (QUAN ESTIGUI FET)
+### Com executar el codi
 
 This has been proven to be working on MacOS.
 
@@ -45,6 +41,19 @@ With the following command a jupyter tab will open on the default search engine.
 ```
     $ jupyter-lab&
 ```
+
+### Hi ha dues opcions per executar el codi:
+ #### 1- Executar Final_Notebook_drpbydrop.ipynb
+ #### 2- Executar utilitzant els .py:
+  ##### 2.1 - Executar Obtenir_dades.py: (S'HA DE CREAR)
+   - Obtenir les dades amb les quals correr el progama. Per informació més detallada vista: [obtenir_dades](/obtenir_dades)  (S'HA DE CREAR)
+  ##### 2.2 - Executar l'applicació:
+   - Per executar l'applicació, executa el comando següent:
+   ```
+   streamlit run main.py
+   ```
+   Per informació més detallada vista: [executar l'aplicació](/display/REAMDE.md## Com executar la simulació Streamlit des de la terminal)
+
 
 
 ## 1. Introduction
