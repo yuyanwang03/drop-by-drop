@@ -96,7 +96,7 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
 
 # 3. Obtenir dades inicials
 
-(fer només en cas de no executar [**Final_Notebook_dropbydrop.ipynb**](Final_Notebook_dropbydrop.ipynb))
+(fer només en cas de no executar [**Final_Notebook_dropbydrop.ipynb**](../Final_Notebook_dropbydrop.ipynb))
 
 Per obtenir les dades inicials cal fer el següent:
 - Degut a la falta d'espai, cal que es carreguin les dades d'**AGBAR** localment. Per això, heu d'afegir una carpeta dins de **data**, amb el nom de **local_data** i afegir-hi **daily_dataset.csv**
