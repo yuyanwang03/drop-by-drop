@@ -98,7 +98,7 @@ Per més informació sobre la extracció de dades: [extracció_dades](/extracci�
 ### Escalabilitat del projecte
  Poder continuar utilitzant el project un cop acabat el challenge és un dels grans aspectes a integrar. 
  - Per veure l'escalabiltat de les dades utilitzades: [escalabilitat de les dades](/extracció_dades/README.md#2-Escalabilitat)
- - Per veure l'escalabilitat del model: [escalabilitat del model](/model/README.md)
+ - Per veure l'escalabilitat del model: [escalabilitat del model](/models/README.md)
 
 
 **Control Information**
