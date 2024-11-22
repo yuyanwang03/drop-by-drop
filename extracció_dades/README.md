@@ -1,6 +1,4 @@
-# ProjectManagement
-
-## Extracció de dades
+# 1. Extracció de dades
 
 El projecte parteix del dataset **daily_dataset.csv** proporcionat per AGBAR, que inclou dades detallades sobre el consum d’aigua a nivell diari i per secció censal. Aquest dataset constitueix la base principal del nostre model i conté els camps següents:  
 - **Secció censal, districte i municipi**: per identificar zones geogràfiques concretes de consum.  
@@ -72,7 +70,7 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   El resultat és un conjunt de dades unificat que vincula el consum d’aigua amb variables meteorològiques i turístiques, permetent una anàlisi exhaustiva de com aquests factors afecten les tendències diàries de consum d’aigua.
 
 
-## Escalavilitat
+# 2. Escalabilitat
 
 #### Dades meteorològiques i precipitacions:
 
