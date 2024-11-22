@@ -48,7 +48,8 @@ With the following command a jupyter tab will open on the default search engine.
 - Executar la llibreta [**Final_Notebook_dropbydrop.ipynb**](Final_Notebook_dropbydrop.ipynb.py)
  #### 2- Executar utilitzant els .py:
   ##### 2.1 - Executar data_processing.py:
-   - Obtenir les dades amb les quals correr el progama. Per informació més detallada visita: [obtenir_dades](extracció_dades/data_processing.py)
+   - Obtenir les dades amb les quals correr el progama.
+   - Per informació més detallada visita: [obtenir_dades](extracció_dades/README.md#3-Obtenir-dades-inicials)
   ##### 2.2 - Executar l'applicació:
    - Per executar l'applicació, executa el comando següent:
    ```
