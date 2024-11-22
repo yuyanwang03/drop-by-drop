@@ -9,7 +9,25 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
 
-daily_aigues = pd.read_csv("data/local_data/daily_dataset.csv", encoding='latin1')
+
+import os
+
+import os
+
+# Get the directory of the current script
+code_folder = os.path.dirname(os.path.abspath(__file__))
+
+# Navigate up to the parent folder of `extracció_dades` and then into `data`
+data_folder = os.path.join(code_folder, "..", "data")
+
+# Normalize the path to resolve `..` properly
+data_folder = os.path.abspath(data_folder)
+
+# Construct the path to the CSV file
+input_path = os.path.join(data_folder, "local_data", "daily_dataset.csv")
+
+
+daily_aigues = pd.read_csv(input_path, encoding='latin1')
 
 # Rename columns for clarity
 daily_aigues = daily_aigues.rename(columns={
@@ -42,7 +60,9 @@ daily_aigues_bcn = daily_aigues_bcn[daily_aigues_bcn['District'] != '>']
 # Remove rows with Accumulated Consumption values below 0
 daily_aigues_bcn = daily_aigues_bcn[daily_aigues_bcn['Accumulated Consumption'] > 0]
 
-clima_df = pd.read_csv('data/temperature_precipitation.csv')
+input_path = os.path.join(data_folder, "temperature_precipitation.csv")
+
+clima_df = pd.read_csv(input_path)
 
 # Convert 'fecha' column to datetime and group by date
 clima_df['fecha'] = pd.to_datetime(clima_df['fecha'])
@@ -56,7 +76,9 @@ clima_df = clima_df.groupby('fecha').agg({
 merged_data = daily_aigues_bcn.merge(clima_df, left_on='Date', right_on='fecha', how='left').drop(columns=['fecha'])
 
 # Load and prepare the data
-targetes = pd.read_csv('data/dataset_targetes.csv')
+input_path = os.path.join(data_folder, "dataset_targetes.csv")
+
+targetes = pd.read_csv(input_path)
 
 targetes = targetes.drop('Espanyola', axis=1)
 
@@ -69,7 +91,8 @@ targetes['Data'] = targetes['Data'].dt.strftime('%Y-%m-%d')
 # Filter the DataFrame to include only dates from 2021 to 2023
 targetes = targetes[(targetes['Data'] >= '2021-01-01') & (targetes['Data'] <= '2023-12-31')]
 
-transactions = pd.read_csv('data/total_transactions.csv')
+input_path = os.path.join(data_folder, "total_transactions.csv")
+transactions = pd.read_csv(input_path)
 
 # Convert the column to datetime format
 transactions['Data'] = pd.to_datetime(transactions['Data'])
@@ -90,7 +113,8 @@ targetes.reset_index(inplace=True)
 transactions = targetes.drop('Estrangera', axis=1)
 
 # Load the datasets
-pernoctacions = pd.read_csv('data/pernoctacions_2019_2024.csv')
+input_path = os.path.join(data_folder, "pernoctacions_2019_2024.csv")
+pernoctacions = pd.read_csv(input_path)
 
 # Convert date columns to datetime
 pernoctacions['Data'] = pd.to_datetime(pernoctacions['Data'], format='%m/%d/%Y')
@@ -154,5 +178,6 @@ final_data = (
 
 #Step 4: Save the cleaned dataset
 os.makedirs('../data/local_data/', exist_ok=True)
-final_data.to_csv('data/local_data/merged_cleaned_data_NEW.csv', index=False)
+output_path = os.path.join(data_folder, "local_data", "merged_cleaned_data_NEW.csv")
+final_data.to_csv(output_path, index=False)
 print(f"The dataset contains {final_data.shape[0]} rows.")

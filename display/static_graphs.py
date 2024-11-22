@@ -108,22 +108,25 @@ def plot_consumption_vs_accommodations(data, year=None, month=None, group_by='Me
     elif group_by == 'Setmana':
         data['Period'] = data['Date'].dt.isocalendar().week
 
-    
+    consumption_by_period = data.groupby('Period', as_index=False)['Accumulated Consumption'].sum()
+    accomodations_by_period = data.groupby('Period', as_index=False)['pernoctacions'].sum()
+
+    merged_data = pd.merge(consumption_by_period, accomodations_by_period, on='Period')
 
     fig, ax1 = plt.subplots(figsize=(10, 4))
-    ax1.bar(data['Period'].astype(str), data['pernoctacions'], color='skyblue', width=0.5)
+    ax1.bar(merged_data['Period'].astype(str), merged_data['Accumulated Consumption'], color='skyblue', width=0.5)
     ax1.set_xlabel(group_by)
     ax1.set_ylabel('Consum Acumulat (L/dia)', color='black')
     ax1.tick_params(axis='y', labelcolor='black')
 
     ax2 = ax1.twinx()
-    ax2.plot(data['Period'].astype(str), data['Total Accommodations'], color='red', marker='o', linestyle='-', label='Allotjaments Totals')
+    ax2.plot(merged_data['Period'].astype(str), merged_data['pernoctacions'], color='red', marker='o', linestyle='-', label='Allotjaments Totals')
     ax2.set_ylabel('Allotjaments Totals', color='red')
     ax2.tick_params(axis='y', labelcolor='red')
 
-    x_ticks = range(0, len(data['Period']), 5)
+    x_ticks = range(0, len(merged_data['Period']), 5)
     ax1.set_xticks(x_ticks)
-    ax1.set_xticklabels(data['Period'].astype(str).iloc[x_ticks], rotation=45)
+    ax1.set_xticklabels(merged_data['Period'].astype(str).iloc[x_ticks], rotation=45)
 
     ax2.legend(loc="upper left")
 
@@ -160,7 +163,7 @@ def plot_consumption_vs_precipitation(data, year=None, month=None, group_by='Mes
         data['Period'] = data['Date'].dt.isocalendar().week
 
     consumption_by_period = data.groupby('Period', as_index=False)['Accumulated Consumption'].sum()
-    precipitation_by_period = data.groupby('Period', as_index=False)['Precipitation'].sum()
+    precipitation_by_period = data.groupby('Period', as_index=False)['precipitacion'].sum()
 
     merged_data = pd.merge(consumption_by_period, precipitation_by_period, on='Period')
 
@@ -171,7 +174,7 @@ def plot_consumption_vs_precipitation(data, year=None, month=None, group_by='Mes
     ax1.tick_params(axis='y', labelcolor='black')
 
     ax2 = ax1.twinx()
-    ax2.plot(merged_data['Period'].astype(str), merged_data['Precipitation'], color='darkblue', marker='o', linestyle='-', label='Precipitació')
+    ax2.plot(merged_data['Period'].astype(str), merged_data['precipitacion'], color='darkblue', marker='o', linestyle='-', label='Precipitació')
     ax2.set_ylabel('Precipitació', color='darkblue')
     ax2.tick_params(axis='y', labelcolor='darkblue')
 
@@ -219,8 +222,8 @@ def plot_consumption_vs_temperature(data, year=None, month=None, group_by='Mes')
     # Group by the selected period and calculate averages
     monthly_temps = data.groupby('Period').agg({
         'Accumulated Consumption': 'sum',  # Sum for consumption
-        'Max Temperature': 'mean',         # Average for max temperature
-        'Min Temperature': 'mean'          # Average for min temperature
+        'temp_max': 'mean',         # Average for max temperature
+        'temp_min': 'mean'          # Average for min temperature
     }).reset_index()
 
     # Plot
@@ -234,12 +237,12 @@ def plot_consumption_vs_temperature(data, year=None, month=None, group_by='Mes')
 
     # Line chart for Max Temperature
     ax2 = ax1.twinx()
-    ax2.plot(monthly_temps['Period'].astype(str), monthly_temps['Max Temperature'], color='green', marker='o', linestyle='-', label='Max Temperature')
+    ax2.plot(monthly_temps['Period'].astype(str), monthly_temps['temp_max'], color='green', marker='o', linestyle='-', label='Max Temperature')
     ax2.set_ylabel('Temperatura (°C)', color='green')
     ax2.tick_params(axis='y', labelcolor='green')
 
     # Line chart for Min Temperature
-    ax2.plot(monthly_temps['Period'].astype(str), monthly_temps['Min Temperature'], color='red', marker='o', linestyle='-', label='Min Temperature')
+    ax2.plot(monthly_temps['Period'].astype(str), monthly_temps['temp_min'], color='red', marker='o', linestyle='-', label='Min Temperature')
     ax2.set_ylabel('Temperatura (°C)', color='red')
     ax2.tick_params(axis='y', labelcolor='red')
 

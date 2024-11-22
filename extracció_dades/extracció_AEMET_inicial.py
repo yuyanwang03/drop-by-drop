@@ -14,7 +14,7 @@ en la gran majoria de casos és el dia anterior o posterior)
 """
 
 # Col·loca la teva API key aquí (després de registrar-te a AEMET OpenData)
-API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXJ0aS5vbXMwMUBlc3R1ZGlhbnQudXBmLmVkdSIsImp0aSI6ImFiN2Q1MWI4LWIwYjAtNDg3OS04NzdhLTYwMWIyMWIxMmQyNyIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNzI5NTE4OTUxLCJ1c2VySWQiOiJhYjdkNTFiOC1iMGIwLTQ4NzktODc3YS02MDFiMjFiMTJkMjciLCJyb2xlIjoiIn0.ecFODP9Cq360LTcvM2lHSBlIs9Gre54YKsd4aMS61-M"
+API_KEY = ""
 
 # Definir els codis de les estacions de Barcelona
 ESTACIONES = {
