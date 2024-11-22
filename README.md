@@ -43,10 +43,13 @@ With the following command a jupyter tab will open on the default search engine.
 ```
 
 ### Hi ha dues opcions per executar el codi:
- #### 1- Executar Final_Notebook_drpbydrop.ipynb
+ #### 1- Executar la final notebook
+- Afegir una carpeta dins de **data**, amb el nom de **local_data** i afegir-hi **daily_dataset.csv**
+- Executar la llibreta [**Final_Notebook_dropbydrop.ipynb**](Final_Notebook_dropbydrop.ipynb.py)
  #### 2- Executar utilitzant els .py:
-  ##### 2.1 - Executar Obtenir_dades.py: (S'HA DE CREAR)
-   - Obtenir les dades amb les quals correr el progama. Per informació més detallada visita: [obtenir_dades](/obtenir_dades)  (S'HA DE CREAR)
+  ##### 2.1 - Executar data_processing.py:
+   - Obtenir les dades amb les quals correr el progama.
+   - Per informació més detallada visita: [obtenir_dades](extracció_dades/README.md#3-Obtenir-dades-inicials)
   ##### 2.2 - Executar l'applicació:
    - Per executar l'applicació, executa el comando següent:
    ```

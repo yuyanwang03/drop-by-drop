@@ -92,3 +92,25 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   Per a més informació visiteu: https://opendata.aemet.es/centrodedescargas/inicio
 
 #### Dades del turisme:
+
+
+# 3. Obtenir dades inicials
+
+(fer només en cas de no executar [**Final_Notebook_dropbydrop.ipynb**](../Final_Notebook_dropbydrop.ipynb))
+
+Per obtenir les dades inicials cal fer el següent:
+- Degut a la falta d'espai, cal que es carreguin les dades d'**AGBAR** localment.
+
+  Per això, heu d'afegir una carpeta dins de **data**, amb el nom de **local_data** i afegir-hi **daily_dataset.csv**
+- La carpeta de data ha de ser semblant a:
+  ```
+   data/
+   ├── pernoctacons_2019_2024.csv
+   ├── ...
+   ├── temperature_precipitation.csv
+   └── local_data/  # afegir carpeta
+       ├── daily_dataset.csv   # afegir fitxer
+       ├── merged_cleaned_data_NEW.csv  # generat després d'executar data_processing.py (o Final_Notebook_dropbydrop.ipynb)
+   ```
+- Un cop fet això ja podeu executar [**data_processing.py**](data_processing.py) per obtenir **merged_cleaned_data_NEW.csv**
+
