@@ -44,7 +44,7 @@ def dynamic_grouping_plot(data):
 @st.cache_data
 def load_data():
     # Load the CSV file once and cache it
-    data = pd.read_csv("../data/local_data/merged_cleaned_data.csv")
+    data = pd.read_csv("..\data\local_data\merged_cleaned_data_NEW.csv")
     # Strip any extra spaces in the column names
     data.columns = data.columns.str.strip()
     # Convert 'Date' column to datetime format

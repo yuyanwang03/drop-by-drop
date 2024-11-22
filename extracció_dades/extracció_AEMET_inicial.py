@@ -94,7 +94,7 @@ def generar_csv():
                     'fecha': fecha,
                     'temp_max': temp_max,
                     'temp_min': temp_min,
-                    'precipitacio': precipitacio
+                    'precipitacion': precipitacio
                 })
 
     # Convertir els registres en un DataFrame de pandas
@@ -104,7 +104,7 @@ def generar_csv():
     df['fecha'] = pd.to_datetime(df['fecha'], format='%Y-%m-%d')
 
     # Aplicar la funció a cada columna objectiu
-    for column in ['temp_max', 'temp_min', 'precipitacio']:
+    for column in ['temp_max', 'temp_min', 'precipitacion']:
         df[column] = emplenar_mes_proper(df[column])
 
     return df
@@ -113,5 +113,5 @@ def generar_csv():
 df = generar_csv()
 
 #Guardar el df en un CSV
-df.to_csv('barcelona_temperatura_precipitacio_2021_2023.csv', index=False)
+df.to_csv('data/temperature_precipitation.csv', index=False)
 print("Dades guardades a 'barcelona_temperatura_precipitacio_2021_2023.csv'")
