@@ -46,13 +46,13 @@ With the following command a jupyter tab will open on the default search engine.
  #### 1- Executar Final_Notebook_drpbydrop.ipynb
  #### 2- Executar utilitzant els .py:
   ##### 2.1 - Executar Obtenir_dades.py: (S'HA DE CREAR)
-   - Obtenir les dades amb les quals correr el progama. Per informació més detallada vista: [obtenir_dades](/obtenir_dades)  (S'HA DE CREAR)
+   - Obtenir les dades amb les quals correr el progama. Per informació més detallada visita: [obtenir_dades](/obtenir_dades)  (S'HA DE CREAR)
   ##### 2.2 - Executar l'applicació:
    - Per executar l'applicació, executa el comando següent:
    ```
    streamlit run main.py
    ```
-   Per informació més detallada vista: Per informació més detallada vista: [executar l'aplicació](display/README.md#com-executar-la-simulació-streamlit-des-de-la-terminal)
+   Per informació més detallada vista: Per informació més detallada visita: [executar l'aplicació](display/README.md#com-executar-la-simulació-streamlit-des-de-la-terminal)
 
 
 
