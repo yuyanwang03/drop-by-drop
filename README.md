@@ -52,7 +52,8 @@ With the following command a jupyter tab will open on the default search engine.
    ```
    streamlit run main.py
    ```
-   Per informació més detallada vista: [executar l'aplicació](/display/REAMDE.md#-Com executar la simulació Streamlit des de la terminal)
+   Per informació més detallada vista: Per informació més detallada vista: [executar l'aplicació](display/README.md#com-executar-la-simulació-streamlit-des-de-la-terminal)
+
 
 
 
