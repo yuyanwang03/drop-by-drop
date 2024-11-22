@@ -15,7 +15,6 @@ st.set_page_config(
 )
 
 
-# Display sidebar with Catalan navigation options
 st.sidebar.image("media/logo_sidebar.png", width =250)
 st.sidebar.title("Navegació")
 page = st.sidebar.radio("Ves a", 

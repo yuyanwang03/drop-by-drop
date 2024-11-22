@@ -1,6 +1,4 @@
-# ProjectManagement
-
-## Extracció de dades
+# 1. Extracció de dades
 
 El projecte parteix del dataset **daily_dataset.csv** proporcionat per AGBAR, que inclou dades detallades sobre el consum d’aigua a nivell diari i per secció censal. Aquest dataset constitueix la base principal del nostre model i conté els camps següents:  
 - **Secció censal, districte i municipi**: per identificar zones geogràfiques concretes de consum.  
@@ -72,7 +70,7 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   El resultat és un conjunt de dades unificat que vincula el consum d’aigua amb variables meteorològiques i turístiques, permetent una anàlisi exhaustiva de com aquests factors afecten les tendències diàries de consum d’aigua.
 
 
-## Escalavilitat
+# 2. Escalabilitat
 
 #### Dades meteorològiques i precipitacions:
 
@@ -94,3 +92,25 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   Per a més informació visiteu: https://opendata.aemet.es/centrodedescargas/inicio
 
 #### Dades del turisme:
+
+
+# 3. Obtenir dades inicials
+
+(fer només en cas de no executar [**Final_Notebook_dropbydrop.ipynb**](../Final_Notebook_dropbydrop.ipynb))
+
+Per obtenir les dades inicials cal fer el següent:
+- Degut a la falta d'espai, cal que es carreguin les dades d'**AGBAR** localment.
+
+  Per això, heu d'afegir una carpeta dins de **data**, amb el nom de **local_data** i afegir-hi **daily_dataset.csv**
+- La carpeta de data ha de ser semblant a:
+  ```
+   data/
+   ├── pernoctacons_2019_2024.csv
+   ├── ...
+   ├── temperature_precipitation.csv
+   └── local_data/  # afegir carpeta
+       ├── daily_dataset.csv   # afegir fitxer
+       ├── merged_cleaned_data_NEW.csv  # generat després d'executar data_processing.py (o Final_Notebook_dropbydrop.ipynb)
+   ```
+- Un cop fet això ja podeu executar [**data_processing.py**](data_processing.py) per obtenir **merged_cleaned_data_NEW.csv**
+

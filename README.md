@@ -14,11 +14,7 @@
 
 This document and all content within are proprietary to Project Core Team T101.A and are intended solely for the use of authorized individuals within the project. Unauthorized sharing, copying, or use of this document, in whole or in part, is prohibited without explicit consent from the Project Core Team T101.A.
 
-### How to Run the Notebooks
-
-# AFEGIR LES DUES OPCIONS DE COM CORRER EL CODI (PER WINDOWS, LINUX I MACOS): 
- ## 1- DEMO NOTEBOOK AMB TOT.
- ## 2- .PY AMB EL CODI BEN ESTRUCTURAT (QUAN ESTIGUI FET)
+### Com executar el codi
 
 This has been proven to be working on MacOS.
 
@@ -45,6 +41,23 @@ With the following command a jupyter tab will open on the default search engine.
 ```
     $ jupyter-lab&
 ```
+
+### Hi ha dues opcions per executar el codi:
+ #### 1- Executar la final notebook
+- Afegir una carpeta dins de **data**, amb el nom de **local_data** i afegir-hi **daily_dataset.csv**
+- Executar la llibreta [**Final_Notebook_dropbydrop.ipynb**](Final_Notebook_dropbydrop.ipynb.py)
+ #### 2- Executar utilitzant els .py:
+  ##### 2.1 - Executar data_processing.py:
+   - Obtenir les dades amb les quals correr el progama.
+   - Per informació més detallada visita: [obtenir_dades](extracció_dades/README.md#3-Obtenir-dades-inicials)
+  ##### 2.2 - Executar l'applicació:
+   - Per executar l'applicació, executa el comando següent:
+   ```
+   streamlit run main.py
+   ```
+   Per informació més detallada vista: Per informació més detallada visita: [executar l'aplicació](display/README.md#com-executar-la-simulació-streamlit-des-de-la-terminal)
+
+
 
 
 ## 1. Introduction
@@ -96,7 +109,9 @@ Per més informació sobre la extracció de dades: [extracció_dades](/extracci�
 ## 5. Altres
 
 ### Escalabilitat del projecte
- Poder continuar utilitzant el project un cop acabat el challenge és un dels grans aspectes a integrar. Per veure l'escalabiltat del projecte: [escalabilitat](/extracció_dades)
+ Poder continuar utilitzant el project un cop acabat el challenge és un dels grans aspectes a integrar. 
+ - Per veure l'escalabiltat de les dades utilitzades: [escalabilitat de les dades](/extracció_dades/README.md#2-Escalabilitat)
+ - Per veure l'escalabilitat del model: [escalabilitat del model](/models/README.md)
 
 
 **Control Information**

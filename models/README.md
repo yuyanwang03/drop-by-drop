@@ -1,0 +1,1 @@
+## Escalabilitat del model
