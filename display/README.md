@@ -63,6 +63,7 @@ streamlit run main.py
 ---
 
 ### 5. **Problemes comuns**
+
 - Si la comanda `streamlit` no funciona, assegura’t que Streamlit està instal·lat correctament:
   ```bash
   pip install streamlit
