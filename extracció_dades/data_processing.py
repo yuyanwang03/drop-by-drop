@@ -9,11 +9,6 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
 
-
-import os
-
-import os
-
 # Get the directory of the current script
 code_folder = os.path.dirname(os.path.abspath(__file__))
 
