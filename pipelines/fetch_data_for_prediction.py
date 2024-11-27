@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime, timedelta
 
-# weather_api_key = 'rlz4OKUkVoWcHdyB'
+# weather_api_key = ''
 # import requests
 
 # # Parameters
