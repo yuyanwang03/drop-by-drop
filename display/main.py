@@ -1,7 +1,7 @@
 import streamlit as st
 import geopandas as gpd
 import pandas as pd
-from styles import inject_custom_css
+from styles import inject_custom_css, display_text
 from about_us import about_us
 from project_description import project_description
 from static_analysis import graph_display
@@ -32,7 +32,6 @@ def load_data():
     return data, census
 
 
-st.sidebar.image("media/logo_sidebar.png", width =250)
 st.sidebar.title("Navegació")
 page = st.sidebar.radio("Ves a", 
                          ("Sobre el projecte", "Simulació", "Estudi estàtic", "Sobre nosaltres"))

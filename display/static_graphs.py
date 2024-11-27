@@ -5,21 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.patches import FancyBboxPatch
 from matplotlib.colors import LogNorm
-
-def display_text_with_shadow(text: str, font_size: str = "35px", text_color: str = "white", shadow_color: str = "rgba(56, 182, 255, 0.4)", shadow_offset: str = "2.5px 2.5px", shadow_blur: str = "0px"):
-    # HTML template with custom styles
-    html_code = f"""
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
-    </head>
-    <div style="text-shadow: {shadow_color} {shadow_offset} {shadow_blur};">
-        <p style="font-family: 'Chau Philomene One', sans-serif; font-size: {font_size}; color: {text_color}; letter-spacing: 0em;">
-            {text}
-        </p>
-    </div>
-    """
-    # Display the HTML in Streamlit
-    st.markdown(html_code, unsafe_allow_html=True)
+from styles import display_text
 
 # Function to filter data by year and/or month
 def filter_by_date(data, year=None, month=None):
@@ -158,7 +144,7 @@ def plot_consumption_vs_accommodations(data, year=None, month=None, group_by='Me
     text = "Consum i Pernoctacions per " + group_by
 
     # Add title and plot
-    display_text_with_shadow(text)
+    display_text(text, shadow_offset= "2px 2px")
     st.pyplot(fig)
 
 
@@ -215,7 +201,7 @@ def plot_consumption_vs_precipitation(data, year=None, month=None, group_by='Mes
     text = "Consum i Precipitació per " + group_by
 
     # Add title and plot
-    display_text_with_shadow(text)
+    display_text(text, shadow_offset= "2px 2px")
     st.pyplot(fig)
 
 def plot_consumption_vs_temperature(data, year=None, month=None, group_by='Mes'):
@@ -273,7 +259,7 @@ def plot_consumption_vs_temperature(data, year=None, month=None, group_by='Mes')
     text = "Consum i Temperatur per " + group_by
 
     # Add title and plot
-    display_text_with_shadow(text)
+    display_text(text, shadow_offset= "2px 2px")
     st.pyplot(fig)
 
 def census_consumption(df, census):
@@ -293,7 +279,7 @@ def census_consumption(df, census):
     census_gdf['Accumulated Consumption'] = census_gdf['Accumulated Consumption'].replace(0, 0.00001)
 
     # Streamlit App
-    display_text_with_shadow("Consum per Secció Censal")
+    display_text("Consum per Secció Censal", shadow_offset= "2px 2px")
 
     # Plot map with Matplotlib
     fig, ax = plt.subplots(figsize=(5, 3))
@@ -329,15 +315,15 @@ def plot_common(data, census, year=None, month=None, group_by='Mes', static=True
 
             # Plot 1: Accumulated Consumption per Use (First Column)
             with col1:
-                display_text_with_shadow("Consum acomulat per Ús")
+                display_text("Consum acomulat per Ús", shadow_offset= "2px 2px")
                 plot_accumulated_consumption_per_use(data, year=year, month=month)
 
             # Plot 2: Accumulated Consumption per District (Second Column)
             with col2:
-                display_text_with_shadow("Consum acomulat per Districte")
+                display_text("Consum acomulat per Districte", shadow_offset= "2px 2px")
                 plot_accumulated_consumption_per_district(data, year=year, month=month)
 
-            display_text_with_shadow("Consum acomulat per Ús i Districte")
+            display_text("Consum acomulat per Ús i Districte", shadow_offset= "2px 2px")
             plot_accumulated_consumption_per_use_and_district(data, year=year, month=month)
 
         # Plot by consumption, precipitation, and temperature based on grouping

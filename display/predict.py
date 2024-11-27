@@ -9,6 +9,14 @@ from styles import inject_custom_css
 #     return model
 
 def predict(data, census):
+    
+    col1, _, col2 = st.columns([3,1,1])
+
+    with col1:
+        st.image("media/header1.png", width=600)
+    
+    with col2:
+        st.image("media/header2.png", width = 240)
 
     # Custom HTML with text-shadow effect
     html_code = """

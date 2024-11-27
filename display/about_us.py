@@ -1,16 +1,24 @@
 import streamlit as st
-from styles import inject_custom_css
+from styles import inject_custom_css, display_text
 
 def about_us():
+
+    col1, _, col2 = st.columns([3,1,1])
+
+    with col1:
+        st.image("media/header1.png", width=600)
+    
+    with col2:
+        st.image("media/header2.png", width = 240)
+        
     inject_custom_css()
 
-    st.title("Sobre Nosaltres")
+    display_text("Sobre Nosaltres", font_size="80px", text_color="rgb(56, 182, 255)", shadow_offset= "4px 4px")
+    text = "Som cinc estudiants d'Enginyeria Matemàtica en Ciència de Dades amb una sòlida experiència en diversos llenguatges de programació, com ara Python, Java i C++. La nostra experiència en Mineria de Dades i el nostre coneixement en Mahcine Learning ens permeten desenvolupar un model predictiu per simular el consum d'aigua."
     
-    intro = ("""
-        Som cinc estudiants d'Enginyeria Matemàtica en Ciència de Dades amb una sòlida experiència en diversos llenguatges de programació, com ara Python, Java i C++. 
-        La nostra experiència en Mineria de Dades i el nostre coneixement en Mahcine Learning ens permeten desenvolupar un model predictiu per simular el consum d'aigua. """)
+    display_text(text, font_size='22px')
 
-    st.write(f'<div class="stTextContainer">{intro}</div>', unsafe_allow_html=True)
+
 
     # Team member details
     team = [
@@ -42,24 +50,29 @@ def about_us():
     ]
 
 # Create columns
-    cols = st.columns(2)
+    cols = st.columns(5)
 
     # Display each team member's image, name, and LinkedIn in two columns per row
     for i, member in enumerate(team):
-        col = cols[i % 2]  # Alternate between column 1 and column 2
+        col = cols[i]  # Alternate between column 1 and column 2
 
         with col:
             st.markdown(
                 f"""
                 <div style="
-                    background-color: rgba(255, 255, 255, 0.8);
+                    background-color: rgba(255, 255, 255, 0);
                     padding: 15px;
                     border-radius: 10px;
                     text-align: center;
                     margin-bottom: 30px;
                 ">
                     <img src="{member['image']}" width="250" style="border-radius: 50%; margin-bottom: 10px;">
-                    <h4>{member['name']}</h4>
+                    <h4 style="
+                        font-family: 'Chau Philomene One', sans-serif; 
+                        color: white; 
+                        margin: 10px 0;">
+                        {member['name']}
+                    </h4>
                     <a href="{member['linkedin']}">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30">
                     </a>
@@ -68,17 +81,12 @@ def about_us():
                 </div>
                 """, unsafe_allow_html=True)
 
+    contact_text = "Per preguntes, siusplau adreçeu-vos al següent correu. Contacte:"
+
+    display_text(contact_text, font_size="18px", text_color="white", justify=False)
+
     st.write(f"""
-             <div style="
-                    background-color: rgba(255, 255, 255, 0.8);
-                    padding: 15px;
-                    border-radius: 10px;
-                    text-align: center;
-                ">
-            Per preguntes, siusplau adreçeu-vos al següent correu.\n\n
-            Contact: 
             <a href="mailto:paula.mateos01@estudiant.upf.edu">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="30">
             </a> paula.mateos01@estudiant.upf.edu
-             </div>
         """, unsafe_allow_html=True)

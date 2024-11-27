@@ -1,6 +1,27 @@
 import streamlit as st
 import base64
 
+
+
+def display_text(text: str, font_size: str = "22px", text_color: str = "white", shadow_color: str = "rgba(56, 182, 255, 0.4)", shadow_offset: str = "0px 0px", shadow_blur: str = "0px", justify=True):
+    # HTML template with custom styles
+
+    text_alignment = "justify" if justify else "left"
+
+    html_code = f"""
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
+    </head>
+    <div style="text-shadow: {shadow_color} {shadow_offset} {shadow_blur}; text-align: {text_alignment};">
+        <p style="font-family: 'Chau Philomene One', sans-serif; font-size: {font_size}; color: {text_color}; letter-spacing: 0em;">
+            {text}
+        </p>
+    </div>
+    """
+    # Display the HTML in Streamlit
+    st.markdown(html_code, unsafe_allow_html=True)
+
+
 def get_base64_image(image_path):
     """Read and encode an image to base64."""
     with open(image_path, "rb") as image_file:

@@ -9,11 +9,6 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
 
-
-import os
-
-import os
-
 # Get the directory of the current script
 code_folder = os.path.dirname(os.path.abspath(__file__))
 
@@ -175,6 +170,60 @@ final_data = (
     ], as_index=False)
     .agg({"pernoctacions": "sum"})
 )
+
+
+population_district_ds = pd.read_csv('data/population_barcelona_districts.csv')
+
+population_district_ds = population_district_ds.rename(columns={
+    'Tiempo': 'Date',
+    'Ciutat Vella': 1,
+    'Eixample': 2,
+    'Sants-Montjuïc': 3,
+    'Les Corts': 4,
+    'Sarrià-Sant Gervasi': 5,
+    'Gràcia': 6,
+    'Horta-Guinardó': 6,
+    'Nou Barris': 7,
+    'Sant Andreu': 8,
+    'Sant Martí': 10
+})
+
+# Spanish month mapping
+month_mapping = {
+    "ene": "01", "feb": "02", "mar": "03", "abr": "04",
+    "may": "05", "jun": "06", "jul": "07", "ago": "08",
+    "sep": "09", "oct": "10", "nov": "11", "dic": "12"
+}
+
+# Function to convert the date using regex
+def reformat_date(date_str):
+    match = re.match(r"(\d{2}) (\w{3}) (\d{4})", date_str)
+    if match:
+        day, month, year = match.groups()
+        month_num = month_mapping[month]
+        return f"{year}-{month_num}-{day}"
+    return date_str  # Return the original if no match
+
+# Apply the function to the 'Tiempo' column
+population_district_ds["Date"] = population_district_ds["Date"].apply(reformat_date)
+
+# Convert 'Date' columns to datetime
+final_data["Date"] = pd.to_datetime(final_data["Date"])
+population_district_ds["Date"] = pd.to_datetime(population_district_ds["Date"])
+
+# Now merge the datasets by Date and District, bear in mind the date in the population dataset is the first day of the month. So we need to create a year-month auxiliary column
+final_data["YearMonth"] = final_data["Date"].dt.to_period('M')
+population_district_ds["YearMonth"] = population_district_ds["Date"].dt.to_period('M')
+
+# Change the population barcelona dataset to have the districts rows. Cols: Date, District, Population
+population_district_ds = population_district_ds.melt(id_vars=["YearMonth"], var_name="District", value_name="Population")
+
+# Now merge the datasets
+final_data = final_data.merge(population_district_ds, on=["YearMonth", "District"], how="left")
+
+# Drop the auxiliary column
+final_data.drop(columns=["YearMonth"], inplace=True)
+
 
 #Step 4: Save the cleaned dataset
 os.makedirs('../data/local_data/', exist_ok=True)
