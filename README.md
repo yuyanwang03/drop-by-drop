@@ -102,8 +102,9 @@ Per més informació sobre la extracció de dades: [extracció_dades](/extracci�
 
 
 ## 4. Simulació
- # TO DO
- Per més informació: [Simulació](/display)
+La simulació facilita la projecció d’escenaris futurs per anticipar pics de demanda o escassetat, optimitzant els recursos de manera proactiva. Combinant aquestes capacitats amb un estudi estàtic, AGBAR pot identificar patrons a llarg termini i justificar decisions estratègiques basades en dades fiables. Aquesta metodologia dinàmica i estratègica garanteix una gestió hídrica eficient i sostenible.
+
+Per més informació: [Simulació](/display)
 
 
 ## 5. Altres
