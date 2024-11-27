@@ -7,3 +7,5 @@ local_data/
 /venv2
 /venv2/
 venv2/
+**/catboost_info/
+*.pyc"
