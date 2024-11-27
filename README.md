@@ -91,6 +91,9 @@ Aquestes dades són indispensables per entendre la variabilitat del consum en fu
 2. **Dades de turisme**:  
    - Pernoctacions diàries
 
+3. **Habitants de Barcelona**:  
+   - Habitants per districte
+
    El turisme és un dels factors principals que volem analitzar. Per això, aquestes dades són essencials per segmentar el consum d’aigua atribuïble als visitants, diferenciant-lo del consum residencial o d'altres usos.  
 
 La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.   
