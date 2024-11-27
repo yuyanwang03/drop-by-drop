@@ -22,7 +22,7 @@ def about_us():
         {
             "name": "Iván Hernández Gómez",
             "linkedin": "https://www.linkedin.com/in/iv97n",
-            "image": "https://media.licdn.com/dms/image/v2/D4D03AQFYwPxRQiywDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728860563140?e=1736380800&v=beta&t=K0kwESnnnqryDVzW-LJvpTWiMQKtaphG0rgbe1F5RzE",  # Replace with actual URL
+            "image": "https://media.licdn.com/dms/image/v2/D5603AQGU6dT73FZacA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731424586525?e=1738195200&v=beta&t=bFY_R8uN_EL0Xf64Tc8RX-HUTGROQX5mKqvVdQCQam8",  # Replace with actual URL
         },
         {
             "name": "Martí Oms Graells",
