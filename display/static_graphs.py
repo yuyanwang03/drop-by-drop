@@ -59,6 +59,7 @@ def plot_accumulated_consumption_per_use(data, year=None, month=None):
 
     st.pyplot(fig)
 
+
 # Plot for accumulated consumption per district
 def plot_accumulated_consumption_per_district(data, year=None, month=None):
     data = filter_by_date(data, year, month)
@@ -91,6 +92,44 @@ def plot_accumulated_consumption_per_use_and_district(data, year=None, month=Non
     apply_custom_style(ax)
 
     st.pyplot(fig)
+
+def plot_accumulated_domestic_consumption_and_district(data, year=None, month=None):
+
+    data = filter_by_date(data, year, month)
+    data = data[data['Use'] =='Domestic']
+    
+    # Group by 'District' and 'Use', and sum the 'Accumulated Consumption'
+    consumption_per_district = data.groupby(['District'], as_index=False)['Accumulated Consumption'].sum()
+    population_per_district = data.groupby(['District'], as_index=False)['Population'].mean()
+
+    # Merge the two DataFrames to align population and consumption data by 'District'
+    merged_data = pd.merge(consumption_per_district, population_per_district, on='District')
+
+    # Plotting
+    fig, ax1 = plt.subplots(figsize=(10, 4))
+
+    # Barplot for 'Accumulated Consumption'
+    sns.barplot(x="District", y="Accumulated Consumption", data=merged_data, ax=ax1)
+    ax1.set_xlabel("Districte", color='white')
+    ax1.set_ylabel("Consum Acumulat (L/dia)", color='white')
+    apply_custom_style(ax1)
+
+    # Twin axis for Population
+    ax2 = ax1.twinx()
+    ax1.set_xticks(range(len(merged_data)))  # Explicitly set x-ticks for ax1 (bar plot)
+    ax1.set_xticklabels(merged_data['District'])  # Set correct labels and rotation
+
+    # Plot Population on ax2 (right axis)
+    ax2.plot(range(len(merged_data)), merged_data['Population'], color='white', marker='o', linestyle='-')
+    ax2.set_ylabel('Habitants', color='white')
+    ax2.tick_params(axis='y', labelcolor='white')
+
+    ax1.set_xticks(ax2.get_xticks())
+
+    apply_custom_style(ax2)
+
+    st.pyplot(fig)
+
 
 def plot_consumption_vs_accommodations(data, year=None, month=None, group_by='Mes'):
 
@@ -256,7 +295,7 @@ def plot_consumption_vs_temperature(data, year=None, month=None, group_by='Mes')
     fig.patch.set_alpha(0)
     ax1.set_facecolor("none")
 
-    text = "Consum i Temperatur per " + group_by
+    text = "Consum i Temperatura per " + group_by
 
     # Add title and plot
     display_text(text, shadow_offset= "2px 2px")
@@ -325,6 +364,9 @@ def plot_common(data, census, year=None, month=None, group_by='Mes', static=True
 
             display_text("Consum acomulat per Ús i Districte", shadow_offset= "2px 2px")
             plot_accumulated_consumption_per_use_and_district(data, year=year, month=month)
+
+            display_text("Consum Domèstic acomulat per Districte i Habitants", shadow_offset= "2px 2px")
+            plot_accumulated_domestic_consumption_and_district(data, year=year, month=month)
 
         # Plot by consumption, precipitation, and temperature based on grouping
         plot_consumption_vs_accommodations(data, group_by=group_by, year=year, month=month)
