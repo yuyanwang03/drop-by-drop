@@ -42,10 +42,13 @@ def inject_custom_css():
     # Inject CSS into Streamlit app
     st.markdown(f"""
     <style>
+    /* Import Chau Philomene One font */
+    @import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+
     /* App background with fixed position */
     .stApp {{
-        background-image: url("data:image/png;base64,{base64_image}");
-        background-size: cover;
+        background-image: url("data:image/png;base64,{base64_image}"); 
+        background-size: cover; 
         background-attachment: fixed;
     }}
 
@@ -99,9 +102,24 @@ def inject_custom_css():
         font-weight: 600;
     }}
 
-    label {{
-            color: white !important;
+    section[data-testid="stSidebar"] {{
+        background-image: url("data:image/png;base64,{base64_image}");
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Chau Philomene One', sans-serif;
+        color: white;
+        filter: brightness(2);
     }}
 
+    /* Style for the sidebar title */
+    section[data-testid="stSidebar"] h1 {{
+        font-family: 'Chau Philomene One', sans-serif;
+        color: white;
+        font-size: 46px;
+        text-shadow: black 2.5px 2.5px 0px;
+    }}
+    label {{
+        color: white !important;
+    }}
     </style>
     """, unsafe_allow_html=True)

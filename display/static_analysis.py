@@ -1,5 +1,5 @@
 import streamlit as st
-from styles import inject_custom_css
+from styles import inject_custom_css,display_text
 from static_graphs import plot_common
 
 # Define the dynamic_grouping_plot function
@@ -37,8 +37,6 @@ def dynamic_grouping_plot(data, census):
 
 
 def graph_display(data, census):
-    # Inject custom CSS (if needed)
-    inject_custom_css()
 
     col1, _, col2 = st.columns([3,1,1])
 
@@ -48,6 +46,6 @@ def graph_display(data, census):
     with col2:
         st.image("media/header2.png", width = 240)
 
-    st.image("media/estudi_estàtic.png")
+    display_text("Estudi Estàtic", font_size="80px", text_color="rgb(56, 182, 255)", shadow_offset= "4px 4px")
 
     dynamic_grouping_plot(data, census)

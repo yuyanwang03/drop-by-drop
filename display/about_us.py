@@ -11,10 +11,9 @@ def about_us():
     with col2:
         st.image("media/header2.png", width = 240)
         
-    inject_custom_css()
 
     display_text("Sobre Nosaltres", font_size="80px", text_color="rgb(56, 182, 255)", shadow_offset= "4px 4px")
-    text = "Som cinc estudiants d'Enginyeria Matemàtica en Ciència de Dades amb una sòlida experiència en diversos llenguatges de programació, com ara Python, Java i C++. La nostra experiència en Mineria de Dades i el nostre coneixement en Mahcine Learning ens permeten desenvolupar un model predictiu per simular el consum d'aigua."
+    text = "Som cinc estudiants d'Enginyeria Matemàtica en Ciència de Dades a l'Universitat Pompeu Fabre. Tenim una sòlida experiència en diversos llenguatges de programació, com ara Python, Java, SQL. La nostra experiència en mineria de dades i el nostre coneixement en Mahcine Learning i inteligència artificial, ens permeten desenvolupar un model predictiu per simular el consum d'aigua."
     
     display_text(text, font_size='22px')
 
@@ -81,12 +80,23 @@ def about_us():
                 </div>
                 """, unsafe_allow_html=True)
 
-    contact_text = "Per preguntes, siusplau adreçeu-vos al següent correu. Contacte:"
+    contact_text = "Per preguntes, siusplau adreçeu-vos al següent correu:"
 
-    display_text(contact_text, font_size="18px", text_color="white", justify=False)
+    display_text(contact_text, font_size="20px", text_color="white", justify=False)
 
     st.write(f"""
-            <a href="mailto:paula.mateos01@estudiant.upf.edu">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="30">
-            </a> paula.mateos01@estudiant.upf.edu
-        """, unsafe_allow_html=True)
+        <head>
+            <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
+        </head>
+        <div style="
+            font-family: 'Chau Philomene One', sans-serif; 
+            font-size: 18px; 
+            color: white;
+            font-weight: 200;
+        ">
+            <a href="mailto:paula.mateos01@estudiant.upf.edu" style="text-decoration: none; color: inherit;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="30" style="vertical-align: middle; margin-right: 10px;">
+            </a> 
+            paula.mateos01@estudiant.upf.edu
+        </div>
+    """, unsafe_allow_html=True)

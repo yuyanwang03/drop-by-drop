@@ -22,15 +22,15 @@ def project_description():
 
     text3 = "L'enfocament integra variables externes com el turisme, més enllà del modelatge tradicional, i busca una gestió sostenible dels recursos hídrics. Els resultats esperats inclouen prediccions fiables del consum d’aigua en zones turístiques, optimització de la distribució i reducció de l'impacte ambiental. Aquest projecte no només ofereix una solució innovadora per Barcelona, sinó que també pot ser aplicable a altres ciutats amb dinàmiques similars, contribuint a afrontar reptes globals com el canvi climàtic."
 
-    col1, col2 = st.columns([5,2])
+    col1, _, col2 = st.columns([20,1,8])
 
     with col1:        
 
         display_text(text1)
+        display_text(text2)
+
         
     with col2:
-        st.image("media/logo_sidebar.png", width=350)
+        st.image("media/bcn.jpg", width=380)
         
-    display_text(text2)
-
     display_text(text3)

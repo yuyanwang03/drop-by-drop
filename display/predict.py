@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
-from styles import inject_custom_css
+from styles import inject_custom_css, display_text
+from static_graphs import plot_common
 
 # Function to load the trained model from a pickle file
 # def load_model():
@@ -9,7 +10,7 @@ from styles import inject_custom_css
 #     return model
 
 def predict(data, census):
-    
+
     col1, _, col2 = st.columns([3,1,1])
 
     with col1:
@@ -19,30 +20,14 @@ def predict(data, census):
         st.image("media/header2.png", width = 240)
 
     # Custom HTML with text-shadow effect
-    html_code = """
-    <head>
-    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
-    </head>
-    <div style="text-shadow: rgba(56, 182, 255, 0.4) 2px 2px 0px;">
-        <p style="font-family: 'Chau Philomene One', sans-serif; font-size: 35px; color: rgb(255, 255, 255); line-height: 488px; letter-spacing: 0em;">
-            Estudi estàtic
-        </p>
-    </div>
-    """
+    display_text("Simulació", font_size="80px", text_color="rgb(56, 182, 255)", shadow_offset= "4px 4px")
 
-    # Display HTML in Streamlit
-    st.markdown(html_code, unsafe_allow_html=True)
+    text = "Aquesta pàgina permet veure una simulació a futur del consum d'aigua a Barcelona segons el número de turistes."
+    display_text(text)
 
 
-    st.markdown('<div style="height: 65px;"></div>', unsafe_allow_html=True)  # Adjust the height as needed
-
-
-    inject_custom_css()
-
-    st.image("media/simulació.png")
-"""
     # Load the model
-    model = load_model()
+    #model = load_model()
 
     # User input for the number of tourists
     num_tourists = st.number_input("Enter the number of tourists:", min_value=0, step=1)
@@ -55,10 +40,10 @@ def predict(data, census):
             input_data = [[num_tourists]]  # Adjust this based on your model's expected input format
             
             # Predict using the loaded model
-            prediction = model.predict(input_data)
+            #prediction = model.predict(input_data)
 
             # Display the prediction
-            st.write(f"The predicted result is: {prediction[0]}")
+            #st.write(f"The predicted result is: {prediction[0]}")
+            plot_common(data, census, static=False,year='2023', month=8,group_by='Dia')
         else:
             st.warning("Please enter a valid number of tourists.")
-"""

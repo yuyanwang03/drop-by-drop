@@ -31,12 +31,13 @@ def load_data():
     
     return data, census
 
-
 st.sidebar.title("Navegació")
-page = st.sidebar.radio("Ves a", 
+page = st.sidebar.selectbox("Vés a", 
                          ("Sobre el projecte", "Simulació", "Estudi estàtic", "Sobre nosaltres"))
 
 data, census = load_data()
+inject_custom_css()
+
 # Display the selected page
 if page == "Simulació":
     predict(data, census)
