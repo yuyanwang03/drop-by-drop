@@ -1,28 +1,6 @@
 import pandas as pd
 from datetime import datetime, timedelta
 
-# weather_api_key = ''
-# import requests
-
-# # Parameters
-# url = "https://my.meteoblue.com/packages/seasonalanomaly-monthly?apikey=rlz4OKUkVoWcHdyB&lat=41.3888&lon=2.15899&asl=15&format=json"
-# params = {
-#     "lat": 41.3874,  # Latitude for Barcelona
-#     "lon": 2.1686,   # Longitude for Barcelona
-#     "apikey": weather_api_key,  # Replace with your Meteoblue API key
-#     "units": "metric"  # Use "imperial" if you prefer
-# }
-
-# # API Request
-# response = requests.get(url, params=params)
-
-# # Handle the response
-# if response.status_code == 200:
-#     data = response.json()
-#     print(data)  # Process or display the data as needed
-# else:
-#     print(f"Error: {response.status_code}, {response.text}")
-
 def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourists_within_that_period):
     """
     Modify the dataset by adding rows for prediction days and filling weather columns.
