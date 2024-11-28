@@ -301,50 +301,77 @@ def plot_consumption_vs_temperature(data, year=None, month=None, group_by='Mes')
     display_text(text, shadow_offset= "2px 2px")
     st.pyplot(fig)
 
-def census_consumption(df, census):
+def census_consumption(df, census, join_on='Census'):
 
-    df['Census Section'] = df['Census Section'].astype(str).str[-3:]
+    def prepare_data(df, group_by_col, merge_col, geo_col):
+        """
+        Prepares and merges the data with the geospatial census data.
+        """
+        # Group data
+        df_grouped = df.groupby(group_by_col).agg({
+            'Accumulated Consumption': 'sum',
+        }).reset_index()
 
-    # Group by Census Section
-    df_grouped = df.groupby('Census Section').agg({
-        'Accumulated Consumption': 'sum',
-    }).reset_index()
+        # Merge with census data
+        merged_data = census.merge(df_grouped, left_on=merge_col, right_on=group_by_col)
+        
+        # Convert to GeoDataFrame and handle zero consumption
+        geo_df = gpd.GeoDataFrame(merged_data)
+        geo_df['Accumulated Consumption'] = geo_df['Accumulated Consumption'].replace(0, 0.00001)
+        return geo_df
 
-    # Merge with the census shapefile or GeoDataFrame
-    census_consumption = census.merge(df_grouped, left_on="SEC_CENS", right_on="Census Section")
+    def plot_geodataframe(geo_df, title):
+        """
+        Plots the GeoDataFrame with a logarithmic color scale.
+        """
+        # Display title
+        display_text(title, shadow_offset="2px 2px")
 
-    # Convert to GeoDataFrame if needed
-    census_gdf = gpd.GeoDataFrame(census_consumption)
-    census_gdf['Accumulated Consumption'] = census_gdf['Accumulated Consumption'].replace(0, 0.00001)
+        # Plot map
+        fig, ax = plt.subplots(figsize=(5, 3))
+        geo_df.plot(
+            column='Accumulated Consumption',
+            cmap='viridis',
+            legend=True,
+            legend_kwds={
+                'orientation': "horizontal",
+                'shrink': 0.8
+            },
+            ax=ax,
+            norm=LogNorm(vmin=geo_df['Accumulated Consumption'].min(), vmax=geo_df['Accumulated Consumption'].max())
+        )
 
-    # Streamlit App
-    display_text("Consum per Secció Censal", shadow_offset= "2px 2px")
+        ax.axis('off')
+        ax.set_facecolor("none")
+        fig.patch.set_alpha(0)
 
-    # Plot map with Matplotlib
-    fig, ax = plt.subplots(figsize=(5, 3))
-    census_gdf.plot(
-        column='Accumulated Consumption',
-        cmap='viridis',
-        legend=True,
-        legend_kwds={
-            'orientation': "horizontal",  # You can change orientation if needed
-            'shrink': 0.8
-        },
-        ax=ax,
-        norm=LogNorm(vmin=census_gdf['Accumulated Consumption'].min(), vmax=census_gdf['Accumulated Consumption'].max())
-    )
+        # Display map in Streamlit
+        st.pyplot(fig)
 
-    ax.axis('off')
+    if join_on == 'Census':
+        # Preprocess 'Census Section' column
+        df['Census Section'] = df['Census Section'].astype(str).str[-3:]
+        
+        # Prepare data and plot
+        geo_df = prepare_data(df, group_by_col='Census Section', merge_col='SEC_CENS', geo_col='Census Section')
+        plot_geodataframe(geo_df, title="Consum per Secció Censal")
 
-    ax.set_facecolor("none") 
-    fig.patch.set_alpha(0)
+    elif join_on == 'District':
+        # Preprocess 'District' column
+        df['District'] = df['District'].apply(lambda x: f"{int(x):02d}")
+        
+        # Prepare data and plot
+        geo_df = prepare_data(df, group_by_col='District', merge_col='DISTRICTE', geo_col='District')
+        plot_geodataframe(geo_df, title="Consum per Districte")
 
-    # Display map in Streamlit
-    st.pyplot(fig)
+
+
+
 
 # Define the common plot function outside dynamic_grouping_plot
 def plot_common(data, census, year=None, month=None, group_by='Mes', static=True):
 
+    join_on = 'District'
     _, midcol, _ = st.columns([1, 11 , 1])
     with midcol:
 
@@ -352,6 +379,7 @@ def plot_common(data, census, year=None, month=None, group_by='Mes', static=True
 
         if static:
 
+            join_on = 'Census'
             # Plot 1: Accumulated Consumption per Use (First Column)
             with col1:
                 display_text("Consum acomulat per Ús", shadow_offset= "2px 2px")
@@ -372,4 +400,4 @@ def plot_common(data, census, year=None, month=None, group_by='Mes', static=True
         plot_consumption_vs_accommodations(data, group_by=group_by, year=year, month=month)
         plot_consumption_vs_precipitation(data, group_by=group_by, year=year, month=month)
         plot_consumption_vs_temperature(data, group_by=group_by, year=year, month=month)
-        census_consumption(data, census)
+        census_consumption(data, census, join_on=join_on)
