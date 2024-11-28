@@ -18,7 +18,12 @@ Aquestes dades són indispensables per entendre la variabilitat del consum en fu
 2. **Dades de turisme**:  
    - **Pernoctacions diàries**: necessitem saber quants turistes s’allotgen a la ciutat cada dia. Aquesta informació reflecteix l'impacte del turisme en zones concretes i ajuda a identificar com els fluxos de visitants contribueixen al consum d’aigua en serveis com hotels, restaurants i activitats recreatives.  
 
-   El turisme és un dels factors principals que volem analitzar. Per això, aquestes dades són essencials per segmentar el consum d’aigua atribuïble als visitants, diferenciant-lo del consum residencial o d'altres usos.  
+   El turisme és un dels factors principals que volem analitzar. Per això, aquestes dades són essencials per segmentar el consum d’aigua atribuïble als visitants, diferenciant-lo del consum residencial o d'altres usos.
+
+3. **Dades de població**
+   - **Població de Barcelona per districtes**: necessitem informació de la població de Barcelona a cada període per poder relacionar-la al turisme i ajudar al model a generalitzar millor trobant patrons entre aquestes dues columnes.
+   
+   És important aportar el màxim de dades rellevants al model, la població de Barcelona és informació a considerar.
 
 La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.  
 
@@ -70,6 +75,20 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   El resultat és un conjunt de dades unificat que vincula el consum d’aigua amb variables meteorològiques i turístiques, permetent una anàlisi exhaustiva de com aquests factors afecten les tendències diàries de consum d’aigua.
 
 
+#### Dades dels habitants de Barcelona
+
+Per poder tenir un model que generalitzi bé creiem necessari afegir dades de la població de Barcelona. Aquestes dades són independents al turisme i enriqueixen les relacións i els patrons potencials que pot trobar el model. Hem extret les dades d'un dataset públic disponible a la pàgina del portal de dades de l'Ajuntament de Barcelona: [Dataset Població](https://portaldades.ajuntament.barcelona.cat/es/estad%C3%ADsticas/yzlntdm2fs?view=chart&chart=line-chart&diff=D4jvG8AqBMEsFsCmA7AzrA9mywBllZpIDlpEAPYgJwwBtFiA3AQ1oFdFVJBCAhgQAZIAScg0A7l2DgA%2BwEZIAfQUBBADKqlxAC4BPAA4M%2BzSAF9QfePIBTkAMZ028bFLnSA7NIAckALJtksLawerCm5nDw-Aq6BpAA05AxnDhQLOwM0gCcXlmQtMwARoi0ACr6hgAisMbSAExCZhay0eWQADPSAKIuAGLSAMI5gwDiA3UNoIAoBOZazFQA5oha-QAWc1rEtLDIiAC0tmtUG2agQA&ccfg=N4Coxg9gdgZglgcxMAZSAbgQwDYFcCmIghAQgAucp2hALdSNhGDoeJgLQCiAyiBjgQDEIAJwC2mUiADlgFAIQAQQAecAM4AJfNgAO%2BYchQB9gEyGAjESLUAnnQAKuldHwqQ1RXQAmcTCBkBfEC0IOChSFS44AC9CYANTAEmAsFxhdBi4kBVRCAhSAAsQPwDSTGEEfFIAYTzSyXoQ-DYwGuFJPy)
+
+La següent cel·la s'encarrega d'adjuntar aquestes dades mensuals de població per districte:
+- Càrrega i transformació de dades de població:
+    - Les dades de població per districtes (population_barcelona_districts.csv) es reformaten, canviant els noms de les columnes per números de districtes.
+    - Es reformaten les dates per fer-les consistents amb la resta del conjunt de dades.
+    - Es transforma el DataFrame per tenir una fila per districte, data i població.
+- Unió amb el conjunt principal:
+    - Es fusionen les dades de població amb el conjunt integrat de consum d’aigua i turisme. Com que les dades de població són mensuals, s’utilitza una columna auxiliar YearMonth per assegurar una fusió correcta.
+
+
+
 # 2. Escalabilitat
 
 #### Dades meteorològiques i precipitacions:
@@ -92,6 +111,16 @@ La integració d’aquestes dades ens permetrà desenvolupar un model predictiu 
   Per a més informació visiteu: https://opendata.aemet.es/centrodedescargas/inicio
 
 #### Dades del turisme:
+
+   Per obtenir les dades de les pernoctacions és necessàri que contacteu amb l'Observatori del Turisme a Barcelona: [Direcció de correu](info@observatoriturisme.barcelona). De moment no hem trobat una API per aconseguir aquestes dades de forma automàtica, vam preguntar a l'Observatori del Turisme i ens van comentar que hauriem de contactar amb l'Oficina Municipal de Dades.
+
+#### Població
+
+   Com hem comentat anteriorment el dataset que hem fet servir per les dades de la població de Barcelona l'hem extret d'aquesta pàgina: [Dataset Població de Barcelona](https://portaldades.ajuntament.barcelona.cat/es/estad%C3%ADsticas/yzlntdm2fs?view=chart&chart=line-chart&diff=D4jvG8AqBMEsFsCmA7AzrA9mywBllZpIDlpEAPYgJwwBtFiA3AQ1oFdFVJBCAhgQAZIAScg0A7l2DgA%2BwEZIAfQUBBADKqlxAC4BPAA4M%2BzSAF9QfePIBTkAMZ028bFLnSA7NIAckALJtksLawerCm5nDw-Aq6BpAA05AxnDhQLOwM0gCcXlmQtMwARoi0ACr6hgAisMbSAExCZhay0eWQADPSAKIuAGLSAMI5gwDiA3UNoIAoBOZazFQA5oha-QAWc1rEtLDIiAC0tmtUG2agQA&ccfg=N4Coxg9gdgZglgcxMAZSAbgQwDYFcCmIghAQgAucp2hALdSNhGDoeJgLQCiAyiBjgQDEIAJwC2mUiADlgFAIQAQQAecAM4AJfNgAO%2BYchQB9gEyGAjESLUAnnQAKuldHwqQ1RXQAmcTCBkBfEC0IOChSFS44AC9CYANTAEmAsFxhdBi4kBVRCAhSAAsQPwDSTGEEfFIAYTzSyXoQ-DYwGuFJPy). De totes maneres la pàgina té una API per poder baixar-se les dades programàticament i automatitzar el procés per motius d'escalabilitat.
+Per fer servir aquesta API simplement s'ha de navegar al link que us hem adjuntat adalt. Un cop a la pàgina podem visualitzar les dades actualitzades, es pot baixar un csv amb la informació o es pot demanar accés a una API registran-te. A sobre del gràfic trobareu un botó amb tres punts verticals, si navegueu a `Data API` veureu la informació necessària per poder fer servir la seva API.
+
+En comptes de carregar un dataset en local haureu de fer una trucada a la API per obtenir les dades, carregueu-les a la mateixa variable i el nostre codi preprocessarà les dades automàticament.
+
 
 
 # 3. Obtenir dades inicials
