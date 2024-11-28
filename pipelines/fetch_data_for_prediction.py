@@ -1,7 +1,8 @@
+import math
 import pandas as pd
 from datetime import datetime, timedelta
 
-def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourists_within_that_period):
+def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourists_within_that_period, pernoctation_mean):
     """
     Modify the dataset by adding rows for prediction days and filling weather columns.
     
@@ -21,6 +22,9 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourist
     
     # Create a list of new dates
     new_dates = pd.date_range(start=last_date + timedelta(days=1), end=prediction_final_day)
+
+    # Drop columns Use, Number of Meters
+    pandas_dataset = pandas_dataset.drop(columns=['Use', 'Number of Meters'])
     
     # Create an empty list to store new rows
     new_rows = []
@@ -62,6 +66,10 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourist
 
     # Fill the population column with the last value of the original dataset
     new_rows_df['Population'] = pandas_dataset['Population'].iloc[-1]
+
+    # Fill the pernoctations column with the number of tourists times the mean of pernoctations within the prediction period
+    # Floor the number of tourists to an integer
+    new_rows_df['pernoctacions'] = math.floor(tourists_within_that_period * pernoctation_mean)
     
     # Order new rows by Census Section, District, and Date
     new_rows_df = new_rows_df.sort_values(by=['Census Section', 'District', 'Date']).reset_index(drop=True)
@@ -77,11 +85,12 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourist
 dataset = pd.read_csv('../data/local_data/merged_cleaned_data_NEW.csv')
 
 
-# Prepare the dataset for prediction
+# Prepare the dataset for prediction (IVAN ESTO SUSTITUYELO POR LOS DATOS DE STREAMLIT)
 prediction_final_day = '2024-04-01'
 tourists_within_that_period = 500000
+pernoctation_mean = 2.5
 
-updated_dataset = prepare_dataset_for_prediction(dataset, prediction_final_day, tourists_within_that_period)
+updated_dataset = prepare_dataset_for_prediction(dataset, prediction_final_day, tourists_within_that_period, pernoctation_mean)
 
 # Save the updated dataset
 updated_dataset.to_csv('../data/local_data/updated_dataset_for_prediction.csv', index=False)
