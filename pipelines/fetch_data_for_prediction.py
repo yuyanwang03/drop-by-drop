@@ -1,4 +1,4 @@
-import math
+import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
 
@@ -42,8 +42,9 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, pernoct
     # Add previous year date column to new rows
     new_rows_df['Previous Year Date'] = pd.to_datetime(new_rows_df['Date']) - timedelta(days=365)
     
-    # Ensure the Date column in the original dataset is datetime
-    pandas_dataset['Date'] = pd.to_datetime(pandas_dataset['Date'])
+    # Ensure the Date column in the original dataset is datetime format is YYY-MM-DD
+    pandas_dataset['Date'] = pd.to_datetime(pandas_dataset['Date'], format='%Y-%m-%d')
+
     
     # Merge new rows with the original dataset on Census Section, District, and Previous Year Date
     merged_df = pd.merge(
@@ -63,24 +64,33 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, pernoct
     # Drop the Previous Year Date column as it is no longer needed
     new_rows_df = new_rows_df.drop(columns=['Previous Year Date'])
 
-    # Fill the population column with the last value of the original dataset -----------------------
-    new_rows_df['Population'] = pandas_dataset['Population'].iloc[-1]
+    # Fill the population column with the last value of the original dataset without iloc
+    new_rows_df['Population'] = pandas_dataset['Population'].iat[-1]
 
-    # Fill the tourist columns with the values from the tourist_distribution
-    new_rows_df['Tourists'] = tourist_distribution['Tourists']
-
-    # Multiply the pernoctation_mean by each number of tourists to obtain the pernoctation ---------------
-    new_rows_df['pernoctacions'] = pernoctation_mean * new_rows_df['Tourists'] 
+    new_rows_df['Date'] = pd.to_datetime(new_rows_df['Date'], format='%Y-%m-%d')
+    tourist_distribution['Date'] = pd.to_datetime(tourist_distribution['Date'], format='%Y-%m-%d')
+    
+    # Ensure Date columns are in datetime format for merging
+    new_rows_df['Date'] = pd.to_datetime(new_rows_df['Date'], format='%Y-%m-%d')
+    tourist_distribution['Date'] = pd.to_datetime(tourist_distribution['Date'], format='%Y-%m-%d')
+    # Now add to a column named tourists with the number of tourists for each date (for each census section and district) simply when you find a date fill it with the number of tourists
+    new_rows_df = pd.merge(new_rows_df, tourist_distribution, on=['Date'], how='left')
+    
+    # Compute pernoctacions using the Tourists column and cast to integer
+    new_rows_df['pernoctacions'] = np.floor(new_rows_df['Tourists'] * pernoctation_mean).astype(int)
 
     # Drop the Tourists column as it is no longer needed
     new_rows_df = new_rows_df.drop(columns=['Tourists'])
 
+    # Fill NaN values with 0
+    new_rows_df = new_rows_df.fillna(0)
+
     # Order new rows by Census Section, District, and Date
     new_rows_df = new_rows_df.sort_values(by=['Census Section', 'District', 'Date']).reset_index(drop=True)
-    
+
     # Append the new rows to the original dataset
     updated_dataset = pd.concat([pandas_dataset, new_rows_df], ignore_index=True)
-    
+
     return updated_dataset
 
 
@@ -94,8 +104,7 @@ prediction_final_day = '2024-02-14'
 pernoctation_mean = 2.5
 tourist_distribution = pd.read_csv('martigay.csv')
 # Drop all rows except Tourists
-tourist_distribution = tourist_distribution.drop(columns=['Id', 'Day'])
-
+tourist_distribution = tourist_distribution.drop(columns=['Id'])
 
 updated_dataset = prepare_dataset_for_prediction(dataset, prediction_final_day, pernoctation_mean, tourist_distribution)
 
