@@ -248,4 +248,8 @@ def predict(data, census):
 
         ## TO DO: Cridar el model / .py amb els models
 
+        # results = ....
+
+        # plot_common(results, census, group_by='Dia', static=False)
+
     st.button('Restart', on_click=reset_state)
