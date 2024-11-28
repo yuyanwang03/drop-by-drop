@@ -1,10 +1,11 @@
-import pandas as pdque
+import pandas as pd
 from collections import Counter
 import seaborn as sns
 import os
 import numpy as np
 from matplotlib import pyplot
 import matplotlib.pyplot as plt
+import re
 
 import warnings
 warnings.filterwarnings("ignore")
