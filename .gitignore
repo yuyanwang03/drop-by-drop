@@ -9,3 +9,4 @@ local_data/
 venv2/
 **/catboost_info/
 *.pyc"
+**/__pycache__
