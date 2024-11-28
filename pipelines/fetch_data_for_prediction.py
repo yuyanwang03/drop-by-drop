@@ -21,7 +21,7 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, pernoct
     new_dates = pd.date_range(start=last_date + timedelta(days=1), end=prediction_final_day)
 
     # Drop columns Use, Number of Meters
-    pandas_dataset = pandas_dataset.drop(columns=['Use', 'Number of Meters'])
+    pandas_dataset = pandas_dataset.drop(columns=['Use'])
     
     # Create an empty list to store new rows
     new_rows = []
@@ -42,7 +42,7 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, pernoct
     
     # Ensure the Date column in the original dataset is datetime format is YYY-MM-DD
     pandas_dataset['Date'] = pd.to_datetime(pandas_dataset['Date'], format='%Y-%m-%d')
-    
+
     # Merge new rows with the original dataset on Census Section, District, and Previous Year Date
     merged_df = pd.merge(
         new_rows_df,
@@ -57,6 +57,8 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, pernoct
     new_rows_df['temp_max'] = merged_df['temp_max']
     new_rows_df['temp_min'] = merged_df['temp_min']
     new_rows_df['precipitacion'] = merged_df['precipitacion']
+    new_rows_df['Number of Meters'] = merged_df['Number of Meters']
+
     
     # Drop the Previous Year Date column as it is no longer needed
     new_rows_df = new_rows_df.drop(columns=['Previous Year Date'])
