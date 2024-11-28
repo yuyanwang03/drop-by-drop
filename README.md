@@ -91,6 +91,9 @@ Aquestes dades són indispensables per entendre la variabilitat del consum en fu
 2. **Dades de turisme**:  
    - Pernoctacions diàries
 
+3. **Habitants de Barcelona**:  
+   - Habitants per districte
+
    El turisme és un dels factors principals que volem analitzar. Per això, aquestes dades són essencials per segmentar el consum d’aigua atribuïble als visitants, diferenciant-lo del consum residencial o d'altres usos.  
 
 La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.   
@@ -102,8 +105,9 @@ Per més informació sobre la extracció de dades: [extracció_dades](/extracci�
 
 
 ## 4. Simulació
- # TO DO
- Per més informació: [Simulació](/display)
+La simulació facilita la projecció d’escenaris futurs per anticipar pics de demanda o escassetat, optimitzant els recursos de manera proactiva. Combinant aquestes capacitats amb un estudi estàtic, AGBAR pot identificar patrons a llarg termini i justificar decisions estratègiques basades en dades fiables. Aquesta metodologia dinàmica i estratègica garanteix una gestió hídrica eficient i sostenible.
+
+Per més informació: [Simulació](/display)
 
 
 ## 5. Altres
