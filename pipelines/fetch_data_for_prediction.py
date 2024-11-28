@@ -2,14 +2,13 @@ import math
 import pandas as pd
 from datetime import datetime, timedelta
 
-def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourists_within_that_period, pernoctation_mean):
+def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, pernoctation_mean, tourist_distribution):
     """
     Modify the dataset by adding rows for prediction days and filling weather columns.
     
     Args:
         pandas_dataset (pd.DataFrame): The original dataset.
         prediction_final_day (str): The last day of the prediction period in 'YYYY-MM-DD' format.
-        tourists_within_that_period (float): Number of tourists within the prediction period.
 
     Returns:
         pd.DataFrame: Modified dataset with additional rows and filled weather columns.
@@ -64,13 +63,18 @@ def prepare_dataset_for_prediction(pandas_dataset, prediction_final_day, tourist
     # Drop the Previous Year Date column as it is no longer needed
     new_rows_df = new_rows_df.drop(columns=['Previous Year Date'])
 
-    # Fill the population column with the last value of the original dataset
+    # Fill the population column with the last value of the original dataset -----------------------
     new_rows_df['Population'] = pandas_dataset['Population'].iloc[-1]
 
-    # Fill the pernoctations column with the number of tourists times the mean of pernoctations within the prediction period
-    # Floor the number of tourists to an integer
-    new_rows_df['pernoctacions'] = math.floor(tourists_within_that_period * pernoctation_mean)
-    
+    # Fill the tourist columns with the values from the tourist_distribution
+    new_rows_df['Tourists'] = tourist_distribution['Tourists']
+
+    # Multiply the pernoctation_mean by each number of tourists to obtain the pernoctation ---------------
+    new_rows_df['pernoctacions'] = pernoctation_mean * new_rows_df['Tourists'] 
+
+    # Drop the Tourists column as it is no longer needed
+    new_rows_df = new_rows_df.drop(columns=['Tourists'])
+
     # Order new rows by Census Section, District, and Date
     new_rows_df = new_rows_df.sort_values(by=['Census Section', 'District', 'Date']).reset_index(drop=True)
     
@@ -86,11 +90,14 @@ dataset = pd.read_csv('../data/local_data/merged_cleaned_data_NEW.csv')
 
 
 # Prepare the dataset for prediction (IVAN ESTO SUSTITUYELO POR LOS DATOS DE STREAMLIT)
-prediction_final_day = '2024-04-01'
-tourists_within_that_period = 500000
+prediction_final_day = '2024-02-14'
 pernoctation_mean = 2.5
+tourist_distribution = pd.read_csv('martigay.csv')
+# Drop all rows except Tourists
+tourist_distribution = tourist_distribution.drop(columns=['Id', 'Day'])
 
-updated_dataset = prepare_dataset_for_prediction(dataset, prediction_final_day, tourists_within_that_period, pernoctation_mean)
+
+updated_dataset = prepare_dataset_for_prediction(dataset, prediction_final_day, pernoctation_mean, tourist_distribution)
 
 # Save the updated dataset
 updated_dataset.to_csv('../data/local_data/updated_dataset_for_prediction.csv', index=False)
