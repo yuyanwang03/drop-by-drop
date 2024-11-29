@@ -6,6 +6,10 @@ from about_us import about_us
 from project_description import project_description
 from static_analysis import graph_display
 from predict import predict
+import torch.nn as nn
+from models.lstm import inference_per_district
+from models.regressor import LSTMRegressor
+
 
 # Set the Streamlit configuration for the app
 st.set_page_config(

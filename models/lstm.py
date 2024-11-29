@@ -5,23 +5,13 @@ import numpy as np
 import pandas as pd
 import pickle
 from datetime import timedelta
-
-
-class LSTMRegressor(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size):
-        super(LSTMRegressor, self).__init__()
-        self.lstm = nn.LSTM(input_size, hidden_size, batch_first=True)  # LSTM layer
-        self.fc = nn.Linear(hidden_size, output_size)  # Fully connected layer to output regression
-
-    def forward(self, x, predicted_days=90):
-        # x is of shape (batch_size, sequence_length, input_size)
-        x, _ = self.lstm(x)  # Get the last hidden state
-        out = self.fc(x[:,-predicted_days:,:])  # Use the last hidden state to predict
-        return out
-    
+import os
+from .regressor import LSTMRegressor
 
 def inference(data_x, predicted_days, model_path):
-    with open(model_path, 'rb') as model_file:
+
+    absolute_model_path = os.path.abspath(model_path)
+    with open(absolute_model_path, 'rb') as model_file:
         compact_model = pickle.load(model_file)
 
     scaler_x = compact_model[1][0]
@@ -48,7 +38,11 @@ def inference(data_x, predicted_days, model_path):
 
     return predictions_rescaled
 
-def inference_per_district(df, predicted_days, models_path="./"):
+def inference_per_district(df, predicted_days, models_path="../models/"):
+
+    # if models_path is None:
+    #     # Resolve the path to the "models" directory explicitly
+    #     models_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../models/"))
 
     consumption = {}
     df_grouped = df.groupby(['Date', 'District']).agg(
@@ -62,13 +56,15 @@ def inference_per_district(df, predicted_days, models_path="./"):
     ).reset_index()
 
     for idx in range(1,11):
-        model_path = f"{models_path}model_{idx}.pkl"
+        model_path = os.path.join(models_path, f"model_{idx}.pkl")
         df_district = df_grouped[df_grouped["District"] == idx]
         df_district_x = df_district[["n_meters", "max_temperature", "min_temperature", "precipitation", "pernoctacion", "population"]]
 
         consumption[idx] = inference(df_district_x, predicted_days, model_path)
 
-    df['Date'] = pd.to_datetime(df['Date'])
+    
+    
+    #df['Date'] = pd.to_datetime(df['Date'])
 
     # Find the latest date
     latest_date = df['Date'].max()
@@ -79,7 +75,7 @@ def inference_per_district(df, predicted_days, models_path="./"):
     # Iterate through the dictionary and create the rows
     for district_id, consumption_values in consumption.items():
         # Create a DataFrame for the current district's consumption values
-        district_df = pd.DataFrame(consumption_values, columns=['Consumption'])
+        district_df = pd.DataFrame(consumption_values, columns=['Accumulated Consumption'])
         district_df['District'] = district_id
         # Generate Date column starting from new_date, incremented by one day per entry
         district_df['Date'] = [start_prediction_date + pd.Timedelta(days=i) for i in range(len(district_df))]

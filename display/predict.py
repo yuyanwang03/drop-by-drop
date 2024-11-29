@@ -9,6 +9,11 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from pipelines.fetch_data_for_prediction import prepare_dataset_for_prediction
+from models.lstm import inference_per_district
+from models.regressor import LSTMRegressor
+
+models_path = "../../models/"
+
 
 def calculate_distribution(num_days, total_tourists, start_date, concentration_periods=None):
     tourists = [0] * num_days  # Initialize all days to 0 tourists
@@ -82,15 +87,13 @@ def display_tourist_distribution(start_date, end_day_num, total_tourists, start_
         'Tourists': pernoctation_distribution
     })
     
-    
-    st.write(f"Total initial tourists: {total_tourists}")
-    st.write(df)
     return df
 
 
 def reset_state():
     st.session_state.concentration_option = 'Regular'
     st.session_state.concentration_periods = []
+
 
 def predict(data, census):
 
@@ -130,6 +133,7 @@ def predict(data, census):
     # Convert the selected start and end dates to day numbers relative to the start date
     start_day_num = (start_date - start_date).days + 1
     end_day_num = (end_day_input - start_date).days + 1
+
 
     tourist_col, avg_pernoctation_col = st.columns(2)
 
@@ -248,8 +252,17 @@ def predict(data, census):
 
         ## TO DO: Cridar el model / .py amb els models
 
-        # results = ....
+        results = inference_per_district(df_predict, end_day_num)
 
-        # plot_common(results, census, group_by='Dia', static=False)
+        final_results = results.merge(df_predict, on=['Date', 'District'], how='left')
+        print(final_results.columns)
+
+        final_results.drop(['Accumulated Consumption_y'], axis=1, inplace=True)
+        final_results = final_results.rename(columns={
+            'Accumulated Consumption_x': 'Accumulated Consumption'})
+
+        st.write(final_results.tail(15))
+
+        plot_common(final_results, census, group_by='Dia', static=False)
 
     st.button('Restart', on_click=reset_state)
