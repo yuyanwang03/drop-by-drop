@@ -42,9 +42,9 @@ def calculate_distribution(num_days, total_tourists, start_date, concentration_p
     
     for i in free_days:
         tourists[i] = tourists_per_day
-        if leftover_tourists > 0:
-            tourists[i] += 1
-            leftover_tourists -= 1
+        # if leftover_tourists > 0:
+        #     tourists[i] += 1
+        #     leftover_tourists -= 1
     
     # Apply the concentrated periods
     if concentration_periods:
@@ -54,12 +54,12 @@ def calculate_distribution(num_days, total_tourists, start_date, concentration_p
             
             # Distribute the concentrated tourists evenly across the selected period
             tourists_per_day_conc = num_conc_tourists // (end_idx - start_idx + 1)
-            remaining_conc_tourists = num_conc_tourists % (end_idx - start_idx + 1)
+            #remaining_conc_tourists = num_conc_tourists % (end_idx - start_idx + 1)
             
             for i in range(start_idx, end_idx + 1):
                 # Override the default tourists for concentrated days
-                tourists[i] = tourists_per_day_conc + (1 if remaining_conc_tourists > 0 else 0)
-                remaining_conc_tourists -= 1
+                tourists[i] = tourists_per_day_conc #+ (1 if remaining_conc_tourists > 0 else 0)
+                #remaining_conc_tourists -= 1
 
     return tourists
 
