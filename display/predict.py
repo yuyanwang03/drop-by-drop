@@ -60,6 +60,96 @@ def calculate_distribution(num_days, total_tourists, start_date, concentration_p
                 # Override the default tourists for concentrated days
                 tourists[i] = tourists_per_day_conc #+ (1 if remaining_conc_tourists > 0 else 0)
                 #remaining_conc_tourists -= 1
+    
+    return tourists
+
+def calculate_distribution_w_noice_from_transactions(num_days, total_tourists, start_date, concentration_periods=None, transactions=None, constant_ratio=0.90):
+    """
+    Calculate daily distribution of tourists with a constant baseline and variability based on transaction data.
+
+    Args:
+        num_days (int): Number of days to distribute tourists over.
+        total_tourists (int): Total number of tourists.
+        start_date (datetime.date): Start date for the distribution.
+        transactions (pd.DataFrame): DataFrame with columns ['Data', 'Series 1'].
+        concentration_periods (list of tuples): List of (start_date, end_date, num_tourists) for concentrated periods.
+        constant_ratio (float): Proportion of tourists to assign as constant across all days (default: 70%).
+
+    Returns:
+        list: Daily distribution of tourists.
+    """
+    # Validate constant_ratio
+    if not (0 <= constant_ratio <= 1):
+        raise ValueError("constant_ratio must be between 0 and 1.")
+
+    # WARN: This is actually hardcoding...
+    transactions = pd.read_csv("../data/total_transactions.csv")
+    transactions['Date'] = pd.to_datetime(transactions['Data']).dt.date
+
+    # Filter transactions within the specified date range
+    transactions = transactions[
+        (transactions['Date'] >= start_date) &
+        (transactions['Date'] < start_date + pd.Timedelta(days=num_days))
+    ]
+
+    # Add a column for the daily transaction proportion
+    total_transactions = transactions['Series 1'].sum()
+    if total_transactions == 0:
+        raise ValueError("Total transactions in the period cannot be zero.")
+    transactions['Transaction Proportion'] = (
+        transactions['Series 1'] / total_transactions
+    )
+
+    days_used = set()  # Track days covered by concentrated periods
+    # If there are concentration periods, calculate their total tourists
+    total_concentrated_tourists = 0
+    if concentration_periods:
+        for start_conc, end_conc, num_conc_tourists in concentration_periods:
+            total_concentrated_tourists += num_conc_tourists
+            # Mark days used by the concentration period
+            for day in range((start_conc - start_date).days, (end_conc - start_date).days + 1):
+                days_used.add(day)
+
+    total_tourists -= total_concentrated_tourists
+    if total_tourists < 0:
+        raise ValueError("The total number of concentrated tourists exceeds the total tourists available.")
+    
+    # Split tourists into constant and variable components
+    constant_tourists = int(total_tourists * constant_ratio)
+    variable_tourists = total_tourists - constant_tourists
+
+    # Assign constant tourists evenly across all days
+    constant_per_day = constant_tourists // num_days
+    tourists = [constant_per_day] * num_days
+    leftover_constant = constant_tourists % num_days
+
+    # Distribute leftover constant tourists
+    for i in range(leftover_constant):
+        tourists[i] += 1
+
+    # Distribute variable tourists based on transaction proportions
+    for i, row in transactions.iterrows():
+        day_index = (row['Date'] - start_date).days
+        if 0 <= day_index < num_days:
+            tourists[day_index] += int(variable_tourists * row['Transaction Proportion'])
+
+    # Apply the concentrated periods
+    if concentration_periods:
+        for start_conc, end_conc, num_conc_tourists in concentration_periods:
+            start_idx = (start_conc - start_date).days
+            end_idx = (end_conc - start_date).days
+            
+            # Distribute the concentrated tourists evenly across the selected period
+            tourists_per_day_conc = num_conc_tourists // (end_idx - start_idx + 1)
+            #remaining_conc_tourists = num_conc_tourists % (end_idx - start_idx + 1)
+            
+            for i in range(start_idx, end_idx + 1):
+                # Override the default tourists for concentrated days
+                tourists[i] = tourists_per_day_conc #+ (1 if remaining_conc_tourists > 0 else 0)
+    
+    # # Normalize the distribution to ensure the total matches the input total_tourists
+    # adjustment_factor = total_tourists / sum(tourists) if sum(tourists) > 0 else 1
+    # tourists = [int(t * adjustment_factor) for t in tourists]
 
     return tourists
 
@@ -67,19 +157,34 @@ def calculate_distribution(num_days, total_tourists, start_date, concentration_p
 def display_tourist_distribution(start_date, end_day_num, total_tourists, start_day_num, concentration_periods=None):
     # If concentration periods are provided, calculate using them
     if concentration_periods:
-        pernoctation_distribution = calculate_distribution(
+        try:
+            pernoctation_distribution = calculate_distribution_w_noice_from_transactions(
             num_days=(end_day_num - start_day_num + 1),
             total_tourists=total_tourists,
             start_date=start_date,
             concentration_periods=concentration_periods
-        )
+            )
+        except:
+            pernoctation_distribution = calculate_distribution(
+                num_days=(end_day_num - start_day_num + 1),
+                total_tourists=total_tourists,
+                start_date=start_date,
+                concentration_periods=concentration_periods
+            )
     else:
         # If no concentration periods, calculate the distribution with smooth option
-        pernoctation_distribution = calculate_distribution(
+        try:
+            pernoctation_distribution = calculate_distribution_w_noice_from_transactions(
+                num_days=(end_day_num - start_day_num + 1),
+                total_tourists=total_tourists,
+                start_date=start_date
+            )
+        except:
+            pernoctation_distribution = calculate_distribution(
             num_days=(end_day_num - start_day_num + 1),
             total_tourists=total_tourists,
             start_date=start_date
-        )
+            )  
     
     # Prepare the DataFrame for display
     df = pd.DataFrame({

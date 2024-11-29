@@ -9,6 +9,7 @@ from predict import predict
 import torch.nn as nn
 from models.lstm import inference_per_district
 from models.regressor import LSTMRegressor
+import os
 
 
 # Set the Streamlit configuration for the app
@@ -22,8 +23,11 @@ st.set_page_config(
 # Cache the data loading function to avoid reloading the CSV every time
 @st.cache_data
 def load_data():
+    path = "..\data\local_data\merged_cleaned_data_NEW.csv"
+    # Convert Windows-style path to Unix-style path for Mac
+    if os.name == "posix": path = path.replace("\\", "/") 
     # Load the CSV file once and cache it
-    data = pd.read_csv("..\data\local_data\merged_cleaned_data_NEW.csv")
+    data = pd.read_csv(path)
     # Strip any extra spaces in the column names
     data.columns = data.columns.str.strip()
     # Convert 'Date' column to datetime format
