@@ -5,6 +5,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import os
 import sys
+import io
 # Set the path one level higher
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -353,9 +354,6 @@ def predict(data, census):
         
 
         df_predict = prepare_dataset_for_prediction(data, end_day_input, avg_pernoctation_col, df)
-        st.write(df_predict.tail(50))
-
-        ## TO DO: Cridar el model / .py amb els models
 
         results = inference_per_district(df_predict, end_day_num)
 
@@ -366,7 +364,17 @@ def predict(data, census):
         final_results = final_results.rename(columns={
             'Accumulated Consumption_x': 'Accumulated Consumption'})
 
-        st.write(final_results.tail(15))
+        st.write(final_results.head(15))
+        
+        
+        # Convert DataFrame to CSV and create a download link
+        csv = final_results.to_csv(index=False)
+        st.download_button(
+            label="Descarrega el resultat complet en format CSV",
+            data=csv,
+            file_name='prediccio_resultats.csv',
+            mime='text/csv'
+        )
 
         plot_common(final_results, census, group_by='Dia', static=False)
 

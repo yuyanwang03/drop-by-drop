@@ -1,6 +1,4 @@
-# ProjectManagement
-
-### Project Core Team T101.A (alphabetical order)
+### Membres del grup
 
 |Name | Email | Role |
 | --- | --- | --- |
@@ -10,34 +8,48 @@
 | Martí Oms | marti.oms01@estudiant.upf.edu | Creative Responsible |
 | Yuyan Wang | yuyan.wang01@estudiant.upf.edu | Implementation Responsible |
 
-### Disclaimer
-
-This document and all content within are proprietary to Project Core Team T101.A and are intended solely for the use of authorized individuals within the project. Unauthorized sharing, copying, or use of this document, in whole or in part, is prohibited without explicit consent from the Project Core Team T101.A.
 
 ### Com executar el codi
 
-This has been proven to be working on MacOS.
+Això s'ha demostrat que funciona a MacOS.
 
-0. The recommended approach would be to create a Python3 virtual environment and activate it; however it is not essentially needed. Skip to next step if you don't want to use a venv.
+0. L'enfocament recomanat seria crear un entorn virtual Python3 i activar-lo; no obstant això, no és estrictament necessari. Pots passar al següent pas si no vols utilitzar un entorn virtual.
 
     ```
-    $ python -m venv <nameVenv>
-    $ source <youPathToVenvActivate:e.g.nameVenv/bin/activate>
+    $ python -m venv <nomVenv>
+    $ source <elTeuCamíPerActivarVenv:perExemple.nomVenv/bin/activate>
     ```
 
-1. Install the necessary packages. We are providing the requirements.txt file.
+1. Instal·la els paquets necessaris. Proporcionem el fitxer `requirements.txt`.
 
     ```
     $ pip install -r requirements.txt
     ```
 
-2. Use the corresponding Python3 as the Jupyter Notebook Kernel.
-3. And you would be ready to go :)
+2. Utilitza el Python3 corresponent com a *Jupyter Notebook Kernel*.
 
-### How to run the report on jupyter directlly
+3. Asseguret que la teva carpeta de dades segueixi aquesta estructura (crea la carpeta local_data). La resta de carpetes deixe-les com estan.
 
-With the following command a jupyter tab will open on the default search engine.
+    ```
+    data/
+    ├── census_geo.geojson
+    ├── dataset_targetes.csv
+    ├── pernoctacons_2019_2024.csv
+    ├── population_barcelona_districts.csv
+    ├── prothet_performance.png
+    ├── temperature_precipitation.csv
+    ├── total_transacions.csv
+    ├── WBS.png
+    └── local_data/  # Aquesta carpeta no estarà present a la carpeta/repositori donat per problemes de mida, si us plau assegura't de crear-la i afegir-hi el fitxer *daily_dataset.csv* d'AGBAR.
+        └── daily_dataset.csv
 
+    ```
+
+4. Ja ho tens tot preparat per executar Final_Notebook_dropbydrop.ipynb, on trobaras el nostre treball complet així com explicacions i acces a la simulació.
+
+### Com executar directament a Jupyter
+
+Amb el següent comand s'obrirà una pestanya de Jupyter al motor de cerca per defecte.
 ```
     $ jupyter-lab&
 ```
@@ -60,6 +72,10 @@ With the following command a jupyter tab will open on the default search engine.
 
 
 
+Aquí tens el resum actualitzat amb el model i les recomanacions afegides:
+
+---
+
 ## 1. Introduction
 
 ### Project Proposal
@@ -80,7 +96,7 @@ Els lliurables relacionats amb aquest projecte es defineixen en la següent imat
 
 El projecte parteix del dataset **daily_dataset.csv** proporcionat per AGBAR, que inclou dades detallades sobre el consum d’aigua a nivell diari i per secció censal. Aquest dataset constitueix la base principal del nostre model.
 
-Aquestes dades són indispensables per entendre la variabilitat del consum en funció de la geografia i del tipus d’ús. Tanmateix, per desenvolupar un model que integri els efectes del turisme i d’altres factors externs, necessitem ampliar aquesta informació amb noves fonts de dades:  
+Aquestes dades són indispensables per entendre la variabilitat del consum en funció de la geografia i del tipus d’ús. Tanmateix, per desenvolupar un model que integri els efectes del turisme i d’altres factors externs, necessitem ampliar aquesta informació amb noves fonts de dades:
 
 1. #### Dades meteorològiques:  
    - Temperatura màxima i mínima diària
@@ -96,26 +112,33 @@ Aquestes dades són indispensables per entendre la variabilitat del consum en fu
 
    El turisme és un dels factors principals que volem analitzar. Per això, aquestes dades són essencials per segmentar el consum d’aigua atribuïble als visitants, diferenciant-lo del consum residencial o d'altres usos.  
 
-La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.   
+La integració d’aquestes dades ens permetrà desenvolupar un model predictiu que connecti el consum d’aigua amb variables climàtiques i turístiques, oferint prediccions més precises i útils per a la gestió sostenible dels recursos hídrics. Així, podrem respondre preguntes clau, com l’impacte específic del turisme en zones determinades o l’efecte de condicions meteorològiques extremes en el consum global.
 
 Per més informació sobre la extracció de dades: [extracció_dades](/extracció_dades)
 
 ## 3. Model
-  # TO DO
 
+El model desenvolupat es basa en tècniques d'aprenentatge automàtic per predir el consum d'aigua en funció de diverses variables com el turisme, les condicions meteorològiques i la població. Utilitzant mètodes com la regressió i els arbres de decisió, el model és capaç de captar patrons complexos en les dades i proporcionar prediccions precises per a la gestió de l’aigua a Barcelona. Això permet preveure les fluctuacions de demanda en diferents àrees de la ciutat i ajustar les estratègies de distribució d’aigua de manera eficient.
+
+A més, el model ofereix la flexibilitat d’adaptar-se a noves variables i de millorar les seves prediccions amb el temps a mesura que es disposa de més dades. Aquest enfocament dinàmic farà possible una gestió hídrica més adaptativa i sostenible.
 
 ## 4. Simulació
+
 La simulació facilita la projecció d’escenaris futurs per anticipar pics de demanda o escassetat, optimitzant els recursos de manera proactiva. Combinant aquestes capacitats amb un estudi estàtic, AGBAR pot identificar patrons a llarg termini i justificar decisions estratègiques basades en dades fiables. Aquesta metodologia dinàmica i estratègica garanteix una gestió hídrica eficient i sostenible.
 
 Per més informació: [Simulació](/display)
 
-
 ## 5. Altres
 
 ### Escalabilitat del projecte
- Poder continuar utilitzant el project un cop acabat el challenge és un dels grans aspectes a integrar. 
- - Per veure l'escalabiltat de les dades utilitzades: [escalabilitat de les dades](/extracció_dades/README.md#2-Escalabilitat)
- - Per veure l'escalabilitat del model: [escalabilitat del model](/models/README.md)
+
+Poder continuar utilitzant el projecte un cop acabat el challenge és un dels grans aspectes a integrar.  
+- Per veure l'escalabilitat de les dades utilitzades: [escalabilitat de les dades](/extracció_dades/README.md#2-Escalabilitat)
+- Per veure l'escalabilitat del model: [escalabilitat del model](/models/README.md)
+
+### Recomanacions
+
+Basat en els resultats obtinguts, es recomana a AGBAR adoptar un enfocament de gestió hídrica flexible que integri tant el turisme com les condicions climàtiques a la seva estratègia a llarg termini. Això inclou ajustar les previsions de consum d’aigua en funció de l’evolució de la demanda turística i implementar tecnologies de monitoratge en temps real per millorar la resposta davant possibles pics de consum. A més, es suggereix col·laborar amb les autoritats locals per establir polítiques de consum d’aigua més sostenibles per als turistes i la població.
 
 
 **Control Information**
@@ -138,26 +161,7 @@ Per més informació: [Simulació](/display)
    https://dades.ajuntament.barcelona.cat/consum-privat/index.Rmd
 
 
-### Structure of the data folder
 
-We assume that the data folder looks like:
+### Descàrrec de responsabilitat
 
-```
-data/
-├── census_geo.geojson
-├── districts_geo.geojson
-├── gencat_turism.xlsx
-├── pernoctacons_2019_2024.csv
-├── temperature_precipitation.csv
-├── tourism_flux.csv
-├── tourism_temp_bcn.csv
-├── targetes_preprocessed.csv  # generated after running targetes.ipynb or downloading from git
-├── dataset_targetes.csv
-├── total_transacions.csv
-└── local_data/  # this folder will not be in the repo for sizing issues
-    ├── daily_dataset.csv
-    └── old/
-        ├── dades_datachallenge.csv
-        ├── daily_dataset_economic_activity.csv
-    └── merged_cleaned_data.csv  # generated after running data_processing.ipynb
-```
+Aquest document i tot el contingut que conté són propietat del **Project Core Team T101.A** i estan destinats exclusivament a l'ús d'individus autoritzats dins del projecte. La distribució, còpia o ús no autoritzat d’aquest document, total o parcial, està prohibit sense el consentiment explícit del **Project Core Team T101.A**.

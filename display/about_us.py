@@ -37,7 +37,7 @@ def about_us():
             "image": "https://media.licdn.com/dms/image/v2/D4E03AQEbY575oX9IAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682176916179?e=1736380800&v=beta&t=accroyrSl_GcfJkH98aTJkGfIAKmYNX7qcbPgjN137U",
         },
         {
-            "name": "Paula Manzano Clotet",
+            "name": "Paula Mateos Marín",
             "linkedin": "https://www.linkedin.com/in/paula-mateos-marin-954a90300/",
             "image": "https://media.licdn.com/dms/image/v2/D4D03AQEssjLTI5fjlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711454757196?e=1736380800&v=beta&t=XOADI__DBoNrkuHGorOjFv7-xoMKOKaKo78s97HZC-w",
         },
